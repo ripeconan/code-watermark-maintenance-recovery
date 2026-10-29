@@ -1,0 +1,315 @@
+[
+  {
+    "complete": true,
+    "repo": "pallets/flask",
+    "language": "python",
+    "source_root": "src/flask/",
+    "pin": "d086db856be187255b8ec61ef409357393020f32",
+    "licenses": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+        "local": "data/licenses/pallets__flask__LICENSE.txt"
+      }
+    ],
+    "commits_inspected": 1200,
+    "census_counts": {
+      "selected_pre_dedup": 399,
+      "no_eligible_production_change": 801
+    },
+    "frame_size": 397,
+    "duplicate_pair_ids": [
+      "0737fc52473c5396f6d7051e",
+      "689222474de1b65da8762240"
+    ],
+    "boundary": 1651601515,
+    "period_counts": {
+      "calibration": 199,
+      "test": 198
+    },
+    "selected": {
+      "calibration": 120,
+      "test": 120
+    },
+    "unique_paths": {
+      "calibration": 18,
+      "test": 21
+    },
+    "exact_snapshot_overlap": 2,
+    "functional_transitions": 24,
+    "functional_paths": 14,
+    "dates": {
+      "calibration": [
+        "2019-06-01T16:07:20+00:00",
+        "2022-05-03T18:11:55+00:00"
+      ],
+      "test": [
+        "2022-05-12T20:29:54+00:00",
+        "2026-10-07T14:02:54+00:00"
+      ]
+    },
+    "limited_feasibility": false
+  },
+  {
+    "complete": true,
+    "repo": "Textualize/rich",
+    "language": "python",
+    "source_root": "rich/",
+    "pin": "9d8f9a372cc5916fd4781fec207ced7ddac2f08f",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+        "local": "data/licenses/Textualize__rich__LICENSE"
+      }
+    ],
+    "commits_inspected": 1200,
+    "census_counts": {
+      "no_eligible_production_change": 670,
+      "selected_pre_dedup": 530
+    },
+    "frame_size": 529,
+    "duplicate_pair_ids": [
+      "9870666c1b35553ec1a9d015"
+    ],
+    "boundary": 1665482799,
+    "period_counts": {
+      "calibration": 265,
+      "test": 264
+    },
+    "selected": {
+      "calibration": 120,
+      "test": 120
+    },
+    "unique_paths": {
+      "calibration": 33,
+      "test": 29
+    },
+    "exact_snapshot_overlap": 2,
+    "functional_transitions": 24,
+    "functional_paths": 11,
+    "dates": {
+      "calibration": [
+        "2022-02-11T17:52:34+00:00",
+        "2022-10-11T10:06:39+00:00"
+      ],
+      "test": [
+        "2022-10-28T17:56:01+00:00",
+        "2026-04-12T07:39:10+00:00"
+      ]
+    },
+    "limited_feasibility": false
+  },
+  {
+    "complete": true,
+    "repo": "sphinx-doc/sphinx",
+    "language": "python",
+    "source_root": "sphinx/",
+    "pin": "1ddf1981c4aac4ff72bfb4a97e05909d55c3a149",
+    "licenses": [
+      {
+        "path": "LICENSE.rst",
+        "sha256": "802b61d8e268d296d5569de4eb4f5852373e51250100bd5a4087040c4d886de2",
+        "local": "data/licenses/sphinx-doc__sphinx__LICENSE.rst"
+      }
+    ],
+    "commits_inspected": 1200,
+    "census_counts": {
+      "no_eligible_production_change": 580,
+      "selected_pre_dedup": 620
+    },
+    "frame_size": 620,
+    "duplicate_pair_ids": [],
+    "boundary": 1738111449,
+    "period_counts": {
+      "calibration": 310,
+      "test": 310
+    },
+    "selected": {
+      "calibration": 120,
+      "test": 120
+    },
+    "unique_paths": {
+      "calibration": 87,
+      "test": 73
+    },
+    "exact_snapshot_overlap": 0,
+    "functional_transitions": 24,
+    "functional_paths": 22,
+    "dates": {
+      "calibration": [
+        "2024-09-18T01:57:40+00:00",
+        "2025-01-28T01:33:28+00:00"
+      ],
+      "test": [
+        "2025-01-29T00:46:08+00:00",
+        "2026-10-23T00:19:00+00:00"
+      ]
+    },
+    "limited_feasibility": false
+  },
+  {
+    "complete": true,
+    "repo": "apache/commons-csv",
+    "language": "java",
+    "source_root": "src/main/java/",
+    "pin": "4dd81ad5ab15438de5bad509bcaa164c697258e5",
+    "licenses": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "b1d2870f1a00e4d7f56576e5f0870cba109e041f8af66866cf5b499478e654e7",
+        "local": "data/licenses/apache__commons-csv__LICENSE.txt"
+      }
+    ],
+    "commits_inspected": 1200,
+    "census_counts": {
+      "no_eligible_production_change": 998,
+      "selected_pre_dedup": 202
+    },
+    "frame_size": 202,
+    "duplicate_pair_ids": [],
+    "boundary": 1730473921,
+    "period_counts": {
+      "calibration": 101,
+      "test": 101
+    },
+    "selected": {
+      "calibration": 101,
+      "test": 101
+    },
+    "unique_paths": {
+      "calibration": 11,
+      "test": 9
+    },
+    "exact_snapshot_overlap": 3,
+    "functional_transitions": 24,
+    "functional_paths": 5,
+    "dates": {
+      "calibration": [
+        "2022-08-06T20:41:48+00:00",
+        "2024-11-01T15:12:01+00:00"
+      ],
+      "test": [
+        "2024-11-05T18:57:31+00:00",
+        "2026-09-07T11:17:32+00:00"
+      ]
+    },
+    "limited_feasibility": false
+  },
+  {
+    "complete": true,
+    "repo": "javaparser/javaparser",
+    "language": "java",
+    "source_root": "javaparser-core/src/main/java/",
+    "pin": "ae2e9400810933b1523f3182acc69bf8998e26ca",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "b8655bf6423a32f12013ac91b5cbfdf17304c527016a1cdec2ff0b21ebdc4723",
+        "local": "data/licenses/javaparser__javaparser__LICENSE"
+      },
+      {
+        "path": "LICENSE.APACHE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "local": "data/licenses/javaparser__javaparser__LICENSE.APACHE"
+      },
+      {
+        "path": "LICENSE.GPL",
+        "sha256": "e73d7dbbb975482a81dc3b40f202857499fe77be15f68ae68482e6fb7a4aa712",
+        "local": "data/licenses/javaparser__javaparser__LICENSE.GPL"
+      },
+      {
+        "path": "LICENSE.LGPL",
+        "sha256": "319917f5ccd09878db6f67c9a77dee846055644ca49eb535628b9e020a87261e",
+        "local": "data/licenses/javaparser__javaparser__LICENSE.LGPL"
+      }
+    ],
+    "commits_inspected": 1200,
+    "census_counts": {
+      "selected_pre_dedup": 275,
+      "no_eligible_production_change": 925
+    },
+    "frame_size": 275,
+    "duplicate_pair_ids": [],
+    "boundary": 1720779024,
+    "period_counts": {
+      "calibration": 141,
+      "test": 134
+    },
+    "selected": {
+      "calibration": 120,
+      "test": 120
+    },
+    "unique_paths": {
+      "calibration": 54,
+      "test": 57
+    },
+    "exact_snapshot_overlap": 2,
+    "functional_transitions": 24,
+    "functional_paths": 17,
+    "dates": {
+      "calibration": [
+        "2023-02-10T14:37:06+00:00",
+        "2024-07-12T10:10:24+00:00"
+      ],
+      "test": [
+        "2024-07-12T10:10:26+00:00",
+        "2026-10-27T17:21:26+00:00"
+      ]
+    },
+    "limited_feasibility": false
+  },
+  {
+    "complete": true,
+    "repo": "checkstyle/checkstyle",
+    "language": "java",
+    "source_root": "src/main/java/",
+    "pin": "822c5088b4479a9ae086dd31834436e0cabcae9c",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "9b872a8a070b8ad329c4bd380fb1bf0000f564c75023ec8e1e6803f15364b9e9",
+        "local": "data/licenses/checkstyle__checkstyle__LICENSE"
+      },
+      {
+        "path": "LICENSE.apache20",
+        "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+        "local": "data/licenses/checkstyle__checkstyle__LICENSE.apache20"
+      }
+    ],
+    "commits_inspected": 1200,
+    "census_counts": {
+      "no_eligible_production_change": 987,
+      "selected_pre_dedup": 213
+    },
+    "frame_size": 213,
+    "duplicate_pair_ids": [],
+    "boundary": 1787377112,
+    "period_counts": {
+      "calibration": 107,
+      "test": 106
+    },
+    "selected": {
+      "calibration": 107,
+      "test": 106
+    },
+    "unique_paths": {
+      "calibration": 76,
+      "test": 72
+    },
+    "exact_snapshot_overlap": 5,
+    "functional_transitions": 24,
+    "functional_paths": 18,
+    "dates": {
+      "calibration": [
+        "2026-07-05T21:20:07+00:00",
+        "2026-08-22T05:38:32+00:00"
+      ],
+      "test": [
+        "2026-08-22T20:50:57+00:00",
+        "2026-10-25T14:32:46+00:00"
+      ]
+    },
+    "limited_feasibility": false
+  }
+]

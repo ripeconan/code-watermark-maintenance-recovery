@@ -1,0 +1,14 @@
+Location	Content	Public evidence
+Figure 1	Context-recovery schematic	Illustrative example in manuscript; no experimental values
+Figure 2	Study frames and sample reuse	external_validity_2026-10-28/data/pairs/; maintenance_upgrade_2026-10-28/data/project_calibration/; publication_revision_2026-10-28/data/selection_manifest.json
+Figure 3	Calibration operating points	external_validity_2026-10-28/results/temporal_summary.json: equal_project_means, alpha 0.05, structured64
+Figure 4	Calibration-budget sensitivity	external_validity_2026-10-28/robustness_revision_20261029/p1_results.json and p1_draws.npz
+Figure 5	Controlled candidate budgets	publication_revision_2026-10-28/results/confirmation_summary.json: envelope, alpha 0.05
+Table 1	Four-project comparison	maintenance_upgrade_2026-10-28/results/project_local_summary.json; paper_tables/maintenance_local_comparison.tex
+Table 2	Temporal frame	external_validity_2026-10-28/records/acquisition_summary.json; paper_tables/temporal_frame.tex
+Table 3	Temporal detection	external_validity_2026-10-28/results/temporal_summary.json; paper_tables/temporal_primary_five.tex
+Table 4	Calibration source comparison	external_validity_2026-10-28/results/temporal_summary.json; paper_tables/temporal_calibration.tex
+Table 5	Temporal functionality	external_validity_2026-10-28/results/functional_summary_final.json and functional_decisions_final.jsonl; paper_tables/temporal_functional.tex
+Table 6	Replay policy	external_validity_2026-10-28/robustness_revision_20261029/p2_decisions.json and p2_summary.json; paper_tables/replay_primary.tex
+Table 7	Controlled primary contrasts	publication_revision_2026-10-28/results/confirmation_summary.json; paper_tables/confirmation_primary.tex
+Table 8	Related interventions	revision_references.bib; qualitative comparison in manuscript

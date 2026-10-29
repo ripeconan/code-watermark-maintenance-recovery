@@ -7,6 +7,10 @@
     "bytes": 1130,
     "sha256": "2ac9bac4502cbda8c1337d05fd3e75377328aebb117d1b3d1668394925f375d5"
   },
+  "CLAIMS_AND_FILES.tsv": {
+    "bytes": 1812,
+    "sha256": "a9fec9b932afe9ed32c4f2898a5b8dff92ca190c7dc4886aba19d2a49749106d"
+  },
   "CLAIMS_AND_FILES_ORIGINAL.tsv": {
     "bytes": 2429,
     "sha256": "e25766f6aa2665ad10f01c73d3dccbacc3cca4a671915fd2298188cb96145189"
@@ -70,6 +74,10 @@
   "external_validity_2026-10-28/PROTOCOL.txt": {
     "bytes": 6412,
     "sha256": "36933ba8f08465d18c90fc9b9f9de02f04b3c8925d646ea64d4111d09af7e7ee"
+  },
+  "external_validity_2026-10-28/records/acquisition_summary.json": {
+    "bytes": 8046,
+    "sha256": "fc3fac204f2d587b8c546d79f9ec9d3e78ecf90ff852474d47706a8dcd62f71f"
   },
   "external_validity_2026-10-28/records/external_thresholds.json": {
     "bytes": 41626,
@@ -1004,8 +1012,8 @@
     "sha256": "52a70f9075a7c7d0f6eb3059fe92c03d649b6e9e08680eb7531269e61fc494fa"
   },
   "README.md": {
-    "bytes": 3982,
-    "sha256": "72ffe0cf4cede07264744c97d3e027f70120a986307b48c5f7e41d9a91a67ea7"
+    "bytes": 4100,
+    "sha256": "51ffbccb3845478809275c2516457c30269bc1e6ee50c7393e9c7b26b4e69f53"
   },
   "reproduce_budget.py": {
     "bytes": 1417,
@@ -1014,6 +1022,10 @@
   "requirements-analysis.txt": {
     "bytes": 46,
     "sha256": "5c13b7276931b293c445d5573922c8b122a50133142f41813a50987d7f752960"
+  },
+  "revision_references.bib": {
+    "bytes": 10765,
+    "sha256": "b53434c3dd84c90afb3b1ef8cb8ed30dcc1d9e3a8e34ccd19145d5b45f755d3c"
   },
   "verification/project_redaction_verification.json": {
     "bytes": 218,

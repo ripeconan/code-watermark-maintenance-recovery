@@ -2,6 +2,8 @@
 
 This repository accompanies the manuscript **Code-Watermark Recovery under Maintenance: Search, Calibration, and Replay**. It contains the study's analysis and recovery code, source-redacted score records, frozen numerical summaries, sampling metadata, and manuscript table inputs.
 
+`CLAIMS_AND_FILES.tsv` maps each main-paper figure and table to its public evidence and corresponding table input.
+
 ## Verify
 
 Use Python 3.11 and install `requirements-analysis.txt`. Run `python -X utf8 verify_public.py` for file integrity and headline checks. Run `python -X utf8 verify_public.py --full` to recompute 11 numerical summaries and the finite-pool resampling arrays in an isolated temporary directory, without executing subject programs, accessing a server, or requiring a GPU. The full check may take several minutes.

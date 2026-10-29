@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://huggingface.co/datasets/deepmind/code_contests/resolve/main/README.md",
+    "file": "README.md",
+    "bytes": 13010,
+    "sha256": "36818c38c761a4469d3b4cade3b76e448419b5ca7a8b63b6ff1cedb64fcc7f61"
+  },
+  {
+    "url": "https://huggingface.co/datasets/deepmind/code_contests/resolve/main/data/valid-00000-of-00001-5e672c5751f060d3.parquet",
+    "file": "valid-00000-of-00001-5e672c5751f060d3.parquet",
+    "bytes": 51829044,
+    "sha256": "02e8c1ccedae716f1e43cc813fcb7823c3db666ea92638820aba80e8cef451ab"
+  },
+  {
+    "url": "https://huggingface.co/datasets/deepmind/code_contests/resolve/main/data/test-00000-of-00001-9c49eeff30aacaa8.parquet",
+    "file": "test-00000-of-00001-9c49eeff30aacaa8.parquet",
+    "bytes": 63077400,
+    "sha256": "aa426cbdb202bf8703b658bcb31fd1878ca7cfd33ca07d3b703dc94ca6a2b651"
+  }
+]

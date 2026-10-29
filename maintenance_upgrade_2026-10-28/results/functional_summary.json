@@ -1,0 +1,3987 @@
+{
+  "inputs": [
+    "project_local_tests.jsonl",
+    "project_local_tests_sympydeps.jsonl",
+    "project_local_tests_javatransport.jsonl",
+    "project_local_tests_javaprovider.jsonl",
+    "project_local_tests_javabatch.jsonl"
+  ],
+  "summary": [
+    {
+      "repo": "apache/commons-collections",
+      "n": 24,
+      "files": 8,
+      "jobs": 60,
+      "job_statuses": {
+        "ok": 59,
+        "failed": 1
+      },
+      "job_pass": 59,
+      "original_pair_pass": 24,
+      "all_four_pass": 23,
+      "after_pair_pass": 24,
+      "missing_original_suite": 0,
+      "replay_conflict": 0,
+      "marked_failure_with_original_pass": 1,
+      "detection": {
+        "official": 15,
+        "syntax": 10,
+        "structured64": 7,
+        "nearest64": 8,
+        "dictionary64": 12,
+        "dictionary_pairs64": 8
+      },
+      "joint": {
+        "official": 14,
+        "syntax": 9,
+        "structured64": 7,
+        "nearest64": 7,
+        "dictionary64": 11,
+        "dictionary_pairs64": 7
+      }
+    },
+    {
+      "repo": "apache/commons-lang",
+      "n": 24,
+      "files": 8,
+      "jobs": 62,
+      "job_statuses": {
+        "ok": 61,
+        "failed": 1
+      },
+      "job_pass": 61,
+      "original_pair_pass": 24,
+      "all_four_pass": 23,
+      "after_pair_pass": 24,
+      "missing_original_suite": 0,
+      "replay_conflict": 0,
+      "marked_failure_with_original_pass": 1,
+      "detection": {
+        "official": 15,
+        "syntax": 15,
+        "structured64": 15,
+        "nearest64": 15,
+        "dictionary64": 15,
+        "dictionary_pairs64": 15
+      },
+      "joint": {
+        "official": 15,
+        "syntax": 15,
+        "structured64": 15,
+        "nearest64": 15,
+        "dictionary64": 15,
+        "dictionary_pairs64": 15
+      }
+    },
+    {
+      "repo": "networkx/networkx",
+      "n": 24,
+      "files": 8,
+      "jobs": 58,
+      "job_statuses": {
+        "matching_suite_unavailable": 21,
+        "ok": 35,
+        "failed": 2
+      },
+      "job_pass": 35,
+      "original_pair_pass": 15,
+      "all_four_pass": 12,
+      "after_pair_pass": 12,
+      "missing_original_suite": 9,
+      "replay_conflict": 6,
+      "marked_failure_with_original_pass": 2,
+      "detection": {
+        "official": 18,
+        "syntax": 18,
+        "structured64": 18,
+        "nearest64": 18,
+        "dictionary64": 18,
+        "dictionary_pairs64": 18
+      },
+      "joint": {
+        "official": 12,
+        "syntax": 12,
+        "structured64": 12,
+        "nearest64": 12,
+        "dictionary64": 12,
+        "dictionary_pairs64": 12
+      }
+    },
+    {
+      "repo": "sympy/sympy",
+      "n": 24,
+      "files": 8,
+      "jobs": 60,
+      "job_statuses": {
+        "matching_suite_unavailable": 28,
+        "ok": 32
+      },
+      "job_pass": 32,
+      "original_pair_pass": 12,
+      "all_four_pass": 12,
+      "after_pair_pass": 12,
+      "missing_original_suite": 12,
+      "replay_conflict": 4,
+      "marked_failure_with_original_pass": 0,
+      "detection": {
+        "official": 17,
+        "syntax": 18,
+        "structured64": 18,
+        "nearest64": 18,
+        "dictionary64": 17,
+        "dictionary_pairs64": 18
+      },
+      "joint": {
+        "official": 9,
+        "syntax": 12,
+        "structured64": 12,
+        "nearest64": 12,
+        "dictionary64": 10,
+        "dictionary_pairs64": 12
+      }
+    }
+  ],
+  "detail": [
+    {
+      "repo": "apache/commons-collections",
+      "id": "215ff060640b09f8c2854d0a91ca68cb5901d3c0b0d8e5d304be74a89aeb9cc6",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/collections4/bloomfilter/BloomFilter.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "215ff060640b09f8c2854d0a91ca68cb5901d3c0b0d8e5d304be74a89aeb9cc6",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/collections4/bloomfilter/BloomFilter.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "215ff060640b09f8c2854d0a91ca68cb5901d3c0b0d8e5d304be74a89aeb9cc6",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/collections4/bloomfilter/BloomFilter.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "b930ccb194ce4671594542633db25278e1b501a5324005fa64e99bc2e368aabe",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/collections4/multimap/ArrayListValuedHashMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "b930ccb194ce4671594542633db25278e1b501a5324005fa64e99bc2e368aabe",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/collections4/multimap/ArrayListValuedHashMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "b930ccb194ce4671594542633db25278e1b501a5324005fa64e99bc2e368aabe",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/collections4/multimap/ArrayListValuedHashMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "204816079ced10666f3ef8e9144f14b4906b85114d61d6cd90ba8c4ae9b9d9be",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/collections4/bloomfilter/WrappedBloomFilter.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "204816079ced10666f3ef8e9144f14b4906b85114d61d6cd90ba8c4ae9b9d9be",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/collections4/bloomfilter/WrappedBloomFilter.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "204816079ced10666f3ef8e9144f14b4906b85114d61d6cd90ba8c4ae9b9d9be",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/collections4/bloomfilter/WrappedBloomFilter.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "8628b6336d92a0f0bdd6464afe0cb2ff29de257c342e84a5af07cb16bff42af2",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/collections4/BidiMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "8628b6336d92a0f0bdd6464afe0cb2ff29de257c342e84a5af07cb16bff42af2",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/collections4/BidiMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "8628b6336d92a0f0bdd6464afe0cb2ff29de257c342e84a5af07cb16bff42af2",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/collections4/BidiMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "83ffe2569aa7d2cfca6a0e68b8721f1fa7a1755067e5eb20e42389280b2e5851",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/collections4/list/UnmodifiableList.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "83ffe2569aa7d2cfca6a0e68b8721f1fa7a1755067e5eb20e42389280b2e5851",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/collections4/list/UnmodifiableList.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "83ffe2569aa7d2cfca6a0e68b8721f1fa7a1755067e5eb20e42389280b2e5851",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/collections4/list/UnmodifiableList.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": false,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "failed",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": false,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": false,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": true
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "2c2b166367a303d47e46c7a242530c3048d23f9580d9cac5382bafacc806f4d1",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/collections4/functors/OrPredicate.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "2c2b166367a303d47e46c7a242530c3048d23f9580d9cac5382bafacc806f4d1",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/collections4/functors/OrPredicate.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "2c2b166367a303d47e46c7a242530c3048d23f9580d9cac5382bafacc806f4d1",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/collections4/functors/OrPredicate.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "41e8f032028ec2415add1085291c982b1c2b943d1947192158faa0b467e80813",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/collections4/SetValuedMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "41e8f032028ec2415add1085291c982b1c2b943d1947192158faa0b467e80813",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/collections4/SetValuedMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "41e8f032028ec2415add1085291c982b1c2b943d1947192158faa0b467e80813",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/collections4/SetValuedMap.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "3eaad51597541a278714dd861d292406f1b64aa6711413e605eecc4c17941249",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/collections4/functors/ExceptionFactory.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "3eaad51597541a278714dd861d292406f1b64aa6711413e605eecc4c17941249",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/collections4/functors/ExceptionFactory.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-collections",
+      "id": "3eaad51597541a278714dd861d292406f1b64aa6711413e605eecc4c17941249",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/collections4/functors/ExceptionFactory.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "83b7f91854b89e130b33aaf9b36ca2e2fb8c933b27e809c5d8d8e55f5a00809b",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/lang3/AppendableJoiner.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "83b7f91854b89e130b33aaf9b36ca2e2fb8c933b27e809c5d8d8e55f5a00809b",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/lang3/AppendableJoiner.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "83b7f91854b89e130b33aaf9b36ca2e2fb8c933b27e809c5d8d8e55f5a00809b",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/lang3/AppendableJoiner.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "1188e123b0d8767c150af74d0805b7156edb4496d288d9e203f203be5a3ce1e7",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/lang3/stream/package-info.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "1188e123b0d8767c150af74d0805b7156edb4496d288d9e203f203be5a3ce1e7",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/lang3/stream/package-info.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "1188e123b0d8767c150af74d0805b7156edb4496d288d9e203f203be5a3ce1e7",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/lang3/stream/package-info.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": false,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "failed",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": false,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": true
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "a82d6522181c3ad287aa25e89a304e49b2ecb9aa4772ccffe7cfd72c9e8163ea",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/lang3/concurrent/ConstantInitializer.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "a82d6522181c3ad287aa25e89a304e49b2ecb9aa4772ccffe7cfd72c9e8163ea",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/lang3/concurrent/ConstantInitializer.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "a82d6522181c3ad287aa25e89a304e49b2ecb9aa4772ccffe7cfd72c9e8163ea",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/lang3/concurrent/ConstantInitializer.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "b5546b8aa8fa5140e252f0c59fa0bd426eb08e6209ca557960a4bfc241ed7725",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "b5546b8aa8fa5140e252f0c59fa0bd426eb08e6209ca557960a4bfc241ed7725",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "b5546b8aa8fa5140e252f0c59fa0bd426eb08e6209ca557960a4bfc241ed7725",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "ddb2682d904933e4ce009be4e44b762947b6e343e6222f590f0c5ae3b25ff4c2",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/lang3/function/MethodInvokers.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "ddb2682d904933e4ce009be4e44b762947b6e343e6222f590f0c5ae3b25ff4c2",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/lang3/function/MethodInvokers.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "ddb2682d904933e4ce009be4e44b762947b6e343e6222f590f0c5ae3b25ff4c2",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/lang3/function/MethodInvokers.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "57efd00cdbb5e0b8663f5d869b4744608a3e55928c183068ee606176a192cc5f",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/lang3/function/FailableDoubleToIntFunction.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "57efd00cdbb5e0b8663f5d869b4744608a3e55928c183068ee606176a192cc5f",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/lang3/function/FailableDoubleToIntFunction.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "57efd00cdbb5e0b8663f5d869b4744608a3e55928c183068ee606176a192cc5f",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/lang3/function/FailableDoubleToIntFunction.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "d00283af51eb6e8b0bfda5386068e9af6b0709cc6c88df479a3286ca65c501f2",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "d00283af51eb6e8b0bfda5386068e9af6b0709cc6c88df479a3286ca65c501f2",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "d00283af51eb6e8b0bfda5386068e9af6b0709cc6c88df479a3286ca65c501f2",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "36af24541fb66a2fe5c3c5054557d1dc69e5595e0f3be5b39a1d3759a3e39626",
+      "key": 15485863,
+      "filename": "src/main/java/org/apache/commons/lang3/function/FailableFunction.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "36af24541fb66a2fe5c3c5054557d1dc69e5595e0f3be5b39a1d3759a3e39626",
+      "key": 32452843,
+      "filename": "src/main/java/org/apache/commons/lang3/function/FailableFunction.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "apache/commons-lang",
+      "id": "36af24541fb66a2fe5c3c5054557d1dc69e5595e0f3be5b39a1d3759a3e39626",
+      "key": 49979687,
+      "filename": "src/main/java/org/apache/commons/lang3/function/FailableFunction.java",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "1904bb6ed9d2e5b944396cefb0735b1433f51bb6463623de9e25d14ae4e46c6e",
+      "key": 15485863,
+      "filename": "networkx/readwrite/pajek.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "1904bb6ed9d2e5b944396cefb0735b1433f51bb6463623de9e25d14ae4e46c6e",
+      "key": 32452843,
+      "filename": "networkx/readwrite/pajek.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "1904bb6ed9d2e5b944396cefb0735b1433f51bb6463623de9e25d14ae4e46c6e",
+      "key": 49979687,
+      "filename": "networkx/readwrite/pajek.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "5b95b7da7062406defa613129c5a659dc7efbd250e8e4718240e4525c4f8f859",
+      "key": 15485863,
+      "filename": "networkx/drawing/nx_agraph.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "5b95b7da7062406defa613129c5a659dc7efbd250e8e4718240e4525c4f8f859",
+      "key": 32452843,
+      "filename": "networkx/drawing/nx_agraph.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "5b95b7da7062406defa613129c5a659dc7efbd250e8e4718240e4525c4f8f859",
+      "key": 49979687,
+      "filename": "networkx/drawing/nx_agraph.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "415df49d6f8702e8637d5af0ca3e3a9eedd52f6cada6e6f76974b0d7ec20504d",
+      "key": 15485863,
+      "filename": "networkx/utils/misc.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "415df49d6f8702e8637d5af0ca3e3a9eedd52f6cada6e6f76974b0d7ec20504d",
+      "key": 32452843,
+      "filename": "networkx/utils/misc.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "415df49d6f8702e8637d5af0ca3e3a9eedd52f6cada6e6f76974b0d7ec20504d",
+      "key": 49979687,
+      "filename": "networkx/utils/misc.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "3f65d5a8ab548f31506f4815a2e63fbb27988e6dabec00061a70beed56e9134e",
+      "key": 15485863,
+      "filename": "networkx/algorithms/bipartite/projection.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "3f65d5a8ab548f31506f4815a2e63fbb27988e6dabec00061a70beed56e9134e",
+      "key": 32452843,
+      "filename": "networkx/algorithms/bipartite/projection.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "3f65d5a8ab548f31506f4815a2e63fbb27988e6dabec00061a70beed56e9134e",
+      "key": 49979687,
+      "filename": "networkx/algorithms/bipartite/projection.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "d12bc432a44ba8028d9ba50ad943fa65c1081eac9e3586ff217e963072cd3b2c",
+      "key": 15485863,
+      "filename": "networkx/algorithms/broadcasting.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "d12bc432a44ba8028d9ba50ad943fa65c1081eac9e3586ff217e963072cd3b2c",
+      "key": 32452843,
+      "filename": "networkx/algorithms/broadcasting.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "d12bc432a44ba8028d9ba50ad943fa65c1081eac9e3586ff217e963072cd3b2c",
+      "key": 49979687,
+      "filename": "networkx/algorithms/broadcasting.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "a3d4efbd82453ea4fced22259e67d84d07a4c662362245a7b6bef1996b7fc3d3",
+      "key": 15485863,
+      "filename": "networkx/algorithms/flow/edmondskarp.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "a3d4efbd82453ea4fced22259e67d84d07a4c662362245a7b6bef1996b7fc3d3",
+      "key": 32452843,
+      "filename": "networkx/algorithms/flow/edmondskarp.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "a3d4efbd82453ea4fced22259e67d84d07a4c662362245a7b6bef1996b7fc3d3",
+      "key": 49979687,
+      "filename": "networkx/algorithms/flow/edmondskarp.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "045dbab2a79d5d2f60a5a16696fcf33e2154b1d53f8ac381faeecfc45c5841fe",
+      "key": 15485863,
+      "filename": "networkx/generators/spectral_graph_forge.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "045dbab2a79d5d2f60a5a16696fcf33e2154b1d53f8ac381faeecfc45c5841fe",
+      "key": 32452843,
+      "filename": "networkx/generators/spectral_graph_forge.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "045dbab2a79d5d2f60a5a16696fcf33e2154b1d53f8ac381faeecfc45c5841fe",
+      "key": 49979687,
+      "filename": "networkx/generators/spectral_graph_forge.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "df0da68e87cfda9fa7483dd3a58a66ac3c7caf6fb51cf9af233f599797cf32e7",
+      "key": 15485863,
+      "filename": "networkx/readwrite/gml.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "failed",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": true
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "df0da68e87cfda9fa7483dd3a58a66ac3c7caf6fb51cf9af233f599797cf32e7",
+      "key": 32452843,
+      "filename": "networkx/readwrite/gml.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "networkx/networkx",
+      "id": "df0da68e87cfda9fa7483dd3a58a66ac3c7caf6fb51cf9af233f599797cf32e7",
+      "key": 49979687,
+      "filename": "networkx/readwrite/gml.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "failed",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": true
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "d623152e386881822e150900c910d469a1c4c75344d0836bb5346ab3ec1e279c",
+      "key": 15485863,
+      "filename": "sympy/tensor/array/expressions/from_matrix_to_array.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "d623152e386881822e150900c910d469a1c4c75344d0836bb5346ab3ec1e279c",
+      "key": 32452843,
+      "filename": "sympy/tensor/array/expressions/from_matrix_to_array.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "d623152e386881822e150900c910d469a1c4c75344d0836bb5346ab3ec1e279c",
+      "key": 49979687,
+      "filename": "sympy/tensor/array/expressions/from_matrix_to_array.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "f97ff4ae02b89624dd4d1ad937ac3272e4ce016a933e8aefaea6817338503ae4",
+      "key": 15485863,
+      "filename": "release/compare_tar_against_git.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "f97ff4ae02b89624dd4d1ad937ac3272e4ce016a933e8aefaea6817338503ae4",
+      "key": 32452843,
+      "filename": "release/compare_tar_against_git.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "f97ff4ae02b89624dd4d1ad937ac3272e4ce016a933e8aefaea6817338503ae4",
+      "key": 49979687,
+      "filename": "release/compare_tar_against_git.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "632f79b64bf3e83e0ccceb3355256afcbf971d5d6ac8cf45d62ac4df5988cbcb",
+      "key": 15485863,
+      "filename": "sympy/printing/conventions.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": false,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": false,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": false,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "632f79b64bf3e83e0ccceb3355256afcbf971d5d6ac8cf45d62ac4df5988cbcb",
+      "key": 32452843,
+      "filename": "sympy/printing/conventions.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": false,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "632f79b64bf3e83e0ccceb3355256afcbf971d5d6ac8cf45d62ac4df5988cbcb",
+      "key": 49979687,
+      "filename": "sympy/printing/conventions.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": false,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": false,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": false,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": false,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "6cc7013b4f6d607697295ca29c5fb58f9de741b8416b973ee0aaf7981dd05de8",
+      "key": 15485863,
+      "filename": "sympy/parsing/autolev/test-examples/pydy-example-repo/chaos_pendulum.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "6cc7013b4f6d607697295ca29c5fb58f9de741b8416b973ee0aaf7981dd05de8",
+      "key": 32452843,
+      "filename": "sympy/parsing/autolev/test-examples/pydy-example-repo/chaos_pendulum.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "6cc7013b4f6d607697295ca29c5fb58f9de741b8416b973ee0aaf7981dd05de8",
+      "key": 49979687,
+      "filename": "sympy/parsing/autolev/test-examples/pydy-example-repo/chaos_pendulum.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "b6ad9b900d2c091e0eb4599d03f771c49b3c554c6c796629aa05fb02a2161d4c",
+      "key": 15485863,
+      "filename": "sympy/combinatorics/__init__.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "matching_suite_unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": true,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": true,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": false,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "b6ad9b900d2c091e0eb4599d03f771c49b3c554c6c796629aa05fb02a2161d4c",
+      "key": 32452843,
+      "filename": "sympy/combinatorics/__init__.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "b6ad9b900d2c091e0eb4599d03f771c49b3c554c6c796629aa05fb02a2161d4c",
+      "key": 49979687,
+      "filename": "sympy/combinatorics/__init__.py",
+      "passed": {
+        "negative_before": false,
+        "negative_after": false,
+        "positive_before": false,
+        "positive_after": false
+      },
+      "statuses": {
+        "negative_before": "matching_suite_unavailable",
+        "negative_after": "matching_suite_unavailable",
+        "positive_before": "matching_suite_unavailable",
+        "positive_after": "unavailable"
+      },
+      "original_pair_pass": false,
+      "all_four_pass": false,
+      "after_pair_pass": false,
+      "joint": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "detection": {
+        "official": false,
+        "syntax": false,
+        "structured64": false,
+        "nearest64": false,
+        "dictionary64": false,
+        "dictionary_pairs64": false
+      },
+      "replay_conflict": true,
+      "missing_original_suite": true,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "f7bbc4042d339ffad887b1b1dbf77f816cbb00a7cab3df29f34df80e217e5a79",
+      "key": 15485863,
+      "filename": "sympy/polys/puiseux.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "f7bbc4042d339ffad887b1b1dbf77f816cbb00a7cab3df29f34df80e217e5a79",
+      "key": 32452843,
+      "filename": "sympy/polys/puiseux.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "f7bbc4042d339ffad887b1b1dbf77f816cbb00a7cab3df29f34df80e217e5a79",
+      "key": 49979687,
+      "filename": "sympy/polys/puiseux.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "ceb42bdf00e60ec4e224a8ebf379db7a38e4999f0d1cf51febb3474304d2fbbd",
+      "key": 15485863,
+      "filename": "sympy/polys/constructor.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "ceb42bdf00e60ec4e224a8ebf379db7a38e4999f0d1cf51febb3474304d2fbbd",
+      "key": 32452843,
+      "filename": "sympy/polys/constructor.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "ceb42bdf00e60ec4e224a8ebf379db7a38e4999f0d1cf51febb3474304d2fbbd",
+      "key": 49979687,
+      "filename": "sympy/polys/constructor.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "2230d382fa34ebb99fd544b38af3bd1da4cdcfb88fa8c9e314167d5fc3b2febc",
+      "key": 15485863,
+      "filename": "sympy/series/gruntz.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "2230d382fa34ebb99fd544b38af3bd1da4cdcfb88fa8c9e314167d5fc3b2febc",
+      "key": 32452843,
+      "filename": "sympy/series/gruntz.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    },
+    {
+      "repo": "sympy/sympy",
+      "id": "2230d382fa34ebb99fd544b38af3bd1da4cdcfb88fa8c9e314167d5fc3b2febc",
+      "key": 49979687,
+      "filename": "sympy/series/gruntz.py",
+      "passed": {
+        "negative_before": true,
+        "negative_after": true,
+        "positive_before": true,
+        "positive_after": true
+      },
+      "statuses": {
+        "negative_before": "ok",
+        "negative_after": "ok",
+        "positive_before": "ok",
+        "positive_after": "ok"
+      },
+      "original_pair_pass": true,
+      "all_four_pass": true,
+      "after_pair_pass": true,
+      "joint": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "detection": {
+        "official": true,
+        "syntax": true,
+        "structured64": true,
+        "nearest64": true,
+        "dictionary64": true,
+        "dictionary_pairs64": true
+      },
+      "replay_conflict": false,
+      "missing_original_suite": false,
+      "marked_failure_with_original_pass": false
+    }
+  ],
+  "interpretation": "All 8 preselected transitions x 3 keys/project. Joint requires both original versions and both marked versions to pass available repository tests, plus successfully embedded post-maintenance detection. Missing execution is not evidence of functional failure caused by watermarking."
+}

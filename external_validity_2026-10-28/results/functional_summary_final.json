@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-10-28T17:33:07.909549+00:00",
+  "canonical_project_stages": {
+    "v4_ready": [
+      "apache/commons-csv",
+      "pallets/flask"
+    ],
+    "java_v8": [
+      "checkstyle/checkstyle",
+      "javaparser/javaparser"
+    ],
+    "sphinx_v5": [
+      "sphinx-doc/sphinx"
+    ],
+    "rich_v7": [
+      "Textualize/rich"
+    ]
+  },
+  "selected_transitions": 144,
+  "distinct_project_paths": 87,
+  "source_key_attempts": 432,
+  "unique_test_jobs": 966,
+  "job_status": {
+    "ok": 671,
+    "original_environment_unavailable": 21,
+    "failed": 272,
+    "timeout": 2
+  },
+  "summary": [
+    {
+      "repo": "Textualize/rich",
+      "planned_transitions": 24,
+      "distinct_paths": 11,
+      "source_key_attempts": 72,
+      "original_pair_passed": 57,
+      "all_four_passed": 31,
+      "marked_failed_when_original_passed": 14,
+      "embedding_ok": 67,
+      "joint_detection_and_tests": {
+        "official": 23,
+        "syntax": 27,
+        "structured64": 27,
+        "nearest64": 27,
+        "dictionary64": 27,
+        "dictionary_pairs64": 27
+      },
+      "merge_status": {
+        "clean": 57,
+        "conflict": 15
+      },
+      "canonical_stage": "rich_v7",
+      "all_four_given_original_pair_passed": 0.543859649122807,
+      "all_four_over_all_preselected": 0.4305555555555556
+    },
+    {
+      "repo": "apache/commons-csv",
+      "planned_transitions": 24,
+      "distinct_paths": 5,
+      "source_key_attempts": 72,
+      "original_pair_passed": 27,
+      "all_four_passed": 25,
+      "marked_failed_when_original_passed": 3,
+      "embedding_ok": 54,
+      "joint_detection_and_tests": {
+        "official": 20,
+        "syntax": 20,
+        "structured64": 20,
+        "nearest64": 20,
+        "dictionary64": 20,
+        "dictionary_pairs64": 20
+      },
+      "merge_status": {
+        "clean": 68,
+        "conflict": 4
+      },
+      "canonical_stage": "v4_ready",
+      "all_four_given_original_pair_passed": 0.9259259259259259,
+      "all_four_over_all_preselected": 0.3472222222222222
+    },
+    {
+      "repo": "checkstyle/checkstyle",
+      "planned_transitions": 24,
+      "distinct_paths": 18,
+      "source_key_attempts": 72,
+      "original_pair_passed": 69,
+      "all_four_passed": 54,
+      "marked_failed_when_original_passed": 1,
+      "embedding_ok": 72,
+      "joint_detection_and_tests": {
+        "official": 41,
+        "syntax": 45,
+        "structured64": 48,
+        "nearest64": 45,
+        "dictionary64": 42,
+        "dictionary_pairs64": 44
+      },
+      "merge_status": {
+        "conflict": 15,
+        "clean": 57
+      },
+      "canonical_stage": "java_v8",
+      "all_four_given_original_pair_passed": 0.782608695652174,
+      "all_four_over_all_preselected": 0.75
+    },
+    {
+      "repo": "javaparser/javaparser",
+      "planned_transitions": 24,
+      "distinct_paths": 17,
+      "source_key_attempts": 72,
+      "original_pair_passed": 69,
+      "all_four_passed": 57,
+      "marked_failed_when_original_passed": 0,
+      "embedding_ok": 62,
+      "joint_detection_and_tests": {
+        "official": 27,
+        "syntax": 38,
+        "structured64": 37,
+        "nearest64": 35,
+        "dictionary64": 33,
+        "dictionary_pairs64": 34
+      },
+      "merge_status": {
+        "clean": 60,
+        "conflict": 11,
+        "not_completed": 1
+      },
+      "canonical_stage": "java_v8",
+      "all_four_given_original_pair_passed": 0.8260869565217391,
+      "all_four_over_all_preselected": 0.7916666666666666
+    },
+    {
+      "repo": "pallets/flask",
+      "planned_transitions": 24,
+      "distinct_paths": 14,
+      "source_key_attempts": 72,
+      "original_pair_passed": 63,
+      "all_four_passed": 48,
+      "marked_failed_when_original_passed": 1,
+      "embedding_ok": 72,
+      "joint_detection_and_tests": {
+        "official": 42,
+        "syntax": 45,
+        "structured64": 45,
+        "nearest64": 45,
+        "dictionary64": 44,
+        "dictionary_pairs64": 45
+      },
+      "merge_status": {
+        "clean": 53,
+        "conflict": 19
+      },
+      "canonical_stage": "v4_ready",
+      "all_four_given_original_pair_passed": 0.7619047619047619,
+      "all_four_over_all_preselected": 0.6666666666666666
+    },
+    {
+      "repo": "sphinx-doc/sphinx",
+      "planned_transitions": 24,
+      "distinct_paths": 22,
+      "source_key_attempts": 72,
+      "original_pair_passed": 9,
+      "all_four_passed": 6,
+      "marked_failed_when_original_passed": 0,
+      "embedding_ok": 72,
+      "joint_detection_and_tests": {
+        "official": 6,
+        "syntax": 6,
+        "structured64": 6,
+        "nearest64": 6,
+        "dictionary64": 6,
+        "dictionary_pairs64": 6
+      },
+      "merge_status": {
+        "clean": 43,
+        "conflict": 29
+      },
+      "canonical_stage": "sphinx_v5",
+      "all_four_given_original_pair_passed": 0.6666666666666666,
+      "all_four_over_all_preselected": 0.08333333333333333
+    }
+  ],
+  "java_correction": {
+    "total_jobs": 325,
+    "previously_tested": 157,
+    "old_unavailable": 168,
+    "old_unavailable_now_passed": 159,
+    "previously_tested_pass_status_changed": 0,
+    "changed": []
+  },
+  "rich_correction": {
+    "total_jobs": 166,
+    "old_failed_now_passed": 46,
+    "old_passed_now_failed": 0
+  },
+  "sources_sha256": {
+    "results/functional_summary_v4_ready.json": "d6013af2188b1166813b36f810e8a710aaf30a1d22f15dcc04448414f9e0ff0e",
+    "results/functional_decisions_v4_ready.jsonl": "5965ecfe52a1e0145045bd14e308683f8eed84b731c2676af8d8d1cae868b5b8",
+    "results/functional_v4_ready.jsonl": "ce7f4e794f5d78a697ce8295db9a513b46ef4c83eedffa4eeb05d617e76f3c62",
+    "records/functional_jobs_v4_ready.json": "4babc40f1e688b230b0d7861caaad4d24f7b4e44ea8a2c92d1956c2fead375cd",
+    "results/functional_summary_java_v8.json": "d9bb5a2fc1d6776381137f578285f1cb5991a1d011d297a3b14ef4a129f9f2b5",
+    "results/functional_decisions_java_v8.jsonl": "f1971bbf50d62750b5c45c01dafb8906905b8f380a0f092ed529c11c5ee67ccc",
+    "results/functional_java_v8.jsonl": "0a6805a9e4b11c057b0a548d86433c2c78f5fba91c1f54f58b93244eb6233932",
+    "records/functional_jobs_java_v8.json": "afad8127af632b55ba49db3b58b88ef4c6888118129021f8a3c62177c847e18c",
+    "results/functional_summary_sphinx_v5.json": "840ff74ea9330c7cfd1908fa86b3d1754f3414a2159e1bba56520a45bc4259e8",
+    "results/functional_decisions_sphinx_v5.jsonl": "ad4c515dd51aa08533affed36c8f362797dc42e46541685489148479fa1b3dae",
+    "results/functional_sphinx_v5.jsonl": "5e5f5853bbf69702b5a9f558ce8f8f7af7743bd5b7531ddc948f277f5961e241",
+    "records/functional_jobs_sphinx_v5.json": "8edf7bb061bab03b85126eabb68d7ef57eb89721c1d91726c1ebb503f2ef8549",
+    "results/functional_summary_rich_v7.json": "31ebe9d1b5c4378bec9a4c965e3e8524c376e4a1dd5ab5eb1538cbe01b86c474",
+    "results/functional_decisions_rich_v7.jsonl": "d296702a836a11ee870ed3e510a124b01eaf0b1690a27f400f1e827b4d06d9a9",
+    "results/functional_rich_v7.jsonl": "d7102e79b8cd4ceba9b015957f9016e626130138d2646524fd728aa0257fc401",
+    "records/functional_jobs_rich_v7.json": "9bc2f207052ffb95aa93cb94a840a3964a44c78701119ed2a2af13f81427cd5a"
+  },
+  "interpretation": "All 144 preselected transitions and all three keys are retained. Keys are repeated evaluations, not independent samples. Canonical stages are chosen per project by the documented environment correction, never per-result outcome. All original observations remain available. Whole-suite passage is not semantic equivalence; original-failing pairs are inconclusive for watermark-induced regressions. Conditional test passage and unconditional end-to-end yield must both be reported. Any changed outcome among previously tested Java code requires review before manuscript integration."
+}

@@ -1,0 +1,17 @@
+Location	Content	Evidence	Recipe or interpretation
+Figure 1	Context-recovery schematic	manuscript/redraw_explanatory_figures.py	Illustrative counts, not measured outcomes
+Figure 2	Study frames and sample reuse	manuscript/redraw_explanatory_figures.py	Pair/selection manifests; 688 earlier, 687 later, functional subset 144
+Figure 3	Calibration operating points	external_validity_2026-10-28/detection_phase/results/temporal_summary.json	equal_project_means, alpha=.05, structured64; manuscript/redraw_result_figures.py
+Figure 4	Calibration-budget sensitivity	external_validity_2026-10-28/robustness_revision_20261029/p1_results.json	p1_draws.npz and p1_freeze.json; manuscript/redraw_result_figures.py
+Figure 5	Controlled candidate budgets	publication_revision_2026-10-28/results/confirmation_summary.json	envelope, alpha=.05; manuscript/redraw_result_figures.py
+Table 1	Four-project comparison	maintenance_upgrade_2026-10-28/results/project_local_summary.json	maintenance_local_comparison.tex
+Table 2	Temporal frame	external_validity_2026-10-28/detection_phase/records/acquisition_summary.json	temporal_frame.tex
+Table 3	Temporal detection	external_validity_2026-10-28/detection_phase/results/temporal_summary.json	temporal_primary_five.tex
+Table 4	Calibration population	external_validity_2026-10-28/detection_phase/results/temporal_summary.json	temporal_calibration.tex
+Table 5	Temporal functionality	external_validity_2026-10-28/results/functional_summary_final.json	temporal_functional.tex; canonical stage rules in REPRODUCE.txt
+Table 6	Replay policy	external_validity_2026-10-28/robustness_revision_20261029/p2_decisions.json	replay_primary.tex; p2_plan.json and p2_summary.json
+Table 7	Controlled primary contrasts	publication_revision_2026-10-28/results/confirmation_summary.json	confirmation_primary.tex; fixed-key problem-cluster contrasts
+Table 8	Related interventions	manuscript/paper/recovery_related.tex	Qualitative literature comparison; citations in revision_references.bib
+Supplement Sections 2-5	Extended current-study tables	TABLE_ASSETS.json	Each table maps to a generating study; same frozen scores as main
+Supplement Sections 6-13	Historical development	historical_generation/verified_research_artifact.tar.gz	Raw and superseded runs; preview/ and results/ provide small summaries
+Supplement Section 14	Replication	REPRODUCE.txt	Separate frozen analysis from new scoring/generation/testing

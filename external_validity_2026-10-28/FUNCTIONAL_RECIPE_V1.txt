@@ -1,0 +1,31 @@
+Original-source feasibility recipe v1, 2026-10-28
+
+The functional sample was selected before scoring. Feasibility uses the earliest
+and latest of the 24 selected transitions in each project, both original parent
+and child. No marked source executes until the recipe is frozen after this audit.
+This is an environment audit, not a watermark-performance selection criterion.
+
+Run full Flask/Rich/Sphinx Python suites; Sphinx external-builder prerequisites
+follow upstream skip logic. This makes the protocol's builder exclusion precise:
+no hand-selected module exclusions or test edits. Use full Commons CSV and
+Checkstyle unit suites, and JavaParser's javaparser-core-testing reactor module
+with its prerequisites (the tests live outside javaparser-core itself).
+Use Python 3.11.15 for Flask/Rich; Python 3.13.9 for Sphinx; unchanged JDK17 for
+Commons CSV/JavaParser; Temurin21 for Checkstyle's declared compiler release21.
+
+Private environments are constructed per exact original commit. Install each
+original project plus its test dependencies, retaining resolved package versions.
+Flask pre-2.3 uses Werkzeug2.2.3; 2.3 uses Werkzeug2.3.8; 3.0 uses Werkzeug3.0.6;
+these match API compatibility generations, before seeing any original test result.
+Rich runtime tokenization dependencies use its checked-in poetry.lock if present.
+Sphinx uses its declared project and test-group dependencies. No installed project
+may mask tested source: imports must resolve below /work, enforced at runtime.
+
+Dependency setup and compilation use unmodified source inside a filesystem
+sandbox with network access. Scored functional tests use a network-isolated
+sandbox, 600-second wall/CPU limits and one Java processor. Setup has 900 seconds.
+Maven formatting/static style checks are skipped consistently; unit tests are
+enabled. Keep original environment errors, timeouts and missing-test results.
+Stop each suite after at most three test failures for Python; any failure is a
+failed run. A pass requires nonzero executed tests, zero failures/errors and exit0.
+Full marked execution has two workers, nice+10, independent of two scoring workers.

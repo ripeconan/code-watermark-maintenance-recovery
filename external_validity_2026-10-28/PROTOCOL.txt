@@ -1,0 +1,93 @@
+External validity extension — prospective protocol v1, 2026-10-28
+
+Purpose
+Test the existing maintenance-recovery findings on six previously unused public
+projects, with strictly earlier calibration and later evaluation. This extends
+evidence about scope and temporal transfer; it does not introduce a new detector
+or certify semantic equivalence. Existing results and paper are preserved.
+
+Projects and population
+Python: pallets/flask (src/flask/), Textualize/rich (rich/), sphinx-doc/sphinx
+(sphinx/). Java: apache/commons-csv (src/main/java/), javaparser/javaparser
+(javaparser-core/src/main/java/), checkstyle/checkstyle (src/main/java/).
+These purposively cover framework, terminal presentation, documentation, data
+format, parsing and static-analysis software. They are not a probability sample
+of all software. JavaParser coverage is explicitly its core module only.
+Inspect and retain each pinned root license; do not redistribute source without
+its license. All collection uses public GitHub git history, without private data.
+
+Freeze a shallow default-branch clone of depth 2400 and the latest reachable
+revision before 2026-10-27T23:59:59Z. Inspect at most 1200 nonmerge commits
+reachable from that pin. Consider modified, existing .py or .java files in the
+above production roots; UTF-8, nonempty, no NUL, at most 80000 bytes per version,
+different contents, no generated-code notice in the first 4096 characters.
+Record every rejection. Order eligible paths within a commit by SHA256 of
+'external-file-v1|' + commit + '|' + path; take the first eligible path. Thus the
+unit is one source transition per commit, and paths may recur. No parser,
+embedding, replay, detector or test outcome determines inclusion.
+Deduplicate identical ordered content-hash pairs within a project, retaining
+the chronologically first commit (ties by SHA). Retain the complete finite frame.
+
+Chronological design
+Order the frame by committer timestamp and SHA. Use the timestamp of its lower
+median as the boundary. Calibration contains timestamps <= boundary; evaluation
+contains strictly greater timestamps. Select up to 120 transitions from each
+period by SHA256 of 'external-sample-v1|' + split + '|' + transition ID.
+An insufficient period stays smaller: do not extend history or replace projects
+after looking at watermark outcomes. A frame with fewer than 40 observations
+in either period is reported as limited feasibility, not silently replaced.
+Publish actual dates, commit/path counts and exact snapshot overlap. Temporal
+dependence and repeated paths preclude an unconditional exchangeability claim.
+
+Detectors and endpoints
+Reuse the frozen SEW revision, embedding keys (15485863, 32452843, 49979687),
+fine ancestor-coordinate replay, nine candidate policies and development-only
+dictionary from maintenance_upgrade_2026-10-28, with content hashes. No fitting
+to these projects. Primary methods: official, syntax, structured64, nearest64,
+dictionary64 and dictionary_pairs64; remaining policies are sensitivity results.
+Use existing score and minimum-grade/abstention rules. Preserve failed stages;
+do not erase available negative scores if a later positive stage fails.
+Fit each project/key/method threshold to max(before, after) negative score on
+its earlier calibration period, using ceil((n+1)*(1-alpha)) and strict >. The
+primary alpha is 0.05, secondary 0.01 and 0.10; unattainable ranks give infinity.
+Compare with the frozen external threshold and earlier-before-only calibration.
+Under temporal drift these thresholds are evaluated empirically, not guaranteed
+to control future error. Report detector alarms separately from missing scores.
+Primary outcomes: positive-after detection per planned source-key attempt and
+either-version negative alarm per attempt. Report stage-specific availability,
+embedding failures, merge conflicts and conditional results with denominators.
+Report each project separately and equally weighted project summaries. Average
+keys within transitions; never treat three keys as three independent programs.
+Describe paired intervals conditional on fitted thresholds, using filename
+clusters and temporal moving blocks as sensitivity analyses (5000 resamples).
+Calibration uncertainty and dependence limit their inferential interpretation.
+
+Functional validation (separate, preselected)
+Before any watermark outcomes, select up to 24 evaluation transitions/project by
+SHA256 of 'external-functional-v1|' + ID. All three keys and original-parent,
+original-child, marked-parent and replayed-child versions are planned. Keep
+conflicts and missing versions in denominators. Reuse exact original snapshots,
+and retain job-to-source/key/version mappings when deduplicating identical jobs.
+Original tests establish whether an environment is usable; watermark outcomes
+cannot change test selection or trigger replacement of failed source samples.
+Use a fixed repository recipe: full Python suite for Flask/Rich, full Sphinx
+Python suite excluding external documentation builders requiring system tools;
+full Commons CSV unit suite, JavaParser core unit suite and Checkstyle unit suite.
+Recipes/dependencies must be feasibility-checked on original source and frozen
+before marked executions. If timeout or dependencies prevent execution, report
+it as unavailable and retain logs. Any recipe revision is a dated amendment
+applied consistently to all versions, not just failing marked versions.
+Tests run offline in a network-isolated sandbox; dependency preparation uses
+unmodified source. A test pass requires >0 executed tests and zero test failures
+or errors with successful process exit. Tests do not prove semantic equivalence.
+Report all-four tested pass and detection-and-tested-pass with explicit units,
+along with original-environment failures and marked-only regressions.
+
+Execution and interpretation
+Use inner-tunnel; new data and caches under /home, separate from prior artifacts.
+Use nice +10, OPENBLAS/OMP threads=1, at most 2 simultaneous evaluation workers
+and 2 test workers; no GPU needed. Hash protocol, selection, code and environment.
+Preserve all run logs; environment corrections must be recorded. Any new source
+of evidence changes the stated scope only as far as its observed results support.
+This extension remains a study of one watermark implementation and two primary
+languages. Six projects cannot establish cross-watermark or all-language validity.

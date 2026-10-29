@@ -1,0 +1,1253 @@
+{
+  "created_utc": "2026-10-29T02:59:20.648493+00:00",
+  "plan_audit": {
+    "created_utc": "2026-10-29T02:59:07.878110+00:00",
+    "attempts": 432,
+    "canonical_children_matched": 338,
+    "canonical_replay_statuses_matched": 431,
+    "embedding_abstentions": 33,
+    "pre_replay_error": 1,
+    "original_pair_subgroup": 294,
+    "both_clean_subgroup": 135,
+    "line_status": {
+      "clean": 135,
+      "conflict": 263,
+      "embedding_abstention": 33,
+      "prerequisite_error": 1
+    },
+    "score_actions": {
+      "reuse": 135,
+      "not_reached": 297
+    },
+    "test_actions": {
+      "reuse": 135,
+      "not_reached": 297
+    },
+    "plan_sha256": "3a60b52fa34ffdb4bcf6a54a5eb57ef7d2d605c03c6e9b885f560dc9cd78df9f"
+  },
+  "summary": [
+    {
+      "subgroup": "all",
+      "repo": null,
+      "n": 432,
+      "line_status": {
+        "clean": 135,
+        "conflict": 263,
+        "embedding_abstention": 33,
+        "prerequisite_error": 1
+      },
+      "test_status": {
+        "ok": 98,
+        "conflict": 263,
+        "original_environment_unavailable": 3,
+        "failed": 34,
+        "embedding_abstention": 33,
+        "prerequisite_error": 1
+      },
+      "canonical_all_four": 221,
+      "line_all_four": 93,
+      "canonical_joint": {
+        "official": 159,
+        "syntax": 181,
+        "structured64": 183,
+        "nearest64": 178,
+        "dictionary64": 172,
+        "dictionary_pairs64": 176
+      },
+      "line_joint": {
+        "official": 73,
+        "syntax": 84,
+        "structured64": 85,
+        "nearest64": 80,
+        "dictionary64": 78,
+        "dictionary_pairs64": 80
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 86
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 97
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 98
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 98
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 94
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 96
+        }
+      }
+    },
+    {
+      "subgroup": "all",
+      "repo": "Textualize/rich",
+      "n": 72,
+      "line_status": {
+        "clean": 23,
+        "conflict": 44,
+        "embedding_abstention": 5
+      },
+      "test_status": {
+        "failed": 8,
+        "conflict": 44,
+        "ok": 15,
+        "embedding_abstention": 5
+      },
+      "canonical_all_four": 31,
+      "line_all_four": 12,
+      "canonical_joint": {
+        "official": 23,
+        "syntax": 27,
+        "structured64": 27,
+        "nearest64": 27,
+        "dictionary64": 27,
+        "dictionary_pairs64": 27
+      },
+      "line_joint": {
+        "official": 10,
+        "syntax": 12,
+        "structured64": 12,
+        "nearest64": 12,
+        "dictionary64": 12,
+        "dictionary_pairs64": 12
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 13
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 15
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 15
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 15
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 15
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 15
+        }
+      }
+    },
+    {
+      "subgroup": "all",
+      "repo": "apache/commons-csv",
+      "n": 72,
+      "line_status": {
+        "conflict": 33,
+        "clean": 21,
+        "embedding_abstention": 18
+      },
+      "test_status": {
+        "conflict": 33,
+        "failed": 6,
+        "ok": 15,
+        "embedding_abstention": 18
+      },
+      "canonical_all_four": 25,
+      "line_all_four": 14,
+      "canonical_joint": {
+        "official": 20,
+        "syntax": 20,
+        "structured64": 20,
+        "nearest64": 20,
+        "dictionary64": 20,
+        "dictionary_pairs64": 20
+      },
+      "line_joint": {
+        "official": 14,
+        "syntax": 14,
+        "structured64": 14,
+        "nearest64": 14,
+        "dictionary64": 14,
+        "dictionary_pairs64": 14
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 6
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 6
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 6
+        }
+      }
+    },
+    {
+      "subgroup": "all",
+      "repo": "checkstyle/checkstyle",
+      "n": 72,
+      "line_status": {
+        "conflict": 46,
+        "clean": 26
+      },
+      "test_status": {
+        "conflict": 46,
+        "ok": 26
+      },
+      "canonical_all_four": 54,
+      "line_all_four": 26,
+      "canonical_joint": {
+        "official": 41,
+        "syntax": 45,
+        "structured64": 48,
+        "nearest64": 45,
+        "dictionary64": 42,
+        "dictionary_pairs64": 44
+      },
+      "line_joint": {
+        "official": 20,
+        "syntax": 22,
+        "structured64": 24,
+        "nearest64": 21,
+        "dictionary64": 20,
+        "dictionary_pairs64": 21
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 21
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 23
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 24
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 24
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 22
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 23
+        }
+      }
+    },
+    {
+      "subgroup": "all",
+      "repo": "javaparser/javaparser",
+      "n": 72,
+      "line_status": {
+        "clean": 25,
+        "conflict": 36,
+        "embedding_abstention": 10,
+        "prerequisite_error": 1
+      },
+      "test_status": {
+        "ok": 25,
+        "conflict": 36,
+        "embedding_abstention": 10,
+        "prerequisite_error": 1
+      },
+      "canonical_all_four": 57,
+      "line_all_four": 24,
+      "canonical_joint": {
+        "official": 27,
+        "syntax": 38,
+        "structured64": 37,
+        "nearest64": 35,
+        "dictionary64": 33,
+        "dictionary_pairs64": 34
+      },
+      "line_joint": {
+        "official": 13,
+        "syntax": 20,
+        "structured64": 19,
+        "nearest64": 17,
+        "dictionary64": 16,
+        "dictionary_pairs64": 17
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 14
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 18
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 18
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 18
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 17
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 17
+        }
+      }
+    },
+    {
+      "subgroup": "all",
+      "repo": "pallets/flask",
+      "n": 72,
+      "line_status": {
+        "clean": 21,
+        "conflict": 51
+      },
+      "test_status": {
+        "ok": 17,
+        "conflict": 51,
+        "original_environment_unavailable": 3,
+        "failed": 1
+      },
+      "canonical_all_four": 48,
+      "line_all_four": 17,
+      "canonical_joint": {
+        "official": 42,
+        "syntax": 45,
+        "structured64": 45,
+        "nearest64": 45,
+        "dictionary64": 44,
+        "dictionary_pairs64": 45
+      },
+      "line_joint": {
+        "official": 16,
+        "syntax": 16,
+        "structured64": 16,
+        "nearest64": 16,
+        "dictionary64": 16,
+        "dictionary_pairs64": 16
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 26
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 29
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 29
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 29
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 28
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 29
+        }
+      }
+    },
+    {
+      "subgroup": "all",
+      "repo": "sphinx-doc/sphinx",
+      "n": 72,
+      "line_status": {
+        "conflict": 53,
+        "clean": 19
+      },
+      "test_status": {
+        "conflict": 53,
+        "failed": 19
+      },
+      "canonical_all_four": 6,
+      "line_all_four": 0,
+      "canonical_joint": {
+        "official": 6,
+        "syntax": 6,
+        "structured64": 6,
+        "nearest64": 6,
+        "dictionary64": 6,
+        "dictionary_pairs64": 6
+      },
+      "line_joint": {
+        "official": 0,
+        "syntax": 0,
+        "structured64": 0,
+        "nearest64": 0,
+        "dictionary64": 0,
+        "dictionary_pairs64": 0
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 6
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 6
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 6
+        }
+      }
+    },
+    {
+      "subgroup": "original_pair",
+      "repo": null,
+      "n": 294,
+      "line_status": {
+        "clean": 100,
+        "conflict": 174,
+        "embedding_abstention": 19,
+        "prerequisite_error": 1
+      },
+      "test_status": {
+        "ok": 93,
+        "conflict": 174,
+        "failed": 7,
+        "embedding_abstention": 19,
+        "prerequisite_error": 1
+      },
+      "canonical_all_four": 221,
+      "line_all_four": 93,
+      "canonical_joint": {
+        "official": 159,
+        "syntax": 181,
+        "structured64": 183,
+        "nearest64": 178,
+        "dictionary64": 172,
+        "dictionary_pairs64": 176
+      },
+      "line_joint": {
+        "official": 73,
+        "syntax": 84,
+        "structured64": 85,
+        "nearest64": 80,
+        "dictionary64": 78,
+        "dictionary_pairs64": 80
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 86
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 97
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 98
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 98
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 94
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 96
+        }
+      }
+    },
+    {
+      "subgroup": "original_pair",
+      "repo": "Textualize/rich",
+      "n": 57,
+      "line_status": {
+        "clean": 17,
+        "conflict": 36,
+        "embedding_abstention": 4
+      },
+      "test_status": {
+        "failed": 5,
+        "ok": 12,
+        "conflict": 36,
+        "embedding_abstention": 4
+      },
+      "canonical_all_four": 31,
+      "line_all_four": 12,
+      "canonical_joint": {
+        "official": 23,
+        "syntax": 27,
+        "structured64": 27,
+        "nearest64": 27,
+        "dictionary64": 27,
+        "dictionary_pairs64": 27
+      },
+      "line_joint": {
+        "official": 10,
+        "syntax": 12,
+        "structured64": 12,
+        "nearest64": 12,
+        "dictionary64": 12,
+        "dictionary_pairs64": 12
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 13
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 15
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 15
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 15
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 15
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 15
+        }
+      }
+    },
+    {
+      "subgroup": "original_pair",
+      "repo": "apache/commons-csv",
+      "n": 27,
+      "line_status": {
+        "clean": 15,
+        "embedding_abstention": 5,
+        "conflict": 7
+      },
+      "test_status": {
+        "ok": 14,
+        "embedding_abstention": 5,
+        "conflict": 7,
+        "failed": 1
+      },
+      "canonical_all_four": 25,
+      "line_all_four": 14,
+      "canonical_joint": {
+        "official": 20,
+        "syntax": 20,
+        "structured64": 20,
+        "nearest64": 20,
+        "dictionary64": 20,
+        "dictionary_pairs64": 20
+      },
+      "line_joint": {
+        "official": 14,
+        "syntax": 14,
+        "structured64": 14,
+        "nearest64": 14,
+        "dictionary64": 14,
+        "dictionary_pairs64": 14
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 6
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 6
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 6
+        }
+      }
+    },
+    {
+      "subgroup": "original_pair",
+      "repo": "checkstyle/checkstyle",
+      "n": 69,
+      "line_status": {
+        "conflict": 43,
+        "clean": 26
+      },
+      "test_status": {
+        "conflict": 43,
+        "ok": 26
+      },
+      "canonical_all_four": 54,
+      "line_all_four": 26,
+      "canonical_joint": {
+        "official": 41,
+        "syntax": 45,
+        "structured64": 48,
+        "nearest64": 45,
+        "dictionary64": 42,
+        "dictionary_pairs64": 44
+      },
+      "line_joint": {
+        "official": 20,
+        "syntax": 22,
+        "structured64": 24,
+        "nearest64": 21,
+        "dictionary64": 20,
+        "dictionary_pairs64": 21
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 21
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 23
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 24
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 24
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 22
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 23
+        }
+      }
+    },
+    {
+      "subgroup": "original_pair",
+      "repo": "javaparser/javaparser",
+      "n": 69,
+      "line_status": {
+        "clean": 24,
+        "conflict": 34,
+        "embedding_abstention": 10,
+        "prerequisite_error": 1
+      },
+      "test_status": {
+        "ok": 24,
+        "conflict": 34,
+        "embedding_abstention": 10,
+        "prerequisite_error": 1
+      },
+      "canonical_all_four": 57,
+      "line_all_four": 24,
+      "canonical_joint": {
+        "official": 27,
+        "syntax": 38,
+        "structured64": 37,
+        "nearest64": 35,
+        "dictionary64": 33,
+        "dictionary_pairs64": 34
+      },
+      "line_joint": {
+        "official": 13,
+        "syntax": 20,
+        "structured64": 19,
+        "nearest64": 17,
+        "dictionary64": 16,
+        "dictionary_pairs64": 17
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 14
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 18
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 18
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 18
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 17
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 17
+        }
+      }
+    },
+    {
+      "subgroup": "original_pair",
+      "repo": "pallets/flask",
+      "n": 63,
+      "line_status": {
+        "clean": 18,
+        "conflict": 45
+      },
+      "test_status": {
+        "ok": 17,
+        "conflict": 45,
+        "failed": 1
+      },
+      "canonical_all_four": 48,
+      "line_all_four": 17,
+      "canonical_joint": {
+        "official": 42,
+        "syntax": 45,
+        "structured64": 45,
+        "nearest64": 45,
+        "dictionary64": 44,
+        "dictionary_pairs64": 45
+      },
+      "line_joint": {
+        "official": 16,
+        "syntax": 16,
+        "structured64": 16,
+        "nearest64": 16,
+        "dictionary64": 16,
+        "dictionary_pairs64": 16
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 26
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 29
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 29
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 29
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 28
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 29
+        }
+      }
+    },
+    {
+      "subgroup": "original_pair",
+      "repo": "sphinx-doc/sphinx",
+      "n": 9,
+      "line_status": {
+        "conflict": 9
+      },
+      "test_status": {
+        "conflict": 9
+      },
+      "canonical_all_four": 6,
+      "line_all_four": 0,
+      "canonical_joint": {
+        "official": 6,
+        "syntax": 6,
+        "structured64": 6,
+        "nearest64": 6,
+        "dictionary64": 6,
+        "dictionary_pairs64": 6
+      },
+      "line_joint": {
+        "official": 0,
+        "syntax": 0,
+        "structured64": 0,
+        "nearest64": 0,
+        "dictionary64": 0,
+        "dictionary_pairs64": 0
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 6
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 6
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 6
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 6
+        }
+      }
+    },
+    {
+      "subgroup": "both_clean",
+      "repo": null,
+      "n": 135,
+      "line_status": {
+        "clean": 135
+      },
+      "test_status": {
+        "ok": 98,
+        "original_environment_unavailable": 3,
+        "failed": 34
+      },
+      "canonical_all_four": 93,
+      "line_all_four": 93,
+      "canonical_joint": {
+        "official": 73,
+        "syntax": 84,
+        "structured64": 85,
+        "nearest64": 80,
+        "dictionary64": 78,
+        "dictionary_pairs64": 80
+      },
+      "line_joint": {
+        "official": 73,
+        "syntax": 84,
+        "structured64": 85,
+        "nearest64": 80,
+        "dictionary64": 78,
+        "dictionary_pairs64": 80
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 0
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 0
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 0
+        }
+      }
+    },
+    {
+      "subgroup": "both_clean",
+      "repo": "Textualize/rich",
+      "n": 23,
+      "line_status": {
+        "clean": 23
+      },
+      "test_status": {
+        "failed": 8,
+        "ok": 15
+      },
+      "canonical_all_four": 12,
+      "line_all_four": 12,
+      "canonical_joint": {
+        "official": 10,
+        "syntax": 12,
+        "structured64": 12,
+        "nearest64": 12,
+        "dictionary64": 12,
+        "dictionary_pairs64": 12
+      },
+      "line_joint": {
+        "official": 10,
+        "syntax": 12,
+        "structured64": 12,
+        "nearest64": 12,
+        "dictionary64": 12,
+        "dictionary_pairs64": 12
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 0
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 0
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 0
+        }
+      }
+    },
+    {
+      "subgroup": "both_clean",
+      "repo": "apache/commons-csv",
+      "n": 21,
+      "line_status": {
+        "clean": 21
+      },
+      "test_status": {
+        "failed": 6,
+        "ok": 15
+      },
+      "canonical_all_four": 14,
+      "line_all_four": 14,
+      "canonical_joint": {
+        "official": 14,
+        "syntax": 14,
+        "structured64": 14,
+        "nearest64": 14,
+        "dictionary64": 14,
+        "dictionary_pairs64": 14
+      },
+      "line_joint": {
+        "official": 14,
+        "syntax": 14,
+        "structured64": 14,
+        "nearest64": 14,
+        "dictionary64": 14,
+        "dictionary_pairs64": 14
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 0
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 0
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 0
+        }
+      }
+    },
+    {
+      "subgroup": "both_clean",
+      "repo": "checkstyle/checkstyle",
+      "n": 26,
+      "line_status": {
+        "clean": 26
+      },
+      "test_status": {
+        "ok": 26
+      },
+      "canonical_all_four": 26,
+      "line_all_four": 26,
+      "canonical_joint": {
+        "official": 20,
+        "syntax": 22,
+        "structured64": 24,
+        "nearest64": 21,
+        "dictionary64": 20,
+        "dictionary_pairs64": 21
+      },
+      "line_joint": {
+        "official": 20,
+        "syntax": 22,
+        "structured64": 24,
+        "nearest64": 21,
+        "dictionary64": 20,
+        "dictionary_pairs64": 21
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 0
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 0
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 0
+        }
+      }
+    },
+    {
+      "subgroup": "both_clean",
+      "repo": "javaparser/javaparser",
+      "n": 25,
+      "line_status": {
+        "clean": 25
+      },
+      "test_status": {
+        "ok": 25
+      },
+      "canonical_all_four": 24,
+      "line_all_four": 24,
+      "canonical_joint": {
+        "official": 13,
+        "syntax": 20,
+        "structured64": 19,
+        "nearest64": 17,
+        "dictionary64": 16,
+        "dictionary_pairs64": 17
+      },
+      "line_joint": {
+        "official": 13,
+        "syntax": 20,
+        "structured64": 19,
+        "nearest64": 17,
+        "dictionary64": 16,
+        "dictionary_pairs64": 17
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 0
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 0
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 0
+        }
+      }
+    },
+    {
+      "subgroup": "both_clean",
+      "repo": "pallets/flask",
+      "n": 21,
+      "line_status": {
+        "clean": 21
+      },
+      "test_status": {
+        "ok": 17,
+        "original_environment_unavailable": 3,
+        "failed": 1
+      },
+      "canonical_all_four": 17,
+      "line_all_four": 17,
+      "canonical_joint": {
+        "official": 16,
+        "syntax": 16,
+        "structured64": 16,
+        "nearest64": 16,
+        "dictionary64": 16,
+        "dictionary_pairs64": 16
+      },
+      "line_joint": {
+        "official": 16,
+        "syntax": 16,
+        "structured64": 16,
+        "nearest64": 16,
+        "dictionary64": 16,
+        "dictionary_pairs64": 16
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 0
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 0
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 0
+        }
+      }
+    },
+    {
+      "subgroup": "both_clean",
+      "repo": "sphinx-doc/sphinx",
+      "n": 19,
+      "line_status": {
+        "clean": 19
+      },
+      "test_status": {
+        "failed": 19
+      },
+      "canonical_all_four": 0,
+      "line_all_four": 0,
+      "canonical_joint": {
+        "official": 0,
+        "syntax": 0,
+        "structured64": 0,
+        "nearest64": 0,
+        "dictionary64": 0,
+        "dictionary_pairs64": 0
+      },
+      "line_joint": {
+        "official": 0,
+        "syntax": 0,
+        "structured64": 0,
+        "nearest64": 0,
+        "dictionary64": 0,
+        "dictionary_pairs64": 0
+      },
+      "paired_changes": {
+        "official": {
+          "gained": 0,
+          "lost": 0
+        },
+        "syntax": {
+          "gained": 0,
+          "lost": 0
+        },
+        "structured64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "nearest64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary64": {
+          "gained": 0,
+          "lost": 0
+        },
+        "dictionary_pairs64": {
+          "gained": 0,
+          "lost": 0
+        }
+      }
+    }
+  ],
+  "new_job_status": {},
+  "interpretation": "Paired retrospective replay-policy sensitivity; documented joint success yield over all 432 attempts; original-pair and both-clean subsets descriptive, nonrandom; no repair or native Git bug claim. All-four counts include the canonical original archived attempts, while the line policy preserves embedding abstentions as not reached; use embedding-gated joint success for policy comparison."
+}

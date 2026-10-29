@@ -1,0 +1,502 @@
+{
+  "flow": {
+    "python": {
+      "pairs": 135,
+      "files": 45,
+      "projects": 30,
+      "clean": 42,
+      "conflicts": 93,
+      "errors": 0
+    },
+    "java": {
+      "pairs": 129,
+      "files": 43,
+      "projects": 22,
+      "clean": 61,
+      "conflicts": 68,
+      "errors": 0
+    }
+  },
+  "summary": [
+    {
+      "language": "java",
+      "group": "negative_after",
+      "method": "l1_3",
+      "n": 129,
+      "available": 129,
+      "detected": 3,
+      "rate": {
+        "mean": 0.023255813953488372,
+        "lo": 0.0,
+        "hi": 0.08571428571428572,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "negative_after",
+      "method": "nearest_budget",
+      "n": 129,
+      "available": 129,
+      "detected": 1,
+      "rate": {
+        "mean": 0.007751937984496124,
+        "lo": 0.0,
+        "hi": 0.02857142857142857,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "negative_after",
+      "method": "official",
+      "n": 129,
+      "available": 129,
+      "detected": 1,
+      "rate": {
+        "mean": 0.007751937984496124,
+        "lo": 0.0,
+        "hi": 0.02857142857142857,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "negative_after",
+      "method": "syntax",
+      "n": 129,
+      "available": 129,
+      "detected": 3,
+      "rate": {
+        "mean": 0.023255813953488372,
+        "lo": 0.0,
+        "hi": 0.08571428571428572,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "negative_before",
+      "method": "l1_3",
+      "n": 129,
+      "available": 129,
+      "detected": 3,
+      "rate": {
+        "mean": 0.023255813953488372,
+        "lo": 0.0,
+        "hi": 0.08571428571428572,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "negative_before",
+      "method": "nearest_budget",
+      "n": 129,
+      "available": 129,
+      "detected": 2,
+      "rate": {
+        "mean": 0.015503875968992248,
+        "lo": 0.0,
+        "hi": 0.05714285714285714,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "negative_before",
+      "method": "official",
+      "n": 129,
+      "available": 129,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "negative_before",
+      "method": "syntax",
+      "n": 129,
+      "available": 129,
+      "detected": 2,
+      "rate": {
+        "mean": 0.015503875968992248,
+        "lo": 0.0,
+        "hi": 0.05714285714285714,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "positive_after",
+      "method": "l1_3",
+      "n": 129,
+      "available": 61,
+      "detected": 40,
+      "rate": {
+        "mean": 0.31007751937984496,
+        "lo": 0.197516835016835,
+        "hi": 0.4444444444444444,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "positive_after",
+      "method": "nearest_budget",
+      "n": 129,
+      "available": 61,
+      "detected": 41,
+      "rate": {
+        "mean": 0.3178294573643411,
+        "lo": 0.2042955892034233,
+        "hi": 0.45161290322580644,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "positive_after",
+      "method": "official",
+      "n": 129,
+      "available": 61,
+      "detected": 44,
+      "rate": {
+        "mean": 0.34108527131782945,
+        "lo": 0.2276390502000258,
+        "hi": 0.48148148148148145,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "positive_after",
+      "method": "syntax",
+      "n": 129,
+      "available": 61,
+      "detected": 41,
+      "rate": {
+        "mean": 0.3178294573643411,
+        "lo": 0.2042955892034233,
+        "hi": 0.45161290322580644,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "positive_before",
+      "method": "l1_3",
+      "n": 129,
+      "available": 129,
+      "detected": 97,
+      "rate": {
+        "mean": 0.751937984496124,
+        "lo": 0.5888829787234042,
+        "hi": 0.8652516366612112,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "positive_before",
+      "method": "nearest_budget",
+      "n": 129,
+      "available": 129,
+      "detected": 101,
+      "rate": {
+        "mean": 0.7829457364341085,
+        "lo": 0.6436576354679803,
+        "hi": 0.8859649122807017,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "positive_before",
+      "method": "official",
+      "n": 129,
+      "available": 129,
+      "detected": 106,
+      "rate": {
+        "mean": 0.8217054263565892,
+        "lo": 0.6829079221024769,
+        "hi": 0.9270880681818182,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "java",
+      "group": "positive_before",
+      "method": "syntax",
+      "n": 129,
+      "available": 129,
+      "detected": 101,
+      "rate": {
+        "mean": 0.7829457364341085,
+        "lo": 0.6436576354679803,
+        "hi": 0.8859649122807017,
+        "projects": 22
+      },
+      "clean_merge": 61
+    },
+    {
+      "language": "python",
+      "group": "negative_after",
+      "method": "l1_3",
+      "n": 135,
+      "available": 135,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "negative_after",
+      "method": "nearest_budget",
+      "n": 135,
+      "available": 135,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "negative_after",
+      "method": "official",
+      "n": 135,
+      "available": 135,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "negative_after",
+      "method": "syntax",
+      "n": 135,
+      "available": 135,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "negative_before",
+      "method": "l1_3",
+      "n": 135,
+      "available": 135,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "negative_before",
+      "method": "nearest_budget",
+      "n": 135,
+      "available": 135,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "negative_before",
+      "method": "official",
+      "n": 135,
+      "available": 135,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "negative_before",
+      "method": "syntax",
+      "n": 135,
+      "available": 135,
+      "detected": 0,
+      "rate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "positive_after",
+      "method": "l1_3",
+      "n": 135,
+      "available": 42,
+      "detected": 21,
+      "rate": {
+        "mean": 0.15555555555555556,
+        "lo": 0.08333333333333333,
+        "hi": 0.24031007751937986,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "positive_after",
+      "method": "nearest_budget",
+      "n": 135,
+      "available": 42,
+      "detected": 23,
+      "rate": {
+        "mean": 0.17037037037037037,
+        "lo": 0.08333333333333333,
+        "hi": 0.2698412698412698,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "positive_after",
+      "method": "official",
+      "n": 135,
+      "available": 42,
+      "detected": 27,
+      "rate": {
+        "mean": 0.2,
+        "lo": 0.10833333333333334,
+        "hi": 0.30666666666666664,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "positive_after",
+      "method": "syntax",
+      "n": 135,
+      "available": 42,
+      "detected": 22,
+      "rate": {
+        "mean": 0.16296296296296298,
+        "lo": 0.07801418439716312,
+        "hi": 0.26515538033395175,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "positive_before",
+      "method": "l1_3",
+      "n": 135,
+      "available": 135,
+      "detected": 93,
+      "rate": {
+        "mean": 0.6888888888888889,
+        "lo": 0.5191105039465695,
+        "hi": 0.8682170542635659,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "positive_before",
+      "method": "nearest_budget",
+      "n": 135,
+      "available": 135,
+      "detected": 108,
+      "rate": {
+        "mean": 0.8,
+        "lo": 0.6739091890225101,
+        "hi": 0.9230769230769231,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "positive_before",
+      "method": "official",
+      "n": 135,
+      "available": 135,
+      "detected": 119,
+      "rate": {
+        "mean": 0.8814814814814815,
+        "lo": 0.7755102040816326,
+        "hi": 0.9743589743589743,
+        "projects": 30
+      },
+      "clean_merge": 42
+    },
+    {
+      "language": "python",
+      "group": "positive_before",
+      "method": "syntax",
+      "n": 135,
+      "available": 135,
+      "detected": 109,
+      "rate": {
+        "mean": 0.8074074074074075,
+        "lo": 0.6851767676767677,
+        "hi": 0.9316239316239316,
+        "projects": 30
+      },
+      "clean_merge": 42
+    }
+  ]
+}

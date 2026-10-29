@@ -1,0 +1,24 @@
+2026-10-28. Exploratory ecological extension; separate from CodeContests confirmation.
+Reuse the frozen FSE purposive public-commit manifest (Python and Java entries
+with in_main=true). Do not search for commits favorable to the recovery method.
+Verify both cached texts against the recorded content hashes. Retain missing,
+mismatched, embedding-abstained and merge-conflict cases in the acquisition flow.
+
+For every retained parent file, run official SEW under the three fixed study keys.
+Replay the actual developer edit with git merge-file: current=marked parent,
+base=original parent, other=developer revision. A clean three-way merge yields
+the suspect positive. The original developer revision is its negative control.
+Merge conflicts are unavailable outcomes, not successful watermark removal.
+This is counterfactual patch replay, not an observation of developers editing
+already-watermarked code. Do not claim repository tests or semantic equivalence.
+Record parse status, merge coverage, code/context/grade counts, candidate counts,
+official and recovery scores. Use the previously frozen candidate constructors;
+do not adapt them to these edits. Compare before/after and same-key negatives.
+
+Transfer the CodeContests validation thresholds for the corresponding language
+as an external-distribution stress test, reporting the actual alarm rate rather
+than assuming transfer validity. Report project-cluster uncertainty where useful.
+No raw third-party files are included in a public release: preserve immutable
+repository/path/commit references and derived results; local cache keeps original
+provenance. No new scraping, private access, source-program execution, or LLM
+labeling is needed for this extension.

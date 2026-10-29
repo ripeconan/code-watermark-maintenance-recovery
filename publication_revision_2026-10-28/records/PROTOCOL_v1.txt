@@ -1,0 +1,43 @@
+FSE continuation: maintenance evidence and detector recovery
+Date: 2026-10-28. Status: active research, not submission-ready.
+
+Preserve paper/, major_revision_2026-10-27/, and all historical outputs.
+Run new empirical computations on inner. Public benchmark sources only.
+First correct SEW verdicts, including MIN_EVIDENCE, from frozen row-level data.
+Do not count this correction as a scientific contribution.
+
+Research question: how much maintenance-induced detection loss is attributable
+to changed addressing, and how much can a detector recover without the original
+code, edit log, or changes to the deployed embedder?
+
+Development cohort: the existing Python SEW outputs. They have been inspected
+previously and cannot serve as an untouched confirmation set. All results below
+are explicitly exploratory. Subsequent languages/benchmarks require a separate
+frozen protocol before their outcomes are examined.
+
+Detector recovery candidates: replace the observed global context tuple by
+nonnegative integer tuples within L1 distance 1 or 2. These sets depend only on
+the suspect code, never on the original context or on detector outcomes.
+Compare official detection, unadjusted minimum p (diagnostic), multiplicity-
+adjusted minimum p, and negative-only calibrated scan. All retain >=5 grades.
+Oracle original context is a diagnostic ceiling, never a deployable comparator.
+Keep original, formatter, comment stripping and dead-return conditions; the
+last is a synthetic mechanism intervention, not sampled developer maintenance.
+
+Report full-denominator detection, functional-and-detected rate, negative alarm
+rates, grade coverage, paired task-cluster intervals and runtime. Calibrate on
+negative programs only, splitting by semantic task across keys and edits.
+Compare original-only frozen calibration with edit-matched calibration; the
+latter assumes knowledge of the edit distribution and is a diagnostic reference.
+No claim of fixed-key distribution-free validity from a random-key argument.
+
+Near-neighbor boundary: synchronization is already studied by SynMark, robust
+text watermarks and earlier code obfuscation work. SEW already groups repeated
+grades and calibrates style frequencies. CREST already tests maintenance attack
+chains. Novelty must lie in verified recovery capability and actionable measured
+limits beyond these methods, not in naming synchronization or adding languages.
+
+Deliverable target: revised English paper + supplement + runnable source and
+traceable tables. Prefer JSS/EMSE subject to verified scope and no mandatory APC.
+Do not call a working draft a high-quality submission until its claims, baselines,
+functional checks, statistical comparisons and full PDF have been reviewed.

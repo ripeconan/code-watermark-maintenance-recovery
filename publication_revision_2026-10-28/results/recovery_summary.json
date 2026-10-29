@@ -1,0 +1,7576 @@
+{
+  "summary": [
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.044871794871794865,
+        "lo": 0.02564102564102564,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.012820512820512818,
+        "lo": 0.0021367521367521365,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 19,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.0405982905982906,
+        "lo": 0.023504273504273504,
+        "hi": 0.059829059829059825,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.027777777777777776,
+        "hi": 0.0641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 19,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.0405982905982906,
+        "lo": 0.023504273504273504,
+        "hi": 0.05769230769230768,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.025641025641025637,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0,
+        "hi": 0.019230769230769232,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 25,
+      "joint_count": 9,
+      "detection": {
+        "mean": 0.05341880341880341,
+        "lo": 0.034134615384615395,
+        "hi": 0.07692307692307691,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.019230769230769232,
+        "lo": 0.00641025641025641,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 25,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.05341880341880341,
+        "lo": 0.03418803418803418,
+        "hi": 0.07478632478632477,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 31,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.06623931623931623,
+        "lo": 0.04487179487179487,
+        "hi": 0.0876068376068376,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.014957264957264956,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 6,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 8,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 6,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 8,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029861111111111126,
+        "hi": 0.06837606837606837,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.03632478632478632,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 19,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.04059829059829059,
+        "lo": 0.021367521367521364,
+        "hi": 0.0641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.023504273504273504,
+        "lo": 0.008547008547008546,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 19,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.0405982905982906,
+        "lo": 0.021367521367521364,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.008547008547008546,
+        "hi": 0.04487179487179487,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029861111111111126,
+        "hi": 0.06837606837606837,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.03632478632478632,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 78,
+      "joint_count": 27,
+      "detection": {
+        "mean": 0.16666666666666666,
+        "lo": 0.13242521367521368,
+        "hi": 0.20299145299145296,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.05769230769230768,
+        "lo": 0.03632478632478632,
+        "hi": 0.07905982905982906,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 61,
+      "joint_count": 23,
+      "detection": {
+        "mean": 0.13034188034188032,
+        "lo": 0.09615384615384616,
+        "hi": 0.16452991452991453,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.049145299145299144,
+        "lo": 0.027777777777777776,
+        "hi": 0.07264957264957264,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 62,
+      "joint_count": 26,
+      "detection": {
+        "mean": 0.13247863247863245,
+        "lo": 0.09829059829059829,
+        "hi": 0.16666666666666666,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.05555555555555555,
+        "lo": 0.03205128205128205,
+        "hi": 0.08333333333333333,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 78,
+      "joint_count": 27,
+      "detection": {
+        "mean": 0.16666666666666666,
+        "lo": 0.13242521367521368,
+        "hi": 0.20299145299145296,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.05769230769230768,
+        "lo": 0.03632478632478632,
+        "hi": 0.07905982905982906,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 19,
+      "joint_count": 8,
+      "detection": {
+        "mean": 0.0405982905982906,
+        "lo": 0.0235042735042735,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.03205128205128205,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 17,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.03632478632478632,
+        "lo": 0.017094017094017092,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.03846153846153846,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.00641025641025641,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.02564102564102564,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.03632478632478632,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 9,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.019230769230769232,
+        "lo": 0.00641025641025641,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.012820512820512818,
+        "lo": 0.0021367521367521365,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029914529914529912,
+        "hi": 0.0641559829059831,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.02564102564102564,
+        "hi": 0.0641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264958,
+        "lo": 0.004273504273504273,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 5,
+      "detection": {
+        "mean": 0.04273504273504273,
+        "lo": 0.025641025641025637,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029914529914529912,
+        "hi": 0.0641559829059831,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029914529914529912,
+        "hi": 0.0641559829059831,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.02564102564102564,
+        "hi": 0.0641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264958,
+        "lo": 0.004273504273504273,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 5,
+      "detection": {
+        "mean": 0.04273504273504273,
+        "lo": 0.025641025641025637,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029914529914529912,
+        "hi": 0.0641559829059831,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 7,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 6,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 6,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.04700854700854701,
+        "lo": 0.029914529914529912,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 8,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.025641025641025637,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.027777777777777776,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 8,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.027777777777777776,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.027777777777777783,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.04700854700854701,
+        "lo": 0.029914529914529912,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.04273504273504273,
+        "lo": 0.02564102564102564,
+        "hi": 0.059829059829059825,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.019230769230769232,
+        "hi": 0.05128205128205128,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.012820512820512818,
+        "lo": 0.004273504273504273,
+        "hi": 0.0235042735042735,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 14,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.029914529914529912,
+        "lo": 0.014957264957264956,
+        "hi": 0.04487179487179487,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.04273504273504273,
+        "lo": 0.02564102564102564,
+        "hi": 0.059829059829059825,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 4,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 4,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 4,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.04273504273504273,
+        "lo": 0.02564102564102564,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 24,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.05128205128205127,
+        "lo": 0.03205128205128205,
+        "hi": 0.07051282051282051,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 90,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.1923076923076923,
+        "lo": 0.15384615384615385,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05128205128205128,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 330,
+      "joint_count": 99,
+      "detection": {
+        "mean": 0.7051282051282052,
+        "lo": 0.6602564102564101,
+        "hi": 0.7478632478632478,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.21153846153846154,
+        "lo": 0.16666666666666666,
+        "hi": 0.2585470085470085,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 325,
+      "joint_count": 98,
+      "detection": {
+        "mean": 0.6944444444444444,
+        "lo": 0.6474358974358975,
+        "hi": 0.7371794871794872,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.20940170940170938,
+        "lo": 0.16452991452991453,
+        "hi": 0.2564102564102564,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 354,
+      "joint_count": 109,
+      "detection": {
+        "mean": 0.7564102564102564,
+        "lo": 0.7157585470085469,
+        "hi": 0.7970085470085471,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.23290598290598288,
+        "lo": 0.18376068376068377,
+        "hi": 0.2841880341880342,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 103,
+      "joint_count": 23,
+      "detection": {
+        "mean": 0.22008547008547005,
+        "lo": 0.1816239316239316,
+        "hi": 0.2585470085470085,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.049145299145299144,
+        "lo": 0.029914529914529912,
+        "hi": 0.07051282051282051,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 332,
+      "joint_count": 100,
+      "detection": {
+        "mean": 0.7094017094017094,
+        "lo": 0.6645299145299146,
+        "hi": 0.7521367521367521,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.21367521367521364,
+        "lo": 0.1688034188034188,
+        "hi": 0.26068376068376065,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 325,
+      "joint_count": 98,
+      "detection": {
+        "mean": 0.6944444444444444,
+        "lo": 0.6474358974358975,
+        "hi": 0.7371794871794872,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.20940170940170938,
+        "lo": 0.16452991452991453,
+        "hi": 0.2564102564102564,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 366,
+      "joint_count": 115,
+      "detection": {
+        "mean": 0.7820512820512819,
+        "lo": 0.7414529914529914,
+        "hi": 0.8205128205128205,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.2457264957264957,
+        "lo": 0.19444444444444445,
+        "hi": 0.2991452991452991,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 57,
+      "joint_count": 9,
+      "detection": {
+        "mean": 0.12179487179487179,
+        "lo": 0.09188034188034187,
+        "hi": 0.1517094017094017,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.019230769230769232,
+        "lo": 0.00641025641025641,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 320,
+      "joint_count": 96,
+      "detection": {
+        "mean": 0.6837606837606837,
+        "lo": 0.6388888888888888,
+        "hi": 0.7243589743589743,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.2051282051282051,
+        "lo": 0.16025641025641027,
+        "hi": 0.25,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 295,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6303418803418804,
+        "lo": 0.5833333333333334,
+        "hi": 0.6773504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.18589743589743588,
+        "lo": 0.14316239316239315,
+        "hi": 0.22863247863247865,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 327,
+      "joint_count": 101,
+      "detection": {
+        "mean": 0.6987179487179487,
+        "lo": 0.6538461538461539,
+        "hi": 0.7414529914529914,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.2158119658119658,
+        "lo": 0.1688034188034188,
+        "hi": 0.26282051282051283,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 286,
+      "joint_count": 86,
+      "detection": {
+        "mean": 0.6111111111111112,
+        "lo": 0.5641025641025641,
+        "hi": 0.6581196581196581,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.18376068376068375,
+        "lo": 0.141025641025641,
+        "hi": 0.22863247863247863,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 291,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6217948717948718,
+        "lo": 0.5747863247863247,
+        "hi": 0.6688034188034188,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.18589743589743588,
+        "lo": 0.14316239316239315,
+        "hi": 0.23076923076923078,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 231,
+      "joint_count": 69,
+      "detection": {
+        "mean": 0.4935897435897436,
+        "lo": 0.44444444444444453,
+        "hi": 0.5427350427350427,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.14743589743589744,
+        "lo": 0.10897435897435898,
+        "hi": 0.19017094017094016,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 201,
+      "joint_count": 57,
+      "detection": {
+        "mean": 0.42948717948717946,
+        "lo": 0.3824252136752136,
+        "hi": 0.47649572649572647,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.12179487179487178,
+        "lo": 0.08760683760683759,
+        "hi": 0.16025641025641027,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 281,
+      "joint_count": 85,
+      "detection": {
+        "mean": 0.6004273504273504,
+        "lo": 0.5512820512820513,
+        "hi": 0.6474358974358975,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.18162393162393162,
+        "lo": 0.13888888888888887,
+        "hi": 0.22649572649572647,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 55,
+      "joint_count": 9,
+      "detection": {
+        "mean": 0.11752136752136752,
+        "lo": 0.0876068376068376,
+        "hi": 0.1495726495726496,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01923076923076923,
+        "lo": 0.00849358974358976,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 60,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.1282051282051282,
+        "lo": 0.09829059829059829,
+        "hi": 0.16025641025641027,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.02564102564102564,
+        "lo": 0.012820512820512818,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 164,
+      "joint_count": 48,
+      "detection": {
+        "mean": 0.3504273504273504,
+        "lo": 0.3098290598290598,
+        "hi": 0.39529914529914534,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.10256410256410255,
+        "lo": 0.07051282051282051,
+        "hi": 0.13888888888888887,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 139,
+      "joint_count": 35,
+      "detection": {
+        "mean": 0.29700854700854695,
+        "lo": 0.2542735042735043,
+        "hi": 0.34188034188034183,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.07478632478632478,
+        "lo": 0.049145299145299144,
+        "hi": 0.10470085470085469,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 123,
+      "joint_count": 34,
+      "detection": {
+        "mean": 0.26282051282051283,
+        "lo": 0.22222222222222227,
+        "hi": 0.3055555555555556,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.07264957264957264,
+        "lo": 0.04700854700854701,
+        "hi": 0.10256410256410256,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 164,
+      "joint_count": 48,
+      "detection": {
+        "mean": 0.3504273504273504,
+        "lo": 0.3098290598290598,
+        "hi": 0.39529914529914534,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.10256410256410255,
+        "lo": 0.07051282051282051,
+        "hi": 0.13888888888888887,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 243,
+      "joint_count": 71,
+      "detection": {
+        "mean": 0.5192307692307693,
+        "lo": 0.4700854700854701,
+        "hi": 0.5705128205128205,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1517094017094017,
+        "lo": 0.11324786324786323,
+        "hi": 0.19236111111111132,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 195,
+      "joint_count": 56,
+      "detection": {
+        "mean": 0.4166666666666667,
+        "lo": 0.3717948717948718,
+        "hi": 0.4637286324786327,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.11965811965811965,
+        "lo": 0.08547008547008546,
+        "hi": 0.1581196581196581,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 190,
+      "joint_count": 51,
+      "detection": {
+        "mean": 0.40598290598290593,
+        "lo": 0.3611111111111111,
+        "hi": 0.45299145299145305,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.10897435897435895,
+        "lo": 0.07692307692307693,
+        "hi": 0.14316239316239318,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 243,
+      "joint_count": 71,
+      "detection": {
+        "mean": 0.5192307692307693,
+        "lo": 0.4700854700854701,
+        "hi": 0.5705128205128205,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1517094017094017,
+        "lo": 0.11324786324786323,
+        "hi": 0.19236111111111132,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 155,
+      "joint_count": 44,
+      "detection": {
+        "mean": 0.33119658119658113,
+        "lo": 0.29059829059829057,
+        "hi": 0.3760683760683761,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.094017094017094,
+        "lo": 0.0641025641025641,
+        "hi": 0.1282051282051282,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 130,
+      "joint_count": 34,
+      "detection": {
+        "mean": 0.27777777777777773,
+        "lo": 0.23504273504273504,
+        "hi": 0.32270299145299164,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.07264957264957264,
+        "lo": 0.047008547008547,
+        "hi": 0.10256410256410256,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 102,
+      "joint_count": 25,
+      "detection": {
+        "mean": 0.2179487179487179,
+        "lo": 0.1794871794871795,
+        "hi": 0.2585470085470085,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.05341880341880341,
+        "lo": 0.03205128205128205,
+        "hi": 0.07905982905982906,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 162,
+      "joint_count": 47,
+      "detection": {
+        "mean": 0.34615384615384615,
+        "lo": 0.3034188034188034,
+        "hi": 0.391025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.10042735042735042,
+        "lo": 0.07051282051282051,
+        "hi": 0.1346153846153846,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.11538461538461539,
+        "hi": 0.18376068376068372,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.01282051282051282,
+        "hi": 0.04487179487179487,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 92,
+      "joint_count": 21,
+      "detection": {
+        "mean": 0.19658119658119658,
+        "lo": 0.16025641025641027,
+        "hi": 0.23717948717948717,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.04487179487179487,
+        "lo": 0.023504273504273504,
+        "hi": 0.0705128205128205,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 28,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.059829059829059825,
+        "lo": 0.038461538461538464,
+        "hi": 0.08333333333333333,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 18,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.038461538461538464,
+        "lo": 0.021367521367521364,
+        "hi": 0.057692307692307696,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 55,
+      "joint_count": 9,
+      "detection": {
+        "mean": 0.11752136752136752,
+        "lo": 0.0876068376068376,
+        "hi": 0.1495726495726496,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01923076923076923,
+        "lo": 0.00849358974358976,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "available": 455
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 271,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5790598290598291,
+        "lo": 0.5299145299145298,
+        "hi": 0.6260683760683761,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 326,
+      "joint_count": 99,
+      "detection": {
+        "mean": 0.6965811965811967,
+        "lo": 0.6517094017094017,
+        "hi": 0.7393162393162392,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.21153846153846154,
+        "lo": 0.16666666666666666,
+        "hi": 0.2585470085470085,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 285,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6089743589743589,
+        "lo": 0.5598290598290597,
+        "hi": 0.6581196581196581,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5555555555555555,
+        "hi": 0.6517094017094017,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 278,
+      "joint_count": 85,
+      "detection": {
+        "mean": 0.5940170940170941,
+        "lo": 0.5448717948717948,
+        "hi": 0.6410256410256411,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1816239316239316,
+        "lo": 0.13888888888888887,
+        "hi": 0.22649572649572647,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 285,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6089743589743589,
+        "lo": 0.5598290598290597,
+        "hi": 0.6581196581196581,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 285,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6089743589743589,
+        "lo": 0.5598290598290597,
+        "hi": 0.6581196581196581,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5555555555555555,
+        "hi": 0.6517094017094017,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 278,
+      "joint_count": 85,
+      "detection": {
+        "mean": 0.5940170940170941,
+        "lo": 0.5448717948717948,
+        "hi": 0.6410256410256411,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1816239316239316,
+        "lo": 0.13888888888888887,
+        "hi": 0.22649572649572647,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 285,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6089743589743589,
+        "lo": 0.5598290598290597,
+        "hi": 0.6581196581196581,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 281,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6004273504273504,
+        "lo": 0.5512820512820513,
+        "hi": 0.6474358974358975,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 275,
+      "joint_count": 84,
+      "detection": {
+        "mean": 0.5876068376068376,
+        "lo": 0.5384615384615384,
+        "hi": 0.6346153846153846,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1794871794871795,
+        "lo": 0.13675213675213674,
+        "hi": 0.22435897435897437,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 270,
+      "joint_count": 82,
+      "detection": {
+        "mean": 0.5769230769230769,
+        "lo": 0.5277777777777777,
+        "hi": 0.623931623931624,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1752136752136752,
+        "lo": 0.1346153846153846,
+        "hi": 0.21794871794871795,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 282,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6025641025641025,
+        "lo": 0.5534188034188033,
+        "hi": 0.6495726495726496,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 271,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5790598290598291,
+        "lo": 0.5299145299145298,
+        "hi": 0.6260683760683761,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 271,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5790598290598291,
+        "lo": 0.5299145299145298,
+        "hi": 0.6260683760683761,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 237,
+      "joint_count": 73,
+      "detection": {
+        "mean": 0.5064102564102564,
+        "lo": 0.45726495726495725,
+        "hi": 0.5555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.15598290598290596,
+        "lo": 0.11538461538461539,
+        "hi": 0.1987179487179487,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 204,
+      "joint_count": 61,
+      "detection": {
+        "mean": 0.4358974358974359,
+        "lo": 0.38675213675213677,
+        "hi": 0.485042735042735,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.13034188034188032,
+        "lo": 0.09401709401709402,
+        "hi": 0.17094017094017092,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 271,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5790598290598291,
+        "lo": 0.5299145299145298,
+        "hi": 0.6260683760683761,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 269,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5747863247863249,
+        "lo": 0.5256410256410257,
+        "hi": 0.6217948717948718,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 319,
+      "joint_count": 98,
+      "detection": {
+        "mean": 0.6816239316239316,
+        "lo": 0.6367521367521368,
+        "hi": 0.7264957264957265,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.20940170940170938,
+        "lo": 0.16452991452991453,
+        "hi": 0.2564102564102564,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5555555555555555,
+        "hi": 0.6538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 282,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6025641025641025,
+        "lo": 0.5534188034188033,
+        "hi": 0.6496260683760686,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 278,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.594017094017094,
+        "lo": 0.5448717948717948,
+        "hi": 0.6410256410256411,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5555555555555555,
+        "hi": 0.6538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5555555555555555,
+        "hi": 0.6538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 281,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6004273504273504,
+        "lo": 0.5512820512820513,
+        "hi": 0.6474358974358975,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 276,
+      "joint_count": 85,
+      "detection": {
+        "mean": 0.5897435897435898,
+        "lo": 0.5405982905982907,
+        "hi": 0.6367521367521368,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1816239316239316,
+        "lo": 0.13888888888888887,
+        "hi": 0.22649572649572647,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5555555555555555,
+        "hi": 0.6538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 279,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.5961538461538461,
+        "lo": 0.547008547008547,
+        "hi": 0.6432158119658122,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 273,
+      "joint_count": 84,
+      "detection": {
+        "mean": 0.5833333333333334,
+        "lo": 0.5341880341880343,
+        "hi": 0.6303418803418804,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1794871794871795,
+        "lo": 0.13675213675213674,
+        "hi": 0.22435897435897437,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 268,
+      "joint_count": 82,
+      "detection": {
+        "mean": 0.5726495726495727,
+        "lo": 0.5235042735042734,
+        "hi": 0.6196581196581197,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1752136752136752,
+        "lo": 0.1346153846153846,
+        "hi": 0.21794871794871795,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 280,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.5982905982905984,
+        "lo": 0.5491452991452991,
+        "hi": 0.6474358974358974,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 269,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5747863247863249,
+        "lo": 0.5256410256410257,
+        "hi": 0.6217948717948718,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 269,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5747863247863249,
+        "lo": 0.5256410256410257,
+        "hi": 0.6217948717948718,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 233,
+      "joint_count": 72,
+      "detection": {
+        "mean": 0.4978632478632478,
+        "lo": 0.4487179487179486,
+        "hi": 0.547008547008547,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.15384615384615385,
+        "lo": 0.11324786324786323,
+        "hi": 0.19658119658119658,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 199,
+      "joint_count": 59,
+      "detection": {
+        "mean": 0.4252136752136752,
+        "lo": 0.3760683760683761,
+        "hi": 0.47435897435897434,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.12606837606837606,
+        "lo": 0.08974358974358974,
+        "hi": 0.16458333333333353,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "deepseek",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 269,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5747863247863249,
+        "lo": 0.5256410256410257,
+        "hi": 0.6217948717948718,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 3,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.042735042735042736,
+        "lo": 0.025641025641025637,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 18,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.038461538461538464,
+        "lo": 0.021367521367521364,
+        "hi": 0.057692307692307696,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 18,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.03846153846153846,
+        "lo": 0.0235042735042735,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 17,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.03632478632478632,
+        "lo": 0.021367521367521364,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 62,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.13247863247863245,
+        "lo": 0.10042735042735042,
+        "hi": 0.16452991452991453,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 80,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.17094017094017092,
+        "lo": 0.12606837606837606,
+        "hi": 0.2158119658119658,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 78,
+      "joint_count": 5,
+      "detection": {
+        "mean": 0.16666666666666666,
+        "lo": 0.12393162393162392,
+        "hi": 0.21153846153846154,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 45,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.09615384615384615,
+        "lo": 0.0705128205128205,
+        "hi": 0.12393162393162395,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 17,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.03632478632478632,
+        "lo": 0.019230769230769232,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 13,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.014957264957264956,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.019230769230769232,
+        "hi": 0.05128205128205127,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 13,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.014957264957264956,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 6,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 15,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.03205128205128205,
+        "lo": 0.017094017094017092,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.008547008547008546,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 18,
+      "joint_count": 5,
+      "detection": {
+        "mean": 0.038461538461538464,
+        "lo": 0.021367521367521368,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.014957264957264956,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.012820512820512818,
+        "lo": 0.0021367521367521365,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.027777777777777776,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 18,
+      "joint_count": 5,
+      "detection": {
+        "mean": 0.038461538461538464,
+        "lo": 0.021367521367521368,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 42,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.08974358974358973,
+        "lo": 0.0641025641025641,
+        "hi": 0.11538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.02564102564102564,
+        "lo": 0.01282051282051282,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 48,
+      "joint_count": 14,
+      "detection": {
+        "mean": 0.10256410256410256,
+        "lo": 0.07051282051282051,
+        "hi": 0.13888888888888887,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.029914529914529912,
+        "lo": 0.01282051282051282,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 46,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.09829059829059829,
+        "lo": 0.06623931623931623,
+        "hi": 0.13247863247863245,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.010683760683760682,
+        "hi": 0.04700854700854701,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 42,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.08974358974358973,
+        "lo": 0.0641025641025641,
+        "hi": 0.11538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.02564102564102564,
+        "lo": 0.01282051282051282,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 3,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 8,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.03205128205128205,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 5,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.0235042735042735,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.02564102564102564,
+        "lo": 0.01282051282051282,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 3,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.04700854700854701,
+        "lo": 0.027777777777777776,
+        "hi": 0.06837606837606837,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.027777777777777776,
+        "hi": 0.0705128205128205,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.04700854700854701,
+        "lo": 0.027777777777777776,
+        "hi": 0.06837606837606837,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.027777777777777776,
+        "hi": 0.0705128205128205,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 3,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 3,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 6,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 3,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "original",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.02564102564102564,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.023504273504273504,
+        "hi": 0.0705128205128205,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0,
+        "hi": 0.019230769230769232,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.021367521367521368,
+        "hi": 0.07051282051282051,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0,
+        "hi": 0.019230769230769232,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.02564102564102564,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.02564102564102564,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 17,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.03632478632478632,
+        "lo": 0.019230769230769232,
+        "hi": 0.057692307692307696,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 15,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.03205128205128205,
+        "lo": 0.014957264957264956,
+        "hi": 0.05128205128205128,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.02564102564102564,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 3,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 4,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 13,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.014957264957264956,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 99,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.21153846153846148,
+        "lo": 0.18376068376068375,
+        "hi": 0.23717948717948714,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 30,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.0641025641025641,
+        "lo": 0.04273504273504273,
+        "hi": 0.08760683760683759,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 117,
+      "joint_count": 17,
+      "detection": {
+        "mean": 0.25,
+        "lo": 0.20080128205128206,
+        "hi": 0.3013354700854703,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03632478632478632,
+        "lo": 0.019230769230769232,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 111,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.23717948717948717,
+        "lo": 0.18798076923076923,
+        "hi": 0.28846153846153844,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 103,
+      "joint_count": 18,
+      "detection": {
+        "mean": 0.22008547008547005,
+        "lo": 0.1752136752136752,
+        "hi": 0.2649572649572649,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.038461538461538464,
+        "lo": 0.021367521367521364,
+        "hi": 0.057692307692307696,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10470085470085469,
+        "hi": 0.1752136752136752,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.027777777777777776,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 122,
+      "joint_count": 19,
+      "detection": {
+        "mean": 0.2606837606837607,
+        "lo": 0.20940170940170938,
+        "hi": 0.31410256410256404,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0405982905982906,
+        "lo": 0.0235042735042735,
+        "hi": 0.059829059829059825,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 120,
+      "joint_count": 18,
+      "detection": {
+        "mean": 0.2564102564102564,
+        "lo": 0.20512820512820512,
+        "hi": 0.3098290598290598,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.038461538461538464,
+        "lo": 0.021367521367521364,
+        "hi": 0.057692307692307696,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 113,
+      "joint_count": 19,
+      "detection": {
+        "mean": 0.24145299145299143,
+        "lo": 0.19658119658119658,
+        "hi": 0.28632478632478636,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0405982905982906,
+        "lo": 0.0235042735042735,
+        "hi": 0.059829059829059825,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 30,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.0641025641025641,
+        "lo": 0.0405982905982906,
+        "hi": 0.08760683760683759,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 117,
+      "joint_count": 17,
+      "detection": {
+        "mean": 0.25,
+        "lo": 0.20080128205128206,
+        "hi": 0.3013354700854703,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03632478632478632,
+        "lo": 0.019230769230769232,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 107,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.22863247863247865,
+        "lo": 0.1794871794871795,
+        "hi": 0.27777777777777773,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 96,
+      "joint_count": 18,
+      "detection": {
+        "mean": 0.20512820512820512,
+        "lo": 0.1623931623931624,
+        "hi": 0.24786324786324784,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.038461538461538464,
+        "lo": 0.021367521367521364,
+        "hi": 0.057692307692307696,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 101,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.2158119658119658,
+        "lo": 0.1688034188034188,
+        "hi": 0.265010683760684,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 106,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.22649572649572652,
+        "lo": 0.17735042735042733,
+        "hi": 0.27777777777777773,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 63,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.1346153846153846,
+        "lo": 0.09829059829059829,
+        "hi": 0.17094017094017092,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.02564102564102564,
+        "lo": 0.012820512820512818,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 57,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.12179487179487179,
+        "lo": 0.0876068376068376,
+        "hi": 0.15598290598290598,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.023504273504273504,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 76,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.1623931623931624,
+        "lo": 0.12393162393162392,
+        "hi": 0.20090811965811986,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.027777777777777776,
+        "hi": 0.0641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 23,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.049145299145299144,
+        "lo": 0.029914529914529912,
+        "hi": 0.07051282051282051,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 54,
+      "joint_count": 15,
+      "detection": {
+        "mean": 0.11538461538461539,
+        "lo": 0.08333333333333333,
+        "hi": 0.14957264957264954,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03205128205128205,
+        "lo": 0.017094017094017092,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 49,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.10470085470085469,
+        "lo": 0.07264957264957264,
+        "hi": 0.13888888888888887,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777783,
+        "lo": 0.01282051282051282,
+        "hi": 0.04487179487179487,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 50,
+      "joint_count": 15,
+      "detection": {
+        "mean": 0.10683760683760682,
+        "lo": 0.07478632478632478,
+        "hi": 0.14102564102564102,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03205128205128205,
+        "lo": 0.014957264957264956,
+        "hi": 0.05128205128205128,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 54,
+      "joint_count": 15,
+      "detection": {
+        "mean": 0.11538461538461539,
+        "lo": 0.08333333333333333,
+        "hi": 0.14957264957264954,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03205128205128205,
+        "lo": 0.017094017094017092,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 61,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.13034188034188032,
+        "lo": 0.09829059829059829,
+        "hi": 0.16452991452991453,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017096,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 63,
+      "joint_count": 18,
+      "detection": {
+        "mean": 0.1346153846153846,
+        "lo": 0.10042735042735042,
+        "hi": 0.17307692307692307,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.038461538461538464,
+        "lo": 0.019230769230769232,
+        "hi": 0.059829059829059825,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 62,
+      "joint_count": 17,
+      "detection": {
+        "mean": 0.13247863247863245,
+        "lo": 0.09615384615384616,
+        "hi": 0.17094017094017092,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03632478632478632,
+        "lo": 0.019177350427350442,
+        "hi": 0.057692307692307696,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 61,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.13034188034188032,
+        "lo": 0.09829059829059829,
+        "hi": 0.16452991452991453,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017096,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 39,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.08333333333333333,
+        "lo": 0.057692307692307696,
+        "hi": 0.10897435897435898,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0235042735042735,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 34,
+      "joint_count": 9,
+      "detection": {
+        "mean": 0.07264957264957264,
+        "lo": 0.049145299145299144,
+        "hi": 0.09615384615384616,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.019230769230769232,
+        "lo": 0.00641025641025641,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 31,
+      "joint_count": 8,
+      "detection": {
+        "mean": 0.06623931623931623,
+        "lo": 0.04273504273504273,
+        "hi": 0.08974358974358974,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.03205128205128205,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 46,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.09829059829059829,
+        "lo": 0.07051282051282051,
+        "hi": 0.1282051282051282,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0235042735042735,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.04700854700854701,
+        "lo": 0.029914529914529912,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 26,
+      "joint_count": 8,
+      "detection": {
+        "mean": 0.05555555555555555,
+        "lo": 0.03632478632478632,
+        "hi": 0.07692307692307691,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.03205128205128205,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 9,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.019230769230769232,
+        "lo": 0.00641025641025641,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.01282051282051282,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 6,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.012820512820512818,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.027777777777777776,
+        "hi": 0.0641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 406
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 66,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.17735042735042733,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 126,
+      "joint_count": 17,
+      "detection": {
+        "mean": 0.2692307692307692,
+        "lo": 0.2243589743589743,
+        "hi": 0.3162393162393162,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03632478632478632,
+        "lo": 0.019230769230769232,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 70,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14957264957264957,
+        "lo": 0.11324786324786323,
+        "hi": 0.1858974358974359,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 68,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14529914529914528,
+        "lo": 0.10897435897435898,
+        "hi": 0.18162393162393162,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 70,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14957264957264957,
+        "lo": 0.11324786324786323,
+        "hi": 0.1858974358974359,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 70,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14957264957264957,
+        "lo": 0.11324786324786323,
+        "hi": 0.1858974358974359,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 68,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14529914529914528,
+        "lo": 0.10897435897435898,
+        "hi": 0.18162393162393162,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 70,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14957264957264957,
+        "lo": 0.11324786324786323,
+        "hi": 0.1858974358974359,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 67,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14316239316239315,
+        "lo": 0.10683760683760682,
+        "hi": 0.1794871794871795,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 66,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.17735042735042733,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10470085470085469,
+        "hi": 0.17307692307692307,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 67,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14316239316239315,
+        "lo": 0.10683760683760682,
+        "hi": 0.1794871794871795,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 66,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.17735042735042733,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 66,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.17735042735042733,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 59,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.12606837606837606,
+        "lo": 0.09188034188034187,
+        "hi": 0.16025641025641027,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.023504273504273504,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 54,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.11538461538461539,
+        "lo": 0.0811965811965812,
+        "hi": 0.1517094017094017,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.023504273504273504,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "original",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 66,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.17735042735042733,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10256410256410256,
+        "hi": 0.17313034188034207,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 96,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.20512820512820512,
+        "lo": 0.16239316239316237,
+        "hi": 0.2457264957264957,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched_p",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched_scan1",
+      "n": 468,
+      "detected": 68,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14529914529914528,
+        "lo": 0.10897435897435898,
+        "hi": 0.1816239316239316,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched_scan2",
+      "n": 468,
+      "detected": 68,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14529914529914528,
+        "lo": 0.10897435897435898,
+        "hi": 0.1816239316239316,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched_oracle",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen_p",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen_scan1",
+      "n": 468,
+      "detected": 68,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14529914529914528,
+        "lo": 0.10897435897435898,
+        "hi": 0.1816239316239316,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen_scan2",
+      "n": 468,
+      "detected": 67,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14316239316239315,
+        "lo": 0.10683760683760682,
+        "hi": 0.17948717948717946,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen_oracle",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "envelope_p",
+      "n": 468,
+      "detected": 66,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.17526709401709423,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "envelope_scan1",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10256410256410256,
+        "hi": 0.17313034188034207,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "envelope_scan2",
+      "n": 468,
+      "detected": 64,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13675213675213674,
+        "lo": 0.10042735042735043,
+        "hi": 0.17094017094017092,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "envelope_oracle",
+      "n": 468,
+      "detected": 66,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.17526709401709423,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_scan1",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10256410256410256,
+        "hi": 0.17313034188034207,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_scan2",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10256410256410256,
+        "hi": 0.17313034188034207,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_bonf1",
+      "n": 468,
+      "detected": 58,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.12393162393162392,
+        "lo": 0.08974358974358974,
+        "hi": 0.1581196581196581,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.023504273504273504,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_bonf2",
+      "n": 468,
+      "detected": 52,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.1111111111111111,
+        "lo": 0.07905982905982906,
+        "hi": 0.14529914529914528,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.023504273504273504,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    },
+    {
+      "model": "starcoder2",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "nominal_oracle",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10256410256410256,
+        "hi": 0.17313034188034207,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "available": 468
+    }
+  ],
+  "contrasts": [
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "matched_scan1",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.1346153846153846,
+        "hi": 0.2222222222222222,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "matched_scan2",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": 0.1752136752136752,
+        "lo": 0.13247863247863245,
+        "hi": 0.21800213675213695,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "frozen_scan1",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": 0.16452991452991453,
+        "lo": 0.12393162393162392,
+        "hi": 0.20726495726495722,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "frozen_scan2",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": 0.16025641025641027,
+        "lo": 0.11752136752136753,
+        "hi": 0.20299145299145296,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "envelope_scan1",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14316239316239313,
+        "hi": 0.23076923076923078,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "envelope_scan2",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": 0.16666666666666666,
+        "lo": 0.1260149572649573,
+        "hi": 0.20940170940170938,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "matched_scan1",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": -0.027777777777777776,
+        "lo": -0.047008547008547,
+        "hi": -0.010683760683760682,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "matched_scan2",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": -0.029914529914529912,
+        "lo": -0.047008547008547015,
+        "hi": -0.014957264957264956,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "frozen_scan1",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": -0.03205128205128205,
+        "lo": -0.05555555555555555,
+        "hi": -0.012820512820512818,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "frozen_scan2",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": -0.04273504273504273,
+        "lo": -0.06623931623931623,
+        "hi": -0.0235042735042735,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "envelope_scan1",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": -0.021367521367521368,
+        "lo": -0.038461538461538464,
+        "hi": -0.00641025641025641,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "envelope_scan2",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": -0.04059829059829059,
+        "lo": -0.059829059829059825,
+        "hi": -0.023504273504273504,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "matched_scan1",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "matched_scan2",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": -0.004273504273504273,
+        "lo": -0.010683760683760682,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "frozen_scan1",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "frozen_scan2",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": -0.004273504273504273,
+        "lo": -0.010683760683760682,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "envelope_scan1",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": -0.00641025641025641,
+        "lo": -0.014957264957264956,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "envelope_scan2",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": -0.010683760683760682,
+        "lo": -0.019230769230769232,
+        "hi": -0.0021367521367521365,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "matched_scan1",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "matched_scan2",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "frozen_scan1",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "frozen_scan2",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": -0.004273504273504273,
+        "lo": -0.010683760683760682,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "envelope_scan1",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": -0.00641025641025641,
+        "lo": -0.014957264957264956,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "envelope_scan2",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": -0.010683760683760682,
+        "lo": -0.019230769230769232,
+        "hi": -0.0021367521367521365,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "matched_scan1",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": 0.029914529914529912,
+        "lo": 0.014957264957264956,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "matched_scan2",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.01282051282051282,
+        "hi": 0.044871794871794865,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "frozen_scan1",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": 0.02564102564102564,
+        "lo": 0.010683760683760682,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "frozen_scan2",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": 0.0235042735042735,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "envelope_scan1",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": 0.03205128205128205,
+        "lo": 0.017094017094017092,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "envelope_scan2",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": 0.029914529914529912,
+        "lo": 0.014957264957264956,
+        "hi": 0.04700854700854701,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "matched_scan1",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": -0.004273504273504273,
+        "lo": -0.01282051282051282,
+        "hi": 0.004273504273504273,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "matched_scan2",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": -0.008547008547008546,
+        "hi": 0.008547008547008546,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "frozen_scan1",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "frozen_scan2",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": 0.0021367521367521365,
+        "lo": -0.004273504273504273,
+        "hi": 0.008547008547008548,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "envelope_scan1",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": -0.004273504273504273,
+        "lo": -0.010683760683760682,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "envelope_scan2",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": -0.00641025641025641,
+        "lo": -0.014957264957264956,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "matched_scan1",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.00641025641025641,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "matched_scan2",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.00641025641025641,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "frozen_scan1",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.00641025641025641,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "frozen_scan2",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.00641025641025641,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "envelope_scan1",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "envelope_scan2",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "matched_scan1",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.00641025641025641,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "matched_scan2",
+      "baseline": "matched_p",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.00641025641025641,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "frozen_scan1",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.00641025641025641,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "frozen_scan2",
+      "baseline": "frozen_p",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.00641025641025641,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "envelope_scan1",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "envelope_scan2",
+      "baseline": "envelope_p",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    }
+  ],
+  "seed": 20261028,
+  "bootstrap": 3000
+}

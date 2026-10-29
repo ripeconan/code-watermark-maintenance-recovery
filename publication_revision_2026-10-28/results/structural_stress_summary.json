@@ -1,0 +1,2107 @@
+{
+  "summary": [
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 8,
+      "joint_count": 8,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.1111111111111111,
+        "lo": 0.05555555555555555,
+        "hi": 0.18055555555555555,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.1111111111111111,
+        "lo": 0.05555555555555555,
+        "hi": 0.18055555555555555,
+        "problems": 24
+      },
+      "candidates_mean": 1.9166666666666667
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 9,
+      "joint_count": 9,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.125,
+        "lo": 0.05555555555555555,
+        "hi": 0.20833333333333334,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.125,
+        "lo": 0.05555555555555555,
+        "hi": 0.20833333333333334,
+        "problems": 24
+      },
+      "candidates_mean": 123.08333333333333
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 11,
+      "joint_count": 11,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.15277777777777776,
+        "lo": 0.06944444444444443,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.15277777777777776,
+        "lo": 0.06944444444444443,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "candidates_mean": 302.75
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 4,
+      "joint_count": 4,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.05555555555555555,
+        "lo": 0.013888888888888888,
+        "hi": 0.1111111111111111,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.05555555555555555,
+        "lo": 0.013888888888888888,
+        "hi": 0.1111111111111111,
+        "problems": 24
+      },
+      "candidates_mean": 9.875
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "official",
+      "n": 72,
+      "detected": 4,
+      "joint_count": 4,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.05555555555555555,
+        "lo": 0.013888888888888888,
+        "hi": 0.1111111111111111,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.05555555555555555,
+        "lo": 0.013888888888888888,
+        "hi": 0.1111111111111111,
+        "problems": 24
+      },
+      "candidates_mean": 0.9583333333333334
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "oracle",
+      "n": 72,
+      "detected": 8,
+      "joint_count": 8,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.1111111111111111,
+        "lo": 0.05555555555555555,
+        "hi": 0.18055555555555555,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.1111111111111111,
+        "lo": 0.05555555555555555,
+        "hi": 0.18055555555555555,
+        "problems": 24
+      },
+      "candidates_mean": 0.9583333333333334
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "syntax",
+      "n": 72,
+      "detected": 12,
+      "joint_count": 12,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.16666666666666666,
+        "lo": 0.09722222222222221,
+        "hi": 0.23611111111111108,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.16666666666666666,
+        "lo": 0.09722222222222221,
+        "hi": 0.23611111111111108,
+        "problems": 24
+      },
+      "candidates_mean": 9.875
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 1.9166666666666667
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 122.125
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 299.0833333333333
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 2,
+      "joint_count": 2,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "candidates_mean": 8.541666666666666
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "official",
+      "n": 72,
+      "detected": 2,
+      "joint_count": 2,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "candidates_mean": 0.9583333333333334
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "oracle",
+      "n": 72,
+      "detected": 3,
+      "joint_count": 3,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.041666666666666664,
+        "lo": 0.0,
+        "hi": 0.08333333333333333,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.041666666666666664,
+        "lo": 0.0,
+        "hi": 0.08333333333333333,
+        "problems": 24
+      },
+      "candidates_mean": 0.9583333333333334
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "syntax",
+      "n": 72,
+      "detected": 2,
+      "joint_count": 2,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "candidates_mean": 8.541666666666666
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 20,
+      "joint_count": 18,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.27777777777777773,
+        "lo": 0.18055555555555555,
+        "hi": 0.38888888888888884,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.25,
+        "lo": 0.15277777777777776,
+        "hi": 0.3611111111111111,
+        "problems": 24
+      },
+      "candidates_mean": 1.9166666666666667
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 61,
+      "joint_count": 58,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.8472222222222222,
+        "lo": 0.736111111111111,
+        "hi": 0.9444444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.8055555555555555,
+        "lo": 0.6805555555555555,
+        "hi": 0.9166666666666666,
+        "problems": 24
+      },
+      "candidates_mean": 123.08333333333333
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 65,
+      "joint_count": 62,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.9027777777777777,
+        "lo": 0.8055555555555555,
+        "hi": 0.9722222222222222,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.861111111111111,
+        "lo": 0.736111111111111,
+        "hi": 0.9583333333333334,
+        "problems": 24
+      },
+      "candidates_mean": 302.75
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 39,
+      "joint_count": 36,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.5416666666666666,
+        "lo": 0.38888888888888884,
+        "hi": 0.6944444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.5,
+        "lo": 0.34722222222222215,
+        "hi": 0.6527777777777777,
+        "problems": 24
+      },
+      "candidates_mean": 9.875
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "official",
+      "n": 72,
+      "detected": 12,
+      "joint_count": 10,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.16666666666666666,
+        "lo": 0.08333333333333333,
+        "hi": 0.2638888888888889,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.13888888888888887,
+        "lo": 0.05555555555555555,
+        "hi": 0.2222222222222222,
+        "problems": 24
+      },
+      "candidates_mean": 0.9583333333333334
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "oracle",
+      "n": 72,
+      "detected": 67,
+      "joint_count": 64,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.9305555555555555,
+        "lo": 0.8333333333333334,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.8888888888888888,
+        "lo": 0.7638888888888888,
+        "hi": 0.986111111111111,
+        "problems": 24
+      },
+      "candidates_mean": 0.9583333333333334
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "syntax",
+      "n": 72,
+      "detected": 62,
+      "joint_count": 59,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.861111111111111,
+        "lo": 0.75,
+        "hi": 0.9583333333333334,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.8194444444444443,
+        "lo": 0.6944444444444443,
+        "hi": 0.9305555555555555,
+        "problems": 24
+      },
+      "candidates_mean": 9.875
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 18,
+      "joint_count": 17,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.25,
+        "lo": 0.15277777777777776,
+        "hi": 0.34722222222222215,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.23611111111111108,
+        "lo": 0.13888888888888887,
+        "hi": 0.3336805555555568,
+        "problems": 24
+      },
+      "candidates_mean": 1.9166666666666667
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 58,
+      "joint_count": 55,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.8055555555555555,
+        "lo": 0.6666666666666666,
+        "hi": 0.9305555555555555,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.7638888888888888,
+        "lo": 0.611111111111111,
+        "hi": 0.8888888888888888,
+        "problems": 24
+      },
+      "candidates_mean": 122.125
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 61,
+      "joint_count": 58,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.8472222222222222,
+        "lo": 0.7222222222222222,
+        "hi": 0.9444444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.8055555555555555,
+        "lo": 0.6666666666666666,
+        "hi": 0.9305555555555555,
+        "problems": 24
+      },
+      "candidates_mean": 299.0833333333333
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 34,
+      "joint_count": 31,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.47222222222222215,
+        "lo": 0.3333333333333333,
+        "hi": 0.611111111111111,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.4305555555555555,
+        "lo": 0.3055555555555555,
+        "hi": 0.5694444444444444,
+        "problems": 24
+      },
+      "candidates_mean": 8.541666666666666
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "official",
+      "n": 72,
+      "detected": 10,
+      "joint_count": 9,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.06944444444444443,
+        "hi": 0.20833333333333334,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.125,
+        "lo": 0.05555555555555555,
+        "hi": 0.19444444444444442,
+        "problems": 24
+      },
+      "candidates_mean": 0.9583333333333334
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "oracle",
+      "n": 72,
+      "detected": 68,
+      "joint_count": 65,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.9444444444444443,
+        "lo": 0.8472222222222222,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.9027777777777777,
+        "lo": 0.7777777777777777,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "candidates_mean": 0.9583333333333334
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "syntax",
+      "n": 72,
+      "detected": 30,
+      "joint_count": 28,
+      "correct": 69,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.4166666666666667,
+        "lo": 0.3055555555555555,
+        "hi": 0.5416666666666666,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.38888888888888884,
+        "lo": 0.27777777777777773,
+        "hi": 0.5138888888888888,
+        "problems": 24
+      },
+      "candidates_mean": 8.541666666666666
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 5,
+      "joint_count": 5,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.06944444444444443,
+        "lo": 0.013888888888888888,
+        "hi": 0.125,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.06944444444444443,
+        "lo": 0.013888888888888888,
+        "hi": 0.125,
+        "problems": 24
+      },
+      "candidates_mean": 2.0
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 6,
+      "joint_count": 6,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.08333333333333333,
+        "lo": 0.013888888888888888,
+        "hi": 0.18055555555555555,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.08333333333333333,
+        "lo": 0.013888888888888888,
+        "hi": 0.18055555555555555,
+        "problems": 24
+      },
+      "candidates_mean": 128.66666666666666
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 11,
+      "joint_count": 11,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.15277777777777776,
+        "lo": 0.05555555555555555,
+        "hi": 0.27777777777777773,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.15277777777777776,
+        "lo": 0.05555555555555555,
+        "hi": 0.27777777777777773,
+        "problems": 24
+      },
+      "candidates_mean": 318.125
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 11,
+      "joint_count": 11,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.15277777777777776,
+        "lo": 0.06944444444444443,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.15277777777777776,
+        "lo": 0.06944444444444443,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "candidates_mean": 15.75
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "official",
+      "n": 72,
+      "detected": 0,
+      "joint_count": 0,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "oracle",
+      "n": 72,
+      "detected": 10,
+      "joint_count": 10,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.06944444444444443,
+        "hi": 0.2222222222222222,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.13888888888888887,
+        "lo": 0.06944444444444443,
+        "hi": 0.2222222222222222,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "syntax",
+      "n": 72,
+      "detected": 9,
+      "joint_count": 9,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.125,
+        "lo": 0.05555555555555555,
+        "hi": 0.20833333333333334,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.125,
+        "lo": 0.05555555555555555,
+        "hi": 0.20833333333333334,
+        "problems": 24
+      },
+      "candidates_mean": 15.75
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 2,
+      "joint_count": 2,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "candidates_mean": 2.0
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 6,
+      "joint_count": 6,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.08333333333333333,
+        "lo": 0.013888888888888888,
+        "hi": 0.16666666666666666,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.08333333333333333,
+        "lo": 0.013888888888888888,
+        "hi": 0.16666666666666666,
+        "problems": 24
+      },
+      "candidates_mean": 128.79166666666666
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 9,
+      "joint_count": 9,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.125,
+        "lo": 0.041666666666666664,
+        "hi": 0.2222222222222222,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.125,
+        "lo": 0.041666666666666664,
+        "hi": 0.2222222222222222,
+        "problems": 24
+      },
+      "candidates_mean": 318.9166666666667
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 10,
+      "joint_count": 10,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.041666666666666664,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.13888888888888887,
+        "lo": 0.041666666666666664,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "candidates_mean": 14.666666666666666
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "official",
+      "n": 72,
+      "detected": 2,
+      "joint_count": 2,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "oracle",
+      "n": 72,
+      "detected": 6,
+      "joint_count": 6,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.08333333333333333,
+        "lo": 0.027777777777777776,
+        "hi": 0.13888888888888887,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.08333333333333333,
+        "lo": 0.027777777777777776,
+        "hi": 0.13888888888888887,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "syntax",
+      "n": 72,
+      "detected": 6,
+      "joint_count": 6,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.08333333333333333,
+        "lo": 0.013888888888888888,
+        "hi": 0.16666666666666666,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.08333333333333333,
+        "lo": 0.013888888888888888,
+        "hi": 0.16666666666666666,
+        "problems": 24
+      },
+      "candidates_mean": 14.666666666666666
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 18,
+      "joint_count": 18,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.25,
+        "lo": 0.16666666666666666,
+        "hi": 0.3333333333333333,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.25,
+        "lo": 0.16666666666666666,
+        "hi": 0.3333333333333333,
+        "problems": 24
+      },
+      "candidates_mean": 2.0
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 59,
+      "joint_count": 59,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.8194444444444443,
+        "lo": 0.6944444444444443,
+        "hi": 0.9166666666666666,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.8194444444444443,
+        "lo": 0.6944444444444443,
+        "hi": 0.9166666666666666,
+        "problems": 24
+      },
+      "candidates_mean": 128.66666666666666
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 68,
+      "joint_count": 68,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.9444444444444443,
+        "lo": 0.875,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.9444444444444443,
+        "lo": 0.875,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "candidates_mean": 318.125
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 48,
+      "joint_count": 48,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.6666666666666666,
+        "lo": 0.5138888888888888,
+        "hi": 0.8055555555555555,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.6666666666666666,
+        "lo": 0.5138888888888888,
+        "hi": 0.8055555555555555,
+        "problems": 24
+      },
+      "candidates_mean": 15.75
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "official",
+      "n": 72,
+      "detected": 16,
+      "joint_count": 16,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.2222222222222222,
+        "lo": 0.15277777777777776,
+        "hi": 0.2916666666666667,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.2222222222222222,
+        "lo": 0.15277777777777776,
+        "hi": 0.2916666666666667,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "oracle",
+      "n": 72,
+      "detected": 71,
+      "joint_count": 71,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.986111111111111,
+        "lo": 0.9583333333333334,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.986111111111111,
+        "lo": 0.9583333333333334,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "syntax",
+      "n": 72,
+      "detected": 71,
+      "joint_count": 71,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.986111111111111,
+        "lo": 0.9583333333333334,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.986111111111111,
+        "lo": 0.9583333333333334,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "candidates_mean": 15.75
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 13,
+      "joint_count": 13,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.18055555555555555,
+        "lo": 0.08333333333333333,
+        "hi": 0.29166666666666663,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.18055555555555555,
+        "lo": 0.08333333333333333,
+        "hi": 0.29166666666666663,
+        "problems": 24
+      },
+      "candidates_mean": 2.0
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 51,
+      "joint_count": 51,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.7083333333333334,
+        "lo": 0.5694444444444443,
+        "hi": 0.8333333333333334,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.7083333333333334,
+        "lo": 0.5694444444444443,
+        "hi": 0.8333333333333334,
+        "problems": 24
+      },
+      "candidates_mean": 128.79166666666666
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 62,
+      "joint_count": 62,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.861111111111111,
+        "lo": 0.7638888888888888,
+        "hi": 0.9444444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.861111111111111,
+        "lo": 0.7638888888888888,
+        "hi": 0.9444444444444443,
+        "problems": 24
+      },
+      "candidates_mean": 318.9166666666667
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 39,
+      "joint_count": 39,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.5416666666666666,
+        "lo": 0.38888888888888884,
+        "hi": 0.6809027777777792,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.5416666666666666,
+        "lo": 0.38888888888888884,
+        "hi": 0.6809027777777792,
+        "problems": 24
+      },
+      "candidates_mean": 14.666666666666666
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "official",
+      "n": 72,
+      "detected": 10,
+      "joint_count": 10,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.05555555555555555,
+        "hi": 0.22256944444444574,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.13888888888888887,
+        "lo": 0.05555555555555555,
+        "hi": 0.22256944444444574,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "oracle",
+      "n": 72,
+      "detected": 72,
+      "joint_count": 72,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "syntax",
+      "n": 72,
+      "detected": 38,
+      "joint_count": 38,
+      "correct": 72,
+      "preserved": 72,
+      "detection": {
+        "mean": 0.5277777777777778,
+        "lo": 0.38888888888888884,
+        "hi": 0.6666666666666666,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.5277777777777778,
+        "lo": 0.38888888888888884,
+        "hi": 0.6666666666666666,
+        "problems": 24
+      },
+      "candidates_mean": 14.666666666666666
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 0,
+      "joint_count": 0,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "candidates_mean": 2.0
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 0,
+      "joint_count": 0,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "candidates_mean": 122.375
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 286.9166666666667
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 0,
+      "joint_count": 0,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "candidates_mean": 8.25
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "official",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "oracle",
+      "n": 72,
+      "detected": 2,
+      "joint_count": 2,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "nested_helper",
+      "method": "syntax",
+      "n": 72,
+      "detected": 0,
+      "joint_count": 0,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "problems": 24
+      },
+      "candidates_mean": 8.25
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 2.0
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 123.08333333333333
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 2,
+      "joint_count": 2,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.08333333333333333,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.08333333333333333,
+        "problems": 24
+      },
+      "candidates_mean": 289.2916666666667
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 6.75
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "official",
+      "n": 72,
+      "detected": 1,
+      "joint_count": 1,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.013888888888888888,
+        "lo": 0.0,
+        "hi": 0.041666666666666664,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "oracle",
+      "n": 72,
+      "detected": 5,
+      "joint_count": 5,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.06944444444444443,
+        "lo": 0.013888888888888888,
+        "hi": 0.13888888888888887,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.06944444444444443,
+        "lo": 0.013888888888888888,
+        "hi": 0.13888888888888887,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "two_helpers",
+      "method": "syntax",
+      "n": 72,
+      "detected": 2,
+      "joint_count": 2,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.0,
+        "hi": 0.06944444444444443,
+        "problems": 24
+      },
+      "candidates_mean": 6.75
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 12,
+      "joint_count": 12,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.16666666666666666,
+        "lo": 0.09722222222222221,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.16666666666666666,
+        "lo": 0.09722222222222221,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "candidates_mean": 2.0
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 20,
+      "joint_count": 20,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.27777777777777773,
+        "lo": 0.15277777777777776,
+        "hi": 0.40277777777777773,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.27777777777777773,
+        "lo": 0.15277777777777776,
+        "hi": 0.40277777777777773,
+        "problems": 24
+      },
+      "candidates_mean": 122.375
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 26,
+      "joint_count": 26,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.3611111111111111,
+        "lo": 0.22222222222222218,
+        "hi": 0.5,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.3611111111111111,
+        "lo": 0.22222222222222218,
+        "hi": 0.5,
+        "problems": 24
+      },
+      "candidates_mean": 286.9166666666667
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 11,
+      "joint_count": 11,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.15277777777777776,
+        "lo": 0.05555555555555555,
+        "hi": 0.2638888888888889,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.15277777777777776,
+        "lo": 0.05555555555555555,
+        "hi": 0.2638888888888889,
+        "problems": 24
+      },
+      "candidates_mean": 8.25
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "official",
+      "n": 72,
+      "detected": 12,
+      "joint_count": 12,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.16666666666666666,
+        "lo": 0.08333333333333333,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.16666666666666666,
+        "lo": 0.08333333333333333,
+        "hi": 0.25,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "oracle",
+      "n": 72,
+      "detected": 56,
+      "joint_count": 56,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.7777777777777777,
+        "lo": 0.6666666666666666,
+        "hi": 0.875,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.7777777777777777,
+        "lo": 0.6666666666666666,
+        "hi": 0.875,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "nested_helper",
+      "method": "syntax",
+      "n": 72,
+      "detected": 42,
+      "joint_count": 42,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.5833333333333334,
+        "lo": 0.4305555555555555,
+        "hi": 0.736111111111111,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.5833333333333334,
+        "lo": 0.4305555555555555,
+        "hi": 0.736111111111111,
+        "problems": 24
+      },
+      "candidates_mean": 8.25
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "delta_dictionary",
+      "n": 72,
+      "detected": 15,
+      "joint_count": 15,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.20833333333333334,
+        "lo": 0.125,
+        "hi": 0.2916666666666667,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.20833333333333334,
+        "lo": 0.125,
+        "hi": 0.2916666666666667,
+        "problems": 24
+      },
+      "candidates_mean": 2.0
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "l1_3",
+      "n": 72,
+      "detected": 28,
+      "joint_count": 28,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.38888888888888884,
+        "lo": 0.27777777777777773,
+        "hi": 0.5138888888888888,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.38888888888888884,
+        "lo": 0.27777777777777773,
+        "hi": 0.5138888888888888,
+        "problems": 24
+      },
+      "candidates_mean": 123.08333333333333
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "l1_4",
+      "n": 72,
+      "detected": 39,
+      "joint_count": 39,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.5416666666666666,
+        "lo": 0.4166666666666667,
+        "hi": 0.6527777777777778,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.5416666666666666,
+        "lo": 0.4166666666666667,
+        "hi": 0.6527777777777778,
+        "problems": 24
+      },
+      "candidates_mean": 289.2916666666667
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "nearest_budget",
+      "n": 72,
+      "detected": 16,
+      "joint_count": 16,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.2222222222222222,
+        "lo": 0.125,
+        "hi": 0.3333333333333333,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.2222222222222222,
+        "lo": 0.125,
+        "hi": 0.3333333333333333,
+        "problems": 24
+      },
+      "candidates_mean": 6.75
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "official",
+      "n": 72,
+      "detected": 13,
+      "joint_count": 13,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.18055555555555555,
+        "lo": 0.09722222222222221,
+        "hi": 0.27777777777777773,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.18055555555555555,
+        "lo": 0.09722222222222221,
+        "hi": 0.27777777777777773,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "oracle",
+      "n": 72,
+      "detected": 58,
+      "joint_count": 58,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.8055555555555555,
+        "lo": 0.7083333333333334,
+        "hi": 0.8888888888888888,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.8055555555555555,
+        "lo": 0.7083333333333334,
+        "hi": 0.8888888888888888,
+        "problems": 24
+      },
+      "candidates_mean": 1.0
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "two_helpers",
+      "method": "syntax",
+      "n": 72,
+      "detected": 11,
+      "joint_count": 11,
+      "correct": 72,
+      "preserved": 69,
+      "detection": {
+        "mean": 0.15277777777777776,
+        "lo": 0.08333333333333333,
+        "hi": 0.23611111111111108,
+        "problems": 24
+      },
+      "joint": {
+        "mean": 0.15277777777777776,
+        "lo": 0.08333333333333333,
+        "hi": 0.23611111111111108,
+        "problems": 24
+      },
+      "candidates_mean": 6.75
+    }
+  ],
+  "coverage": [
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "nested_helper",
+      "sum": 69,
+      "count": 72
+    },
+    {
+      "language": "cpp",
+      "group": "negative",
+      "edit": "two_helpers",
+      "sum": 0,
+      "count": 72
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "nested_helper",
+      "sum": 69,
+      "count": 72
+    },
+    {
+      "language": "cpp",
+      "group": "positive",
+      "edit": "two_helpers",
+      "sum": 0,
+      "count": 72
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "nested_helper",
+      "sum": 72,
+      "count": 72
+    },
+    {
+      "language": "java",
+      "group": "negative",
+      "edit": "two_helpers",
+      "sum": 0,
+      "count": 72
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "nested_helper",
+      "sum": 72,
+      "count": 72
+    },
+    {
+      "language": "java",
+      "group": "positive",
+      "edit": "two_helpers",
+      "sum": 0,
+      "count": 72
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "nested_helper",
+      "sum": 72,
+      "count": 72
+    },
+    {
+      "language": "python",
+      "group": "negative",
+      "edit": "two_helpers",
+      "sum": 0,
+      "count": 72
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "nested_helper",
+      "sum": 72,
+      "count": 72
+    },
+    {
+      "language": "python",
+      "group": "positive",
+      "edit": "two_helpers",
+      "sum": 0,
+      "count": 72
+    }
+  ],
+  "errors": []
+}

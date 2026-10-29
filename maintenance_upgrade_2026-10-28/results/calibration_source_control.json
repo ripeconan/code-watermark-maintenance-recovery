@@ -1,0 +1,2599 @@
+{
+  "summary": [
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "official",
+      "n": 240,
+      "negative_any": 11,
+      "positive_after": 164
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "syntax",
+      "n": 240,
+      "negative_any": 21,
+      "positive_after": 178
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "structured64",
+      "n": 240,
+      "negative_any": 17,
+      "positive_after": 183
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "structured128",
+      "n": 240,
+      "negative_any": 15,
+      "positive_after": 183
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "nearest64",
+      "n": 240,
+      "negative_any": 17,
+      "positive_after": 184
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "nearest128",
+      "n": 240,
+      "negative_any": 19,
+      "positive_after": 184
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "l1_4",
+      "n": 240,
+      "negative_any": 13,
+      "positive_after": 184
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "dictionary64",
+      "n": 240,
+      "negative_any": 16,
+      "positive_after": 180
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "dictionary_pairs64",
+      "n": 240,
+      "negative_any": 16,
+      "positive_after": 184
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "official",
+      "n": 240,
+      "negative_any": 26,
+      "positive_after": 125
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "syntax",
+      "n": 240,
+      "negative_any": 46,
+      "positive_after": 148
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "structured64",
+      "n": 240,
+      "negative_any": 30,
+      "positive_after": 145
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "structured128",
+      "n": 240,
+      "negative_any": 38,
+      "positive_after": 145
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "nearest64",
+      "n": 240,
+      "negative_any": 31,
+      "positive_after": 144
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "nearest128",
+      "n": 240,
+      "negative_any": 29,
+      "positive_after": 144
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "l1_4",
+      "n": 240,
+      "negative_any": 32,
+      "positive_after": 142
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "dictionary64",
+      "n": 240,
+      "negative_any": 33,
+      "positive_after": 145
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "dictionary_pairs64",
+      "n": 240,
+      "negative_any": 37,
+      "positive_after": 147
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "official",
+      "n": 240,
+      "negative_any": 4,
+      "positive_after": 162
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "syntax",
+      "n": 240,
+      "negative_any": 3,
+      "positive_after": 174
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "structured64",
+      "n": 240,
+      "negative_any": 3,
+      "positive_after": 182
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "structured128",
+      "n": 240,
+      "negative_any": 3,
+      "positive_after": 181
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "nearest64",
+      "n": 240,
+      "negative_any": 4,
+      "positive_after": 184
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "nearest128",
+      "n": 240,
+      "negative_any": 2,
+      "positive_after": 182
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "l1_4",
+      "n": 240,
+      "negative_any": 2,
+      "positive_after": 182
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "dictionary64",
+      "n": 240,
+      "negative_any": 5,
+      "positive_after": 176
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "language": "python",
+      "method": "dictionary_pairs64",
+      "n": 240,
+      "negative_any": 4,
+      "positive_after": 183
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "official",
+      "n": 240,
+      "negative_any": 16,
+      "positive_after": 122
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "syntax",
+      "n": 240,
+      "negative_any": 11,
+      "positive_after": 139
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "structured64",
+      "n": 240,
+      "negative_any": 14,
+      "positive_after": 142
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "structured128",
+      "n": 240,
+      "negative_any": 16,
+      "positive_after": 139
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "nearest64",
+      "n": 240,
+      "negative_any": 13,
+      "positive_after": 140
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "nearest128",
+      "n": 240,
+      "negative_any": 7,
+      "positive_after": 137
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "l1_4",
+      "n": 240,
+      "negative_any": 9,
+      "positive_after": 138
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "dictionary64",
+      "n": 240,
+      "negative_any": 18,
+      "positive_after": 139
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "language": "python",
+      "method": "dictionary_pairs64",
+      "n": 240,
+      "negative_any": 8,
+      "positive_after": 138
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "official",
+      "n": 240,
+      "negative_any": 13,
+      "positive_after": 171
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "syntax",
+      "n": 240,
+      "negative_any": 9,
+      "positive_after": 150
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "structured64",
+      "n": 240,
+      "negative_any": 12,
+      "positive_after": 132
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "structured128",
+      "n": 240,
+      "negative_any": 10,
+      "positive_after": 129
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "nearest64",
+      "n": 240,
+      "negative_any": 6,
+      "positive_after": 136
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "nearest128",
+      "n": 240,
+      "negative_any": 10,
+      "positive_after": 135
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "l1_4",
+      "n": 240,
+      "negative_any": 7,
+      "positive_after": 117
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "dictionary64",
+      "n": 240,
+      "negative_any": 11,
+      "positive_after": 151
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "dictionary_pairs64",
+      "n": 240,
+      "negative_any": 11,
+      "positive_after": 137
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "official",
+      "n": 240,
+      "negative_any": 11,
+      "positive_after": 132
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "syntax",
+      "n": 240,
+      "negative_any": 4,
+      "positive_after": 121
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "structured64",
+      "n": 240,
+      "negative_any": 2,
+      "positive_after": 114
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "structured128",
+      "n": 240,
+      "negative_any": 2,
+      "positive_after": 112
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "nearest64",
+      "n": 240,
+      "negative_any": 4,
+      "positive_after": 113
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "nearest128",
+      "n": 240,
+      "negative_any": 3,
+      "positive_after": 113
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "l1_4",
+      "n": 240,
+      "negative_any": 2,
+      "positive_after": 102
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "dictionary64",
+      "n": 240,
+      "negative_any": 7,
+      "positive_after": 123
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "dictionary_pairs64",
+      "n": 240,
+      "negative_any": 6,
+      "positive_after": 114
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "official",
+      "n": 240,
+      "negative_any": 16,
+      "positive_after": 172
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "syntax",
+      "n": 240,
+      "negative_any": 30,
+      "positive_after": 167
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "structured64",
+      "n": 240,
+      "negative_any": 24,
+      "positive_after": 147
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "structured128",
+      "n": 240,
+      "negative_any": 30,
+      "positive_after": 147
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "nearest64",
+      "n": 240,
+      "negative_any": 21,
+      "positive_after": 146
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "nearest128",
+      "n": 240,
+      "negative_any": 19,
+      "positive_after": 139
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "l1_4",
+      "n": 240,
+      "negative_any": 15,
+      "positive_after": 125
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "dictionary64",
+      "n": 240,
+      "negative_any": 17,
+      "positive_after": 155
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "language": "java",
+      "method": "dictionary_pairs64",
+      "n": 240,
+      "negative_any": 23,
+      "positive_after": 143
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "official",
+      "n": 240,
+      "negative_any": 13,
+      "positive_after": 133
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "syntax",
+      "n": 240,
+      "negative_any": 14,
+      "positive_after": 126
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "structured64",
+      "n": 240,
+      "negative_any": 9,
+      "positive_after": 122
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "structured128",
+      "n": 240,
+      "negative_any": 10,
+      "positive_after": 122
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "nearest64",
+      "n": 240,
+      "negative_any": 9,
+      "positive_after": 122
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "nearest128",
+      "n": 240,
+      "negative_any": 6,
+      "positive_after": 116
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "l1_4",
+      "n": 240,
+      "negative_any": 6,
+      "positive_after": 111
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "dictionary64",
+      "n": 240,
+      "negative_any": 13,
+      "positive_after": 126
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "language": "java",
+      "method": "dictionary_pairs64",
+      "n": 240,
+      "negative_any": 8,
+      "positive_after": 120
+    }
+  ],
+  "thresholds": [
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "official",
+      "key": 15485863,
+      "threshold": -0.12261161004942722,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "official",
+      "key": 32452843,
+      "threshold": -0.17634515537979065,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "official",
+      "key": 49979687,
+      "threshold": -0.11247585901530849,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "syntax",
+      "key": 15485863,
+      "threshold": -0.023208953197353433,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "syntax",
+      "key": 32452843,
+      "threshold": -0.02426940585406838,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "syntax",
+      "key": 49979687,
+      "threshold": -0.01912696093559129,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "structured64",
+      "key": 15485863,
+      "threshold": -0.008092218957716574,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "structured64",
+      "key": 32452843,
+      "threshold": -0.004587939470245364,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "structured64",
+      "key": 49979687,
+      "threshold": -0.014569897219807134,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "structured128",
+      "key": 15485863,
+      "threshold": -0.007614248637189884,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "structured128",
+      "key": 32452843,
+      "threshold": -0.004405420987953699,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "structured128",
+      "key": 49979687,
+      "threshold": -0.00712818020810788,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "nearest64",
+      "key": 15485863,
+      "threshold": -0.007210752591374975,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "nearest64",
+      "key": 32452843,
+      "threshold": -0.005185776904345243,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "nearest64",
+      "key": 49979687,
+      "threshold": -0.0063273199287121815,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "nearest128",
+      "key": 15485863,
+      "threshold": -0.00453500004417304,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "nearest128",
+      "key": 32452843,
+      "threshold": -0.0027358795288226186,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "nearest128",
+      "key": 49979687,
+      "threshold": -0.004934953802915143,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "l1_4",
+      "key": 15485863,
+      "threshold": -0.0030305049181024554,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "l1_4",
+      "key": 32452843,
+      "threshold": -0.001723878482171336,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "l1_4",
+      "key": 49979687,
+      "threshold": -0.0015026917792245657,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "dictionary64",
+      "key": 15485863,
+      "threshold": -0.0197090106902853,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "dictionary64",
+      "key": 32452843,
+      "threshold": -0.02063434996081024,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "dictionary64",
+      "key": 49979687,
+      "threshold": -0.014687530534763835,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "dictionary_pairs64",
+      "key": 15485863,
+      "threshold": -0.010441479805528297,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "dictionary_pairs64",
+      "key": 32452843,
+      "threshold": -0.0074461864185523885,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "networkx/networkx",
+      "method": "dictionary_pairs64",
+      "key": 49979687,
+      "threshold": -0.004934953802915143,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "official",
+      "key": 15485863,
+      "threshold": -0.12261161004942722,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "official",
+      "key": 32452843,
+      "threshold": -0.17634515537979065,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "official",
+      "key": 49979687,
+      "threshold": -0.11247585901530849,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "syntax",
+      "key": 15485863,
+      "threshold": -0.023208953197353433,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "syntax",
+      "key": 32452843,
+      "threshold": -0.02426940585406838,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "syntax",
+      "key": 49979687,
+      "threshold": -0.01912696093559129,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "structured64",
+      "key": 15485863,
+      "threshold": -0.008092218957716574,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "structured64",
+      "key": 32452843,
+      "threshold": -0.004587939470245364,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "structured64",
+      "key": 49979687,
+      "threshold": -0.014569897219807134,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "structured128",
+      "key": 15485863,
+      "threshold": -0.007614248637189884,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "structured128",
+      "key": 32452843,
+      "threshold": -0.004405420987953699,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "structured128",
+      "key": 49979687,
+      "threshold": -0.00712818020810788,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "nearest64",
+      "key": 15485863,
+      "threshold": -0.007210752591374975,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "nearest64",
+      "key": 32452843,
+      "threshold": -0.005185776904345243,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "nearest64",
+      "key": 49979687,
+      "threshold": -0.0063273199287121815,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "nearest128",
+      "key": 15485863,
+      "threshold": -0.00453500004417304,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "nearest128",
+      "key": 32452843,
+      "threshold": -0.0027358795288226186,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "nearest128",
+      "key": 49979687,
+      "threshold": -0.004934953802915143,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "l1_4",
+      "key": 15485863,
+      "threshold": -0.0030305049181024554,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "l1_4",
+      "key": 32452843,
+      "threshold": -0.001723878482171336,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "l1_4",
+      "key": 49979687,
+      "threshold": -0.0015026917792245657,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "dictionary64",
+      "key": 15485863,
+      "threshold": -0.0197090106902853,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "dictionary64",
+      "key": 32452843,
+      "threshold": -0.02063434996081024,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "dictionary64",
+      "key": 49979687,
+      "threshold": -0.014687530534763835,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "dictionary_pairs64",
+      "key": 15485863,
+      "threshold": -0.010441479805528297,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "dictionary_pairs64",
+      "key": 32452843,
+      "threshold": -0.0074461864185523885,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "networkx/networkx",
+      "target": "sympy/sympy",
+      "method": "dictionary_pairs64",
+      "key": 49979687,
+      "threshold": -0.004934953802915143,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "official",
+      "key": 15485863,
+      "threshold": -0.1107553472,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "official",
+      "key": 32452843,
+      "threshold": -0.062463035545559834,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "official",
+      "key": 49979687,
+      "threshold": -0.06942240141811952,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "syntax",
+      "key": 15485863,
+      "threshold": -0.0031241022375375523,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "syntax",
+      "key": 32452843,
+      "threshold": -0.003351998876162726,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "syntax",
+      "key": 49979687,
+      "threshold": -0.006007464092227003,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "structured64",
+      "key": 15485863,
+      "threshold": -0.0031241022375375523,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "structured64",
+      "key": 32452843,
+      "threshold": -0.002588725139477996,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "structured64",
+      "key": 49979687,
+      "threshold": -0.003909637223386664,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "structured128",
+      "key": 15485863,
+      "threshold": -0.0011477694805191734,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "structured128",
+      "key": 32452843,
+      "threshold": -0.0012034845152320965,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "structured128",
+      "key": 49979687,
+      "threshold": -0.0021604866154576576,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "nearest64",
+      "key": 15485863,
+      "threshold": -0.0014068877948690938,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "nearest64",
+      "key": 32452843,
+      "threshold": -0.0022525602519326013,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "nearest64",
+      "key": 49979687,
+      "threshold": -0.002346249434713029,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "nearest128",
+      "key": 15485863,
+      "threshold": -0.0004326861720600145,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "nearest128",
+      "key": 32452843,
+      "threshold": -0.00043118502150123845,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "nearest128",
+      "key": 49979687,
+      "threshold": -0.0006802893279828666,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "l1_4",
+      "key": 15485863,
+      "threshold": -0.0001518861563570823,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "l1_4",
+      "key": 32452843,
+      "threshold": -0.00033582390118185767,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "l1_4",
+      "key": 49979687,
+      "threshold": -0.00034980017487856106,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "dictionary64",
+      "key": 15485863,
+      "threshold": -0.004859039267354726,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "dictionary64",
+      "key": 32452843,
+      "threshold": -0.006695106000000001,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "dictionary64",
+      "key": 49979687,
+      "threshold": -0.013472544313929656,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "dictionary_pairs64",
+      "key": 15485863,
+      "threshold": -0.0015049533975648856,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "dictionary_pairs64",
+      "key": 32452843,
+      "threshold": -0.001317310142373438,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "networkx/networkx",
+      "method": "dictionary_pairs64",
+      "key": 49979687,
+      "threshold": -0.0017174075386073647,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "official",
+      "key": 15485863,
+      "threshold": -0.1107553472,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "official",
+      "key": 32452843,
+      "threshold": -0.062463035545559834,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "official",
+      "key": 49979687,
+      "threshold": -0.06942240141811952,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "syntax",
+      "key": 15485863,
+      "threshold": -0.0031241022375375523,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "syntax",
+      "key": 32452843,
+      "threshold": -0.003351998876162726,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "syntax",
+      "key": 49979687,
+      "threshold": -0.006007464092227003,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "structured64",
+      "key": 15485863,
+      "threshold": -0.0031241022375375523,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "structured64",
+      "key": 32452843,
+      "threshold": -0.002588725139477996,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "structured64",
+      "key": 49979687,
+      "threshold": -0.003909637223386664,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "structured128",
+      "key": 15485863,
+      "threshold": -0.0011477694805191734,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "structured128",
+      "key": 32452843,
+      "threshold": -0.0012034845152320965,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "structured128",
+      "key": 49979687,
+      "threshold": -0.0021604866154576576,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "nearest64",
+      "key": 15485863,
+      "threshold": -0.0014068877948690938,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "nearest64",
+      "key": 32452843,
+      "threshold": -0.0022525602519326013,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "nearest64",
+      "key": 49979687,
+      "threshold": -0.002346249434713029,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "nearest128",
+      "key": 15485863,
+      "threshold": -0.0004326861720600145,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "nearest128",
+      "key": 32452843,
+      "threshold": -0.00043118502150123845,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "nearest128",
+      "key": 49979687,
+      "threshold": -0.0006802893279828666,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "l1_4",
+      "key": 15485863,
+      "threshold": -0.0001518861563570823,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "l1_4",
+      "key": 32452843,
+      "threshold": -0.00033582390118185767,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "l1_4",
+      "key": 49979687,
+      "threshold": -0.00034980017487856106,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "dictionary64",
+      "key": 15485863,
+      "threshold": -0.004859039267354726,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "dictionary64",
+      "key": 32452843,
+      "threshold": -0.006695106000000001,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "dictionary64",
+      "key": 49979687,
+      "threshold": -0.013472544313929656,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "dictionary_pairs64",
+      "key": 15485863,
+      "threshold": -0.0015049533975648856,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "dictionary_pairs64",
+      "key": 32452843,
+      "threshold": -0.001317310142373438,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "sympy/sympy",
+      "target": "sympy/sympy",
+      "method": "dictionary_pairs64",
+      "key": 49979687,
+      "threshold": -0.0017174075386073647,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "official",
+      "key": 15485863,
+      "threshold": -0.049375775000000004,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "official",
+      "key": 32452843,
+      "threshold": -0.10344863386371693,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "official",
+      "key": 49979687,
+      "threshold": -0.06378605041650001,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "syntax",
+      "key": 15485863,
+      "threshold": -0.0002836483221849178,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "syntax",
+      "key": 32452843,
+      "threshold": -0.0005059746875000001,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "syntax",
+      "key": 49979687,
+      "threshold": -0.0026114917419702843,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "structured64",
+      "key": 15485863,
+      "threshold": -8.776891074680888e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "structured64",
+      "key": 32452843,
+      "threshold": -0.0003157128808553127,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "structured64",
+      "key": 49979687,
+      "threshold": -2.9212751240559853e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "structured128",
+      "key": 15485863,
+      "threshold": -7.644666084093752e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "structured128",
+      "key": 32452843,
+      "threshold": -8.755944124321407e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "structured128",
+      "key": 49979687,
+      "threshold": -2.9212751240559853e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "nearest64",
+      "key": 15485863,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "nearest64",
+      "key": 32452843,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "nearest64",
+      "key": 49979687,
+      "threshold": -8.915584475020961e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "nearest128",
+      "key": 15485863,
+      "threshold": -8.776891074680888e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "nearest128",
+      "key": 32452843,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "nearest128",
+      "key": 49979687,
+      "threshold": -6.359644124442552e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "l1_4",
+      "key": 15485863,
+      "threshold": -2.4682928473626377e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "l1_4",
+      "key": 32452843,
+      "threshold": -7.416948635454796e-06,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "l1_4",
+      "key": 49979687,
+      "threshold": -1.34696790240409e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "dictionary64",
+      "key": 15485863,
+      "threshold": -0.0017745380091958047,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "dictionary64",
+      "key": 32452843,
+      "threshold": -0.0026352192293828303,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "dictionary64",
+      "key": 49979687,
+      "threshold": -0.0012943943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "dictionary_pairs64",
+      "key": 15485863,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "dictionary_pairs64",
+      "key": 32452843,
+      "threshold": -0.0002597040859399925,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-collections",
+      "method": "dictionary_pairs64",
+      "key": 49979687,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "official",
+      "key": 15485863,
+      "threshold": -0.049375775000000004,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "official",
+      "key": 32452843,
+      "threshold": -0.10344863386371693,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "official",
+      "key": 49979687,
+      "threshold": -0.06378605041650001,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "syntax",
+      "key": 15485863,
+      "threshold": -0.0002836483221849178,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "syntax",
+      "key": 32452843,
+      "threshold": -0.0005059746875000001,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "syntax",
+      "key": 49979687,
+      "threshold": -0.0026114917419702843,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "structured64",
+      "key": 15485863,
+      "threshold": -8.776891074680888e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "structured64",
+      "key": 32452843,
+      "threshold": -0.0003157128808553127,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "structured64",
+      "key": 49979687,
+      "threshold": -2.9212751240559853e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "structured128",
+      "key": 15485863,
+      "threshold": -7.644666084093752e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "structured128",
+      "key": 32452843,
+      "threshold": -8.755944124321407e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "structured128",
+      "key": 49979687,
+      "threshold": -2.9212751240559853e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "nearest64",
+      "key": 15485863,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "nearest64",
+      "key": 32452843,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "nearest64",
+      "key": 49979687,
+      "threshold": -8.915584475020961e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "nearest128",
+      "key": 15485863,
+      "threshold": -8.776891074680888e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "nearest128",
+      "key": 32452843,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "nearest128",
+      "key": 49979687,
+      "threshold": -6.359644124442552e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "l1_4",
+      "key": 15485863,
+      "threshold": -2.4682928473626377e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "l1_4",
+      "key": 32452843,
+      "threshold": -7.416948635454796e-06,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "l1_4",
+      "key": 49979687,
+      "threshold": -1.34696790240409e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "dictionary64",
+      "key": 15485863,
+      "threshold": -0.0017745380091958047,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "dictionary64",
+      "key": 32452843,
+      "threshold": -0.0026352192293828303,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "dictionary64",
+      "key": 49979687,
+      "threshold": -0.0012943943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "dictionary_pairs64",
+      "key": 15485863,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "dictionary_pairs64",
+      "key": 32452843,
+      "threshold": -0.0002597040859399925,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-collections",
+      "target": "apache/commons-lang",
+      "method": "dictionary_pairs64",
+      "key": 49979687,
+      "threshold": -0.00012343943750000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "official",
+      "key": 15485863,
+      "threshold": -0.07614354406043096,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "official",
+      "key": 32452843,
+      "threshold": -0.06581509091334327,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "official",
+      "key": 49979687,
+      "threshold": -0.12484634582994311,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "syntax",
+      "key": 15485863,
+      "threshold": -0.008878597465078793,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "syntax",
+      "key": 32452843,
+      "threshold": -0.008913700000000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "syntax",
+      "key": 49979687,
+      "threshold": -0.005294227930215047,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "structured64",
+      "key": 15485863,
+      "threshold": -0.0005323677821597353,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "structured64",
+      "key": 32452843,
+      "threshold": -0.0012264158501565322,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "structured64",
+      "key": 49979687,
+      "threshold": -0.00034744040997500004,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "structured128",
+      "key": 15485863,
+      "threshold": -0.00034958076444489616,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "structured128",
+      "key": 32452843,
+      "threshold": -0.0011224882093251645,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "structured128",
+      "key": 49979687,
+      "threshold": -0.00034504867231480667,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "nearest64",
+      "key": 15485863,
+      "threshold": -0.00034958076444489616,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "nearest64",
+      "key": 32452843,
+      "threshold": -0.0007922165126441189,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "nearest64",
+      "key": 49979687,
+      "threshold": -0.000451754009503092,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "nearest128",
+      "key": 15485863,
+      "threshold": -9.519971629410027e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "nearest128",
+      "key": 32452843,
+      "threshold": -0.00033918534843769546,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "nearest128",
+      "key": 49979687,
+      "threshold": -0.00019734288145369712,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "l1_4",
+      "key": 15485863,
+      "threshold": -2.8861662595240963e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "l1_4",
+      "key": 32452843,
+      "threshold": -8.425976003750001e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "l1_4",
+      "key": 49979687,
+      "threshold": -3.0602143691689714e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "dictionary64",
+      "key": 15485863,
+      "threshold": -0.0024363046875000003,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "dictionary64",
+      "key": 32452843,
+      "threshold": -0.003463333468365085,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "dictionary64",
+      "key": 49979687,
+      "threshold": -0.010716865984375004,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "dictionary_pairs64",
+      "key": 15485863,
+      "threshold": -0.00034232336381747165,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "dictionary_pairs64",
+      "key": 32452843,
+      "threshold": -0.0003949270460491426,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-collections",
+      "method": "dictionary_pairs64",
+      "key": 49979687,
+      "threshold": -0.00034744040997500004,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "official",
+      "key": 15485863,
+      "threshold": -0.07614354406043096,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "official",
+      "key": 32452843,
+      "threshold": -0.06581509091334327,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "official",
+      "key": 49979687,
+      "threshold": -0.12484634582994311,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "syntax",
+      "key": 15485863,
+      "threshold": -0.008878597465078793,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "syntax",
+      "key": 32452843,
+      "threshold": -0.008913700000000002,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "syntax",
+      "key": 49979687,
+      "threshold": -0.005294227930215047,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "structured64",
+      "key": 15485863,
+      "threshold": -0.0005323677821597353,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "structured64",
+      "key": 32452843,
+      "threshold": -0.0012264158501565322,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "structured64",
+      "key": 49979687,
+      "threshold": -0.00034744040997500004,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "structured128",
+      "key": 15485863,
+      "threshold": -0.00034958076444489616,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "structured128",
+      "key": 32452843,
+      "threshold": -0.0011224882093251645,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "structured128",
+      "key": 49979687,
+      "threshold": -0.00034504867231480667,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "nearest64",
+      "key": 15485863,
+      "threshold": -0.00034958076444489616,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "nearest64",
+      "key": 32452843,
+      "threshold": -0.0007922165126441189,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "nearest64",
+      "key": 49979687,
+      "threshold": -0.000451754009503092,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "nearest128",
+      "key": 15485863,
+      "threshold": -9.519971629410027e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "nearest128",
+      "key": 32452843,
+      "threshold": -0.00033918534843769546,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "nearest128",
+      "key": 49979687,
+      "threshold": -0.00019734288145369712,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "l1_4",
+      "key": 15485863,
+      "threshold": -2.8861662595240963e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "l1_4",
+      "key": 32452843,
+      "threshold": -8.425976003750001e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "l1_4",
+      "key": 49979687,
+      "threshold": -3.0602143691689714e-05,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "dictionary64",
+      "key": 15485863,
+      "threshold": -0.0024363046875000003,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "dictionary64",
+      "key": 32452843,
+      "threshold": -0.003463333468365085,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "dictionary64",
+      "key": 49979687,
+      "threshold": -0.010716865984375004,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "dictionary_pairs64",
+      "key": 15485863,
+      "threshold": -0.00034232336381747165,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "dictionary_pairs64",
+      "key": 32452843,
+      "threshold": -0.0003949270460491426,
+      "n": 80,
+      "rank": 77
+    },
+    {
+      "source": "apache/commons-lang",
+      "target": "apache/commons-lang",
+      "method": "dictionary_pairs64",
+      "key": 49979687,
+      "threshold": -0.00034744040997500004,
+      "n": 80,
+      "rank": 77
+    }
+  ],
+  "interpretation": "Post hoc; sample size80 and file-pair maximum aggregation held fixed. Self-project cells exactly reproduce primary results."
+}

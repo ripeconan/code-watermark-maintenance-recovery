@@ -1,0 +1,101 @@
+Reproducing the October 28 detector-recovery revision
+==================================================
+
+Main entry points
+  paper/main.tex -> paper/main.pdf
+  paper/supplement.tex -> paper/supplement.pdf
+  scripts/recovery_detector.py : one-program detector API / command-line tool
+  results/confirmation_summary.json : final validation/test results
+  results/review_diagnostics.json : separately labeled post-review diagnostics
+  core_evidence.tar.xz : full final code, scores and execution evidence
+
+All new scoring and execution was performed on inner:
+  /home2/icdm/crosslingual-codewatermark/publication_revision_20261028
+Access uses the existing inner-tunnel SSH alias. No GPU training is required.
+The paper and figures are built locally from server-derived results.
+
+Data
+CodeContests valid/test, the pinned SEW solution selection, public CC BY 4.0.
+data/confirmation_tasks.json.gz contains the selected code and released fixtures;
+data/codecontests/manifest.json identifies the downloaded source snapshots.
+See DATA_PROVENANCE.txt for attribution and restrictions on the patch cache.
+The dataset field private_tests consists of publicly released contest fixtures.
+No privately supplied dataset, paid corpus, or hidden test access is required.
+
+Pinned embedder
+SEW commit 3c873186a56033e73347391b7aedebce1f7f71d0, unchanged author code.
+Upstream repository: https://github.com/suhanmen/SEW
+The vendor checkout location is in records/tool_paths.json; use the URL recorded
+in the original project/vendor provenance when acquiring a clean checkout.
+Preserve the upstream license. We retain the five-grade gate, grade aggregation,
+style-preference table, official detector and original embedding implementation.
+The repository's main score path directly calls sew.detect.detect and asserts
+agreement with its p value at the observed context, for every available variant.
+
+Runtimes and the native fault
+Original scoring: Python 3.10.12, tree-sitter 0.23.2; grammars Python 0.23.6,
+Java 0.23.5, C++ 0.23.4. Repeated calls can raise native/runtime failures.
+Fresh-process replication of the original study is retained, and every final
+score/candidate is additionally checked under Python 3.11.15/tree-sitter 0.25.2
+with the same grammars. Prefer this compatibility environment for new work.
+The native root cause has not been established; do not treat successful limited
+stress checks as a service-reliability guarantee.
+
+On the existing server, the compatible interpreter is
+  /home2/icdm/crosslingual-codewatermark/revision_20261019/.venv/bin/python
+and its private packages are in tools/parser_stable. This does not modify shared
+Python installations. Set PYTHONPATH to that package directory and scripts.
+For a separate machine, create a private Python 3.11 environment and install:
+  tree-sitter==0.25.2 tree-sitter-python==0.23.6
+  tree-sitter-java==0.23.5 tree-sitter-cpp==0.23.4 black==25.1.0
+Analysis additionally needs numpy and pandas; figures need matplotlib.
+Execution needs Linux bwrap, g++ (C++17), JDK 17, google-java-format 1.17.0,
+clang-format 20.1.8 and a Python interpreter inside the sandbox.
+Record absolute tool paths in records/tool_paths.json. The run driver accepts
+optional runtime_python and parser_packages fields for the compatible runtime.
+Do not run contest programs directly on a workstation without the harness.
+
+Reproduce final tables without repeating program execution
+1. Extract core_evidence.tar.xz into this directory. It contains final results,
+   including confirmation_extended.jsonl and confirmation_functional.jsonl.
+   Python works on Windows without a separate xz executable:
+     python -m tarfile -e core_evidence.tar.xz .
+2. Run scripts/analyze_confirmation.py using the analysis environment. It fails
+   if any functional result is absent. It reads only validation negatives when
+   fitting thresholds, and only test problems for reported confirmation outcomes.
+3. Run scripts/analyze_structural_stress.py, scripts/analyze_real_patches.py,
+   and scripts/review_diagnostics.py. The last is explicitly post-review and
+   includes descriptive test-ROC estimates, not operational threshold fitting.
+4. Run scripts/make_confirmation_assets.py and scripts/plot_confirmation.py.
+5. With pdflatex/bibtex available, run scripts/compile_papers.py, then
+   scripts/render_review.py (requires Poppler, PyMuPDF and Pillow). Inspect the
+   generated page images; the PDF sources and figures are the final authority.
+
+Repeat the confirmation experiment
+- Keep a separate output directory or archive existing result files first: some
+  scripts resume complete source-key records, while analysis overwrites summaries.
+- scripts/codecontests_study.py prepares embeddings/edits and fixed searches;
+  scripts/confirmation_functional.py executes deduplicated programs in bwrap.
+  scripts/run_confirmation.py joins these phases using the tool registry.
+- scripts/add_delta_dictionary_baseline.py adds the validation-learned control;
+  scripts/add_radius4_baseline.py adds the larger generic-search control.
+- scripts/structural_stress.py implements the two later boundary probes.
+- Some archived audit/launch scripts retain original absolute server paths so
+  that historical executions are traceable; adapt those paths explicitly when
+  reproducing on another host. They are not portable installation scripts.
+- Final timing is scripts/timing_single_call.py: exactly one detector call per
+  fresh process, three repetitions per fixed method/code. Startup is excluded.
+  Failed earlier timing attempts are preserved in records, not pooled.
+
+Evidence and claims
+The primary protocol and amendments record the order in which controls were
+added. Known-edit dictionary superiority, unseen-edit FPR increases, multiple-
+insertion failures, and lack of gain on selected patch replays are retained.
+The original/edited source-key denominator is never filtered to favor a method.
+The three keys are fixed; problem clusters, not keys or test cases, are the
+uncertainty units. Raw false-alarm targets are not assumed to match realized FPR.
+The original FSE and October 27 files remain separate historical snapshots.
+
+The experiment package is a local research artifact. It has not been publicly
+released or submitted. Add author details, choose the confirmed fee-free journal
+route, and apply that journal's current template before an actual submission.

@@ -1,0 +1,914 @@
+[
+  {
+    "id": "1e4ecaf5a6b3ae23f6e94988d48be48d92ff15e9f7e51313051da4a656a2a42c",
+    "key": 49979687,
+    "cohort": "v1",
+    "repo": "mahmoud/boltons",
+    "group": "negative_before",
+    "repeat": 0,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.7339373778279701,
+        "p_all": 0.5627540900553163,
+        "p_syntax": 0.36696868891398504,
+        "n_grades": 150,
+        "k_grades": 74,
+        "n_syntax": 35,
+        "k_syntax": 21,
+        "n_sites": 855
+      },
+      "context": [
+        81,
+        166,
+        25,
+        98
+      ],
+      "scores": {
+        "official": 0.7339373778279701,
+        "syntax": 0.010699656793697235,
+        "l1_4": 0.015550928570031012,
+        "nearest64": 0.1338967046440109,
+        "nearest128": 0.1338967046440109,
+        "structured64": 0.010699656793697235,
+        "structured128": 0.010699656793697235,
+        "dictionary64": 0.39896041562754364,
+        "dictionary_pairs64": 0.02689065057148759
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 33,
+        "l1_4": 321,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 32,
+        "pair_pool": 327,
+        "structural_nodes": 138
+      },
+      "seconds": 0.7280348239582963
+    }
+  },
+  {
+    "id": "1e4ecaf5a6b3ae23f6e94988d48be48d92ff15e9f7e51313051da4a656a2a42c",
+    "key": 49979687,
+    "cohort": "v1",
+    "repo": "mahmoud/boltons",
+    "group": "negative_before",
+    "repeat": 1,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.7339373778279701,
+        "p_all": 0.5627540900553163,
+        "p_syntax": 0.36696868891398504,
+        "n_grades": 150,
+        "k_grades": 74,
+        "n_syntax": 35,
+        "k_syntax": 21,
+        "n_sites": 855
+      },
+      "context": [
+        81,
+        166,
+        25,
+        98
+      ],
+      "scores": {
+        "official": 0.7339373778279701,
+        "syntax": 0.010699656793697235,
+        "l1_4": 0.015550928570031012,
+        "nearest64": 0.1338967046440109,
+        "nearest128": 0.1338967046440109,
+        "structured64": 0.010699656793697235,
+        "structured128": 0.010699656793697235,
+        "dictionary64": 0.39896041562754364,
+        "dictionary_pairs64": 0.02689065057148759
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 33,
+        "l1_4": 321,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 32,
+        "pair_pool": 327,
+        "structural_nodes": 138
+      },
+      "seconds": 0.7116993330419064
+    }
+  },
+  {
+    "id": "1e4ecaf5a6b3ae23f6e94988d48be48d92ff15e9f7e51313051da4a656a2a42c",
+    "key": 49979687,
+    "cohort": "v1",
+    "repo": "mahmoud/boltons",
+    "group": "negative_after",
+    "repeat": 0,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.8787536226665591,
+        "p_all": 0.43937681133327955,
+        "p_syntax": 0.6213592551646376,
+        "n_grades": 152,
+        "k_grades": 76,
+        "n_syntax": 35,
+        "k_syntax": 16,
+        "n_sites": 857
+      },
+      "context": [
+        81,
+        166,
+        25,
+        99
+      ],
+      "scores": {
+        "official": 0.8787536226665591,
+        "syntax": 0.20168351177775098,
+        "l1_4": 0.015550928570031012,
+        "nearest64": 0.015550928570031012,
+        "nearest128": 0.015550928570031012,
+        "structured64": 0.20168351177775098,
+        "structured128": 0.04894042793342614,
+        "dictionary64": 0.366704619357812,
+        "dictionary_pairs64": 0.10992264601287485
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 34,
+        "l1_4": 321,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 33,
+        "pair_pool": 339,
+        "structural_nodes": 139
+      },
+      "seconds": 0.7142404650221579
+    }
+  },
+  {
+    "id": "1e4ecaf5a6b3ae23f6e94988d48be48d92ff15e9f7e51313051da4a656a2a42c",
+    "key": 49979687,
+    "cohort": "v1",
+    "repo": "mahmoud/boltons",
+    "group": "negative_after",
+    "repeat": 1,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.8787536226665591,
+        "p_all": 0.43937681133327955,
+        "p_syntax": 0.6213592551646376,
+        "n_grades": 152,
+        "k_grades": 76,
+        "n_syntax": 35,
+        "k_syntax": 16,
+        "n_sites": 857
+      },
+      "context": [
+        81,
+        166,
+        25,
+        99
+      ],
+      "scores": {
+        "official": 0.8787536226665591,
+        "syntax": 0.20168351177775098,
+        "l1_4": 0.015550928570031012,
+        "nearest64": 0.015550928570031012,
+        "nearest128": 0.015550928570031012,
+        "structured64": 0.20168351177775098,
+        "structured128": 0.04894042793342614,
+        "dictionary64": 0.366704619357812,
+        "dictionary_pairs64": 0.10992264601287485
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 34,
+        "l1_4": 321,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 33,
+        "pair_pool": 339,
+        "structural_nodes": 139
+      },
+      "seconds": 0.7128292810521089
+    }
+  },
+  {
+    "id": "2a657b1c366dd9128800330597f73695cfd5489733671a345aa031f279772846",
+    "key": 15485863,
+    "cohort": "v1",
+    "repo": "pallets/itsdangerous",
+    "group": "negative_before",
+    "repeat": 0,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 1.0,
+        "p_all": 0.6370312407105576,
+        "p_syntax": 0.6695159638359384,
+        "n_grades": 50,
+        "k_grades": 23,
+        "n_syntax": 11,
+        "k_syntax": 5,
+        "n_sites": 145
+      },
+      "context": [
+        14,
+        44,
+        3,
+        16
+      ],
+      "scores": {
+        "official": 1.0,
+        "syntax": 0.17007449280134235,
+        "l1_4": 0.03137515731319954,
+        "nearest64": 0.21377197077478857,
+        "nearest128": 0.12119215151485081,
+        "structured64": 0.12119215151485081,
+        "structured128": 0.12119215151485081,
+        "dictionary64": 0.4586217296106315,
+        "dictionary_pairs64": 0.14970265278553382
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 14,
+        "l1_4": 320,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 92,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 13,
+        "pair_pool": 75,
+        "structural_nodes": 20
+      },
+      "seconds": 0.09678617102326825
+    }
+  },
+  {
+    "id": "2a657b1c366dd9128800330597f73695cfd5489733671a345aa031f279772846",
+    "key": 15485863,
+    "cohort": "v1",
+    "repo": "pallets/itsdangerous",
+    "group": "negative_before",
+    "repeat": 1,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 1.0,
+        "p_all": 0.6370312407105576,
+        "p_syntax": 0.6695159638359384,
+        "n_grades": 50,
+        "k_grades": 23,
+        "n_syntax": 11,
+        "k_syntax": 5,
+        "n_sites": 145
+      },
+      "context": [
+        14,
+        44,
+        3,
+        16
+      ],
+      "scores": {
+        "official": 1.0,
+        "syntax": 0.17007449280134235,
+        "l1_4": 0.03137515731319954,
+        "nearest64": 0.21377197077478857,
+        "nearest128": 0.12119215151485081,
+        "structured64": 0.12119215151485081,
+        "structured128": 0.12119215151485081,
+        "dictionary64": 0.4586217296106315,
+        "dictionary_pairs64": 0.14970265278553382
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 14,
+        "l1_4": 320,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 92,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 13,
+        "pair_pool": 75,
+        "structural_nodes": 20
+      },
+      "seconds": 0.09809601795859635
+    }
+  },
+  {
+    "id": "2a657b1c366dd9128800330597f73695cfd5489733671a345aa031f279772846",
+    "key": 15485863,
+    "cohort": "v1",
+    "repo": "pallets/itsdangerous",
+    "group": "negative_after",
+    "repeat": 0,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 1.0,
+        "p_all": 0.6249852261296686,
+        "p_syntax": 0.5866292508151144,
+        "n_grades": 49,
+        "k_grades": 22,
+        "n_syntax": 10,
+        "k_syntax": 5,
+        "n_sites": 169
+      },
+      "context": [
+        14,
+        44,
+        3,
+        16
+      ],
+      "scores": {
+        "official": 1.0,
+        "syntax": 0.2537763994065167,
+        "l1_4": 0.06205116436615998,
+        "nearest64": 0.16660567127786574,
+        "nearest128": 0.08966215591211245,
+        "structured64": 0.08966215591211245,
+        "structured128": 0.08966215591211245,
+        "dictionary64": 0.5567921607225358,
+        "dictionary_pairs64": 0.16660567127786574
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 14,
+        "l1_4": 320,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 92,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 13,
+        "pair_pool": 75,
+        "structural_nodes": 20
+      },
+      "seconds": 0.10111515398602933
+    }
+  },
+  {
+    "id": "2a657b1c366dd9128800330597f73695cfd5489733671a345aa031f279772846",
+    "key": 15485863,
+    "cohort": "v1",
+    "repo": "pallets/itsdangerous",
+    "group": "negative_after",
+    "repeat": 1,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 1.0,
+        "p_all": 0.6249852261296686,
+        "p_syntax": 0.5866292508151144,
+        "n_grades": 49,
+        "k_grades": 22,
+        "n_syntax": 10,
+        "k_syntax": 5,
+        "n_sites": 169
+      },
+      "context": [
+        14,
+        44,
+        3,
+        16
+      ],
+      "scores": {
+        "official": 1.0,
+        "syntax": 0.2537763994065167,
+        "l1_4": 0.06205116436615998,
+        "nearest64": 0.16660567127786574,
+        "nearest128": 0.08966215591211245,
+        "structured64": 0.08966215591211245,
+        "structured128": 0.08966215591211245,
+        "dictionary64": 0.5567921607225358,
+        "dictionary_pairs64": 0.16660567127786574
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 14,
+        "l1_4": 320,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 92,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 13,
+        "pair_pool": 75,
+        "structural_nodes": 20
+      },
+      "seconds": 0.09895362396491691
+    }
+  },
+  {
+    "id": "4ecf95e19e4c5e78e62956097bda22069872a71e55f878c74a0ff95a4c2fb35f",
+    "key": 49979687,
+    "cohort": "v1",
+    "repo": "pallets/click",
+    "group": "negative_before",
+    "repeat": 0,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.8522105449353721,
+        "p_all": 0.42610527246768604,
+        "p_syntax": 0.4398952542764394,
+        "n_grades": 77,
+        "k_grades": 39,
+        "n_syntax": 14,
+        "k_syntax": 10,
+        "n_sites": 425
+      },
+      "context": [
+        47,
+        96,
+        2,
+        76
+      ],
+      "scores": {
+        "official": 0.8522105449353721,
+        "syntax": 0.27631225996087144,
+        "l1_4": 0.09194112408337307,
+        "nearest64": 0.2068911571515816,
+        "nearest128": 0.19937889384520166,
+        "structured64": 0.27631225996087144,
+        "structured128": 0.07369183833159657,
+        "dictionary64": 0.26104329192784603,
+        "dictionary_pairs64": 0.23517941157346933
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 26,
+        "l1_4": 313,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 25,
+        "pair_pool": 213,
+        "structural_nodes": 78
+      },
+      "seconds": 0.2151797510450706
+    }
+  },
+  {
+    "id": "4ecf95e19e4c5e78e62956097bda22069872a71e55f878c74a0ff95a4c2fb35f",
+    "key": 49979687,
+    "cohort": "v1",
+    "repo": "pallets/click",
+    "group": "negative_before",
+    "repeat": 1,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.8522105449353721,
+        "p_all": 0.42610527246768604,
+        "p_syntax": 0.4398952542764394,
+        "n_grades": 77,
+        "k_grades": 39,
+        "n_syntax": 14,
+        "k_syntax": 10,
+        "n_sites": 425
+      },
+      "context": [
+        47,
+        96,
+        2,
+        76
+      ],
+      "scores": {
+        "official": 0.8522105449353721,
+        "syntax": 0.27631225996087144,
+        "l1_4": 0.09194112408337307,
+        "nearest64": 0.2068911571515816,
+        "nearest128": 0.19937889384520166,
+        "structured64": 0.27631225996087144,
+        "structured128": 0.07369183833159657,
+        "dictionary64": 0.26104329192784603,
+        "dictionary_pairs64": 0.23517941157346933
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 26,
+        "l1_4": 313,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 25,
+        "pair_pool": 213,
+        "structural_nodes": 78
+      },
+      "seconds": 0.21796675899531692
+    }
+  },
+  {
+    "id": "4ecf95e19e4c5e78e62956097bda22069872a71e55f878c74a0ff95a4c2fb35f",
+    "key": 49979687,
+    "cohort": "v1",
+    "repo": "pallets/click",
+    "group": "negative_after",
+    "repeat": 0,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.8522105449353721,
+        "p_all": 0.42610527246768604,
+        "p_syntax": 0.4398952542764394,
+        "n_grades": 77,
+        "k_grades": 39,
+        "n_syntax": 14,
+        "k_syntax": 10,
+        "n_sites": 425
+      },
+      "context": [
+        47,
+        96,
+        2,
+        76
+      ],
+      "scores": {
+        "official": 0.8522105449353721,
+        "syntax": 0.27631225996087144,
+        "l1_4": 0.09194112408337307,
+        "nearest64": 0.2068911571515816,
+        "nearest128": 0.19937889384520166,
+        "structured64": 0.27631225996087144,
+        "structured128": 0.07369183833159657,
+        "dictionary64": 0.26104329192784603,
+        "dictionary_pairs64": 0.23517941157346933
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 26,
+        "l1_4": 313,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 25,
+        "pair_pool": 213,
+        "structural_nodes": 78
+      },
+      "seconds": 0.21938917296938598
+    }
+  },
+  {
+    "id": "4ecf95e19e4c5e78e62956097bda22069872a71e55f878c74a0ff95a4c2fb35f",
+    "key": 49979687,
+    "cohort": "v1",
+    "repo": "pallets/click",
+    "group": "negative_after",
+    "repeat": 1,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.8522105449353721,
+        "p_all": 0.42610527246768604,
+        "p_syntax": 0.4398952542764394,
+        "n_grades": 77,
+        "k_grades": 39,
+        "n_syntax": 14,
+        "k_syntax": 10,
+        "n_sites": 425
+      },
+      "context": [
+        47,
+        96,
+        2,
+        76
+      ],
+      "scores": {
+        "official": 0.8522105449353721,
+        "syntax": 0.27631225996087144,
+        "l1_4": 0.09194112408337307,
+        "nearest64": 0.2068911571515816,
+        "nearest128": 0.19937889384520166,
+        "structured64": 0.27631225996087144,
+        "structured128": 0.07369183833159657,
+        "dictionary64": 0.26104329192784603,
+        "dictionary_pairs64": 0.23517941157346933
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 26,
+        "l1_4": 313,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 25,
+        "pair_pool": 213,
+        "structural_nodes": 78
+      },
+      "seconds": 0.22394285397604108
+    }
+  },
+  {
+    "id": "11d763094573a0bd2c2d453c40cc13eaab31a285c21a85ed46cb7bd820185c8e",
+    "key": 15485863,
+    "cohort": "v2",
+    "repo": "sympy/sympy",
+    "group": "negative_before",
+    "repeat": 0,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 1.0,
+        "p_all": 0.702212382160882,
+        "p_syntax": 0.6246794867611162,
+        "n_grades": 140,
+        "k_grades": 62,
+        "n_syntax": 44,
+        "k_syntax": 21,
+        "n_sites": 869
+      },
+      "context": [
+        25,
+        78,
+        21,
+        74
+      ],
+      "scores": {
+        "official": 1.0,
+        "syntax": 0.10854521990663431,
+        "l1_4": 0.023229534053887595,
+        "nearest64": 0.03014645193187284,
+        "nearest128": 0.024205304291146437,
+        "structured64": 0.026142052730096895,
+        "structured128": 0.0069879497545554895,
+        "dictionary64": 0.03014645193187284,
+        "dictionary_pairs64": 0.015688734258892206
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 31,
+        "l1_4": 321,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 30,
+        "pair_pool": 370,
+        "structural_nodes": 107
+      },
+      "seconds": 0.8020273940055631
+    }
+  },
+  {
+    "id": "11d763094573a0bd2c2d453c40cc13eaab31a285c21a85ed46cb7bd820185c8e",
+    "key": 15485863,
+    "cohort": "v2",
+    "repo": "sympy/sympy",
+    "group": "negative_before",
+    "repeat": 1,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 1.0,
+        "p_all": 0.702212382160882,
+        "p_syntax": 0.6246794867611162,
+        "n_grades": 140,
+        "k_grades": 62,
+        "n_syntax": 44,
+        "k_syntax": 21,
+        "n_sites": 869
+      },
+      "context": [
+        25,
+        78,
+        21,
+        74
+      ],
+      "scores": {
+        "official": 1.0,
+        "syntax": 0.10854521990663431,
+        "l1_4": 0.023229534053887595,
+        "nearest64": 0.03014645193187284,
+        "nearest128": 0.024205304291146437,
+        "structured64": 0.026142052730096895,
+        "structured128": 0.0069879497545554895,
+        "dictionary64": 0.03014645193187284,
+        "dictionary_pairs64": 0.015688734258892206
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 31,
+        "l1_4": 321,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 30,
+        "pair_pool": 370,
+        "structural_nodes": 107
+      },
+      "seconds": 0.7945553750032559
+    }
+  },
+  {
+    "id": "11d763094573a0bd2c2d453c40cc13eaab31a285c21a85ed46cb7bd820185c8e",
+    "key": 15485863,
+    "cohort": "v2",
+    "repo": "sympy/sympy",
+    "group": "negative_after",
+    "repeat": 0,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.13192495218752118,
+        "p_all": 0.06596247609376059,
+        "p_syntax": 0.07238260362961184,
+        "n_grades": 146,
+        "k_grades": 84,
+        "n_syntax": 48,
+        "k_syntax": 29,
+        "n_sites": 890
+      },
+      "context": [
+        26,
+        80,
+        23,
+        76
+      ],
+      "scores": {
+        "official": 0.13192495218752118,
+        "syntax": 0.01593174288351159,
+        "l1_4": 0.00648495380574676,
+        "nearest64": 0.00648495380574676,
+        "nearest128": 0.00648495380574676,
+        "structured64": 0.00648495380574676,
+        "structured128": 0.00648495380574676,
+        "dictionary64": 0.13192495218752118,
+        "dictionary_pairs64": 0.06290511509729911
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 32,
+        "l1_4": 321,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 31,
+        "pair_pool": 387,
+        "structural_nodes": 112
+      },
+      "seconds": 0.8863615739974193
+    }
+  },
+  {
+    "id": "11d763094573a0bd2c2d453c40cc13eaab31a285c21a85ed46cb7bd820185c8e",
+    "key": 15485863,
+    "cohort": "v2",
+    "repo": "sympy/sympy",
+    "group": "negative_after",
+    "repeat": 1,
+    "original_error": "[redacted diagnostic]",
+    "measurement": {
+      "official": {
+        "verdict": "No watermark evidence",
+        "p": 0.13192495218752118,
+        "p_all": 0.06596247609376059,
+        "p_syntax": 0.07238260362961184,
+        "n_grades": 146,
+        "k_grades": 84,
+        "n_syntax": 48,
+        "k_syntax": 29,
+        "n_sites": 890
+      },
+      "context": [
+        26,
+        80,
+        23,
+        76
+      ],
+      "scores": {
+        "official": 0.13192495218752118,
+        "syntax": 0.01593174288351159,
+        "l1_4": 0.00648495380574676,
+        "nearest64": 0.00648495380574676,
+        "nearest128": 0.00648495380574676,
+        "structured64": 0.00648495380574676,
+        "structured128": 0.00648495380574676,
+        "dictionary64": 0.13192495218752118,
+        "dictionary_pairs64": 0.06290511509729911
+      },
+      "candidates": {
+        "official": 1,
+        "syntax": 32,
+        "l1_4": 321,
+        "nearest64": 64,
+        "nearest128": 128,
+        "structured64": 64,
+        "structured128": 128,
+        "dictionary64": 14,
+        "dictionary_pairs64": 64
+      },
+      "coverage": {},
+      "pools": {
+        "single_pool": 31,
+        "pair_pool": 387,
+        "structural_nodes": 112
+      },
+      "seconds": 0.9284280310384929
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "raw_records": 2079,
+  "summary_exactly_equal": true,
+  "removed": [
+    "code",
+    "compile_error",
+    "error"
+  ],
+  "scope": "controlled confirmation numerical analysis"
+}

@@ -1,0 +1,44 @@
+Public source and provenance
+
+All new research data are public repository sources obtained through Git, with
+repository URLs, exact revisions, file paths, source hashes, inclusion rules and
+complete eligible sampling frames retained. There is no private user dataset,
+paid API corpus, or undisclosed access requirement.
+
+First frame (707 file transitions):
+  https://github.com/mahmoud/boltons
+  https://github.com/pallets/itsdangerous
+  https://github.com/pallets/click
+  https://github.com/google/gson
+  https://github.com/jhy/jsoup
+  https://github.com/junit-team/junit4
+  https://github.com/fmtlib/fmt
+  https://github.com/gabime/spdlog
+  https://github.com/nlohmann/json
+The first/later cohort roles are in PROTOCOL_v1.txt and the data records. Each
+project contributes at most80 hash-selected modified production-file transitions.
+
+Second frame (640 selected transitions, 80/80 calibration/evaluation per project):
+  https://github.com/sympy/sympy
+  https://github.com/networkx/networkx
+  https://github.com/apache/commons-lang
+  https://github.com/apache/commons-collections
+Complete unique-path eligible frames contain184,190,232,365 transitions,
+respectively. Exact source snapshots and paths do not cross the within-project
+calibration/evaluation split. Three keys repeat each file; they do not create
+three independent files. Functional samples select8 evaluation files per project
+before their watermark outcomes, independent of test-module availability.
+
+Public distribution retains source identifiers and hashes, but not the original program bodies, marked variants, or license files from the historical review archive. Refer to each pinned upstream repository and file for the applicable licenses and notices. A root project license does not relicense separately identified components.
+
+The older CodeContests study, its public released tests, and historical FSE
+generation records retain their own DATA_PROVENANCE.txt in the baseline archive.
+CodeContests released contest fixtures include a field named private_tests;
+that dataset field is publicly released, not private data obtained by the authors.
+The older 88-patch corpus is separate from the 13-project study. Its source code is not redistributed in this package.
+
+Public author-manuscript literature downloads are retained locally for reading,
+with URLs/hashes in records/target_manuscripts.json. The portable research archive
+does not redistribute those third-party PDFs. Journal fee information and the
+user's ESI-list checks are recorded with dates and source URLs; they are venue
+research rather than experiment inputs.

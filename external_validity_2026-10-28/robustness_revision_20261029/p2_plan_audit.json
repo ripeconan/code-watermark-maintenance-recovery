@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-29T02:59:07.878110+00:00",
+  "attempts": 432,
+  "canonical_children_matched": 338,
+  "canonical_replay_statuses_matched": 431,
+  "embedding_abstentions": 33,
+  "pre_replay_error": 1,
+  "original_pair_subgroup": 294,
+  "both_clean_subgroup": 135,
+  "line_status": {
+    "clean": 135,
+    "conflict": 263,
+    "embedding_abstention": 33,
+    "prerequisite_error": 1
+  },
+  "score_actions": {
+    "reuse": 135,
+    "not_reached": 297
+  },
+  "test_actions": {
+    "reuse": 135,
+    "not_reached": 297
+  },
+  "plan_sha256": "3a60b52fa34ffdb4bcf6a54a5eb57ef7d2d605c03c6e9b885f560dc9cd78df9f"
+}

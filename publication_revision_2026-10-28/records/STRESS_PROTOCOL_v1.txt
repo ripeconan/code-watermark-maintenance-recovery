@@ -1,0 +1,20 @@
+2026-10-28. Supplemental falsification study specified after the main results.
+This is an exploratory extension, not another untouched confirmation cohort.
+
+Select 24 test problems per language by ascending SHA256('stress|' + problem ID),
+independently of all correctness/detection outcomes; retain the same three keys.
+Use two additional interventions on the same marked and unmarked originals:
+(1) one unused function with two parameters, two nested zero-trip loops, a
+conditional return and a terminal return (one coherent subtree, L1 delta 7);
+(2) two disjoint unused simple helpers (two subtrees, L1 delta 6).
+Both are synthetic boundary probes. No claim about developer frequency.
+
+Use the already fitted full-validation envelope thresholds unchanged. No extra
+calibration, retraining, positive-data tuning, or candidate-method change.
+Compare official, learned-delta dictionary, syntax, equal-budget, radius 3 and
+oracle context. Report actual FPR and correct-and-detected rates. All sources
+execute through the same sandbox and released test fixtures as confirmation.
+Expected diagnostic distinction (not a result): single-subtree inference can
+cover a large coupled delta but need not cover two disjoint insertions. Report
+failure of the latter as a limitation rather than expanding the method to fit it.
+Fresh debug-allocator subprocesses avoid the unresolved long-process issue.

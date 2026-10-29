@@ -1,0 +1,2189 @@
+[
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.09125114432316021
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.23046875
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.025324396833376756
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.053262281494340445
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.019395044625600016
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.025324396833376756
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.019395044625600016
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.025324396833376756
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.01431022050000001
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.021905297439489782
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.004457094193899525
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.010659081576651885
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.0025508695142128952
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.004842570243299755
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.09125114432316021
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.23046875
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.09125114432316021
+  },
+  {
+    "language": "cpp",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.23046875
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.3558318117585247
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.5463520646899381
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.03909127632615356
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.06599413294871868
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.01431022050000001
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.03909127632615356
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.01431022050000001
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.03909127632615356
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.009254340703693277
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.02883755710675159
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.009254340703693277
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.02690284222890849
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.008201699414030917
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.01431022050000001
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.3558318117585247
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.5463520646899381
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.3558318117585247
+  },
+  {
+    "language": "cpp",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.5463520646899381
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.111328125
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.5711693283936001
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.03172876200000001
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.0849370901323449
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.0130962557560269
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.03359626243999228
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.0130962557560269
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.03359626243999228
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.01431022050000001
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.023228026757193966
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.010826879273408797
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.016347152701479673
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.00413648687445518
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.006636985232217813
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.111328125
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.5711693283936001
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 40,
+    "rank": 41,
+    "threshold": "inf"
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 40,
+    "rank": 39,
+    "threshold": -0.111328125
+  },
+  {
+    "language": "cpp",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 40,
+    "rank": 37,
+    "threshold": -0.5711693283936001
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.04985640786518334
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.13100965623224825
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.004457476489796175
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.01846817351512143
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.004457476489796175
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.01218483995250182
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.004457476489796175
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.009506155484050323
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.006591690510572173
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.011511791455562363
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.005199474652916942
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.006591690510572173
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.004270951284483689
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.005190865566203985
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.023644994891625224
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.02780191816407989
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0033296085383193014
+  },
+  {
+    "language": "java",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.008099093468128458
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0874389688384295
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.14612402751215017
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.009506155484050318
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.012930899347661272
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.004179913568844537
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.007980555597795671
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0038212687916075144
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.007980555597795671
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.004179913568844537
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.00781863184392678
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.002580684453718856
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.00622025577439691
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0009448206100086253
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.001767817003079452
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.014752318055994133
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.03956958407983822
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0008243084646745116
+  },
+  {
+    "language": "java",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.004111625114679631
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0389408143624226
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.04126751938073693
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.016643781577473454
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.01791727492528075
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.010244856024291451
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.012930899347661272
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0025559585154816405
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.006074039607781088
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0036072153301805678
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.00998188595987942
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.0036072153301805678
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.00622025577439691
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.002048763137687611
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.004786726306284064
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.024379540137548738
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.0389408143624226
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 50,
+    "rank": 51,
+    "threshold": "inf"
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 50,
+    "rank": 49,
+    "threshold": -0.008099093468128458
+  },
+  {
+    "language": "java",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 50,
+    "rank": 46,
+    "threshold": -0.009861076185834988
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.3276538957012343
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.5708172758564382
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.06608971122434448
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.1207043194585343
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.06608971122434448
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.08966215591211245
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.06608971122434447
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.08966215591211245
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.05300172147842925
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.06358190853776749
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.02953721108614777
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.02953721108614777
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.018447887259427476
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.02953721108614777
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.0939326535571279
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.09486057142420001
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.03978316665388639
+  },
+  {
+    "language": "python",
+    "key": 15485863,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.041207046716165985
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.09209253671823203
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.41848507910759747
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.057783799217580596
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.06608971122434448
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.026895884617914385
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.027584481594427737
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.026895884617914385
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.027584481594427737
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.035991093311282286
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.035991093311282286
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.03182683253325627
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.035991093311282286
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.02953721108614777
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.02953721108614777
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.041207046716165985
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.041207046716165985
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.029178313222241455
+  },
+  {
+    "language": "python",
+    "key": 32452843,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.041207046716165985
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.0939326535571279
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "official",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.16478424787833706
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.0939326535571279
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "syntax",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.13988265288962295
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.057783799217580596
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "structured64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.06608971122434447
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.057783799217580596
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "structured128",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.06608971122434447
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.046981488617913104
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "nearest64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.057783799217580596
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.041207046716165985
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "nearest128",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.041207046716165985
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.027090999852307743
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "l1_4",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.027090999852307743
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.057783799217580596
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "dictionary64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.06760250865541254
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.01,
+    "n_commits": 41,
+    "rank": 42,
+    "threshold": "inf"
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.05,
+    "n_commits": 41,
+    "rank": 40,
+    "threshold": -0.041207046716165985
+  },
+  {
+    "language": "python",
+    "key": 49979687,
+    "method": "dictionary_pairs64",
+    "alpha": 0.1,
+    "n_commits": 41,
+    "rank": 38,
+    "threshold": -0.041207046716165985
+  }
+]

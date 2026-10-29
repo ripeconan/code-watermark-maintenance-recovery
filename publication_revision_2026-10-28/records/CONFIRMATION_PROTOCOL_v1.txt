@@ -1,0 +1,54 @@
+2026-10-28. Frozen before inspecting CodeContests watermark outcomes.
+
+Population and data: the 693 language-specific public human solutions selected
+by SEW's pinned codecontests_selection.json (203 Python, 223 Java, 267 C++).
+Sources are CodeContests valid/test, CC BY 4.0. This is a post-hoc embedding and
+maintenance study on human-written carriers; it is not new LLM generation.
+Keep all source/embedding/edit failures. Group inference by contest problem ID,
+not by language, key, variant, or execution case. Use three fixed distinct keys.
+Use valid for development/calibration of thresholds, test for final evaluation;
+also report each split separately. No tuning on test positives.
+
+Core intervention matrix (all applied to negatives and positives):
+original; standard formatter; append a fresh unused helper function; formatter
+then helper. The 2x2 design studies carrier normalization and changed global
+context. Helper insertion is synthetic, not a claim about developer prevalence.
+Add an unused helper containing a loop as an out-of-radius challenge. Source
+tests are executed; a compile/test failure remains a failure in full denominators.
+Tool availability must be verified; absence is not a watermark removal result.
+Reference execution is compared with each watermarked and edited source on all
+available public tests and a deterministic bounded sample of other released tests.
+Dataset fields named private_tests are publicly released benchmark fixtures,
+not privately obtained data. No test feedback regenerates source programs.
+
+Same-embedder primary comparison: official SEW; blind L1 context scan radii 1/2/3;
+syntax-derived context candidates; equal-budget nearest-L1 search; simple
+original-only detection. Oracle original context is diagnostic only.
+Syntax-derived candidates: observed context plus subtraction of the structural
+count vector of each function/loop/conditional subtree in the suspect CST,
+excluding negative count vectors and deduplicating. No key, original code,
+edit identity, or positive score is used in candidate construction. This is a
+detector hypothesis search, not a semantics-preserving source rewrite claim.
+The original candidate is always present. Set size and timing are reported.
+
+Calibration: negative-only original calibration, pooled edited calibration,
+and per-negative maximum over original + formatter + helper + their composition.
+Each key/language retains its own threshold. Calibrate using valid problems;
+freeze on test problems. Target 5% primarily and 1%/10% descriptively. At 1%,
+insufficient calibration size may yield an infinite threshold; report this.
+Out-of-radius helper-loop is excluded from calibration envelopes.
+Also report nominal official and nominal Bonferroni scans without interpreting
+the latter as validated fixed-key guarantees when single-context p is not valid.
+
+Primary contrast: syntax-derived recovery vs official score under the same
+envelope calibration, on test helper edits, separately by language. Report
+paired problem-cluster bootstrap intervals and held-out FPRs; Holm adjustment
+for these three contrasts. Detection alone and functional-and-detected are both
+required. Equal-budget nearest-context baseline is a direct method competitor.
+If realized FPR differs, report ROC/held-out operating points and do not claim
+matched-risk dominance from nominal target equality alone.
+
+No new probability theorem or universal robustness claim. A useful result must
+improve recovery beyond generic search at comparable observed false alarm and
+cost, and clarify losses under formatting/short evidence. Original FSE outputs
+remain historical development and mechanism evidence, not new confirmation.

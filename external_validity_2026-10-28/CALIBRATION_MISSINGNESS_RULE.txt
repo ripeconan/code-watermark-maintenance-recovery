@@ -1,0 +1,15 @@
+Pre-scoring clarification, 2026-10-28
+
+Known detector abstention (e.g. insufficient grades) keeps the frozen -infinity
+score. A process failure is different from a known abstention. A missing required
+negative score contributes +infinity to calibration, so a failed computation
+cannot make a threshold more permissive. Report such calibration counts.
+For future negative outcomes, report observed alarms and both the number of
+incomplete pairs and an upper bound treating unresolved nonalarms as alarms.
+For positives, missing embedding/replay/detection cannot count as a successful
+usable detection; retain it in the planned-attempt denominator.
+Paired intervals use source-key averaged outcomes conditional on fitted
+thresholds, with 5000 filename-cluster draws and 5000 circular chronological
+moving-block draws of length ceil(sqrt(number of selected test transitions)).
+They are descriptive sensitivity intervals, not calibrated confidence claims
+under arbitrary temporal dependence. These rules precede new scoring outcomes.

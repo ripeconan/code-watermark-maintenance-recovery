@@ -1,0 +1,3342 @@
+{
+  "summary": [
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 8,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.02564102564102564,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen",
+      "n": 468,
+      "detected": 32,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.06837606837606837,
+        "lo": 0.04487179487179487,
+        "hi": 0.094017094017094,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521368,
+        "lo": 0.008547008547008546,
+        "hi": 0.03632478632478632,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched",
+      "n": 468,
+      "detected": 19,
+      "joint_count": 5,
+      "detection": {
+        "mean": 0.0405982905982906,
+        "lo": 0.0235042735042735,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen",
+      "n": 468,
+      "detected": 80,
+      "joint_count": 19,
+      "detection": {
+        "mean": 0.17094017094017092,
+        "lo": 0.141025641025641,
+        "hi": 0.2051282051282051,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.04059829059829059,
+        "lo": 0.0235042735042735,
+        "hi": 0.061965811965811954,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.044871794871794865,
+        "lo": 0.025641025641025637,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.044871794871794865,
+        "lo": 0.025641025641025637,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 8,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.027777777777777776,
+        "hi": 0.06837606837606837,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "n": 468,
+      "detected": 19,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.04059829059829059,
+        "lo": 0.0235042735042735,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 258,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5512820512820513,
+        "lo": 0.5,
+        "hi": 0.6025641025641024,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13675213675213677,
+        "hi": 0.22008547008547005,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 261,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5576923076923077,
+        "lo": 0.5064102564102564,
+        "hi": 0.6068910256410259,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13675213675213677,
+        "hi": 0.22008547008547005,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched",
+      "n": 468,
+      "detected": 354,
+      "joint_count": 113,
+      "detection": {
+        "mean": 0.7564102564102564,
+        "lo": 0.717948717948718,
+        "hi": 0.7948717948717949,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.24145299145299143,
+        "lo": 0.19444444444444442,
+        "hi": 0.28846153846153844,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen",
+      "n": 468,
+      "detected": 362,
+      "joint_count": 116,
+      "detection": {
+        "mean": 0.7735042735042735,
+        "lo": 0.732905982905983,
+        "hi": 0.811965811965812,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.24786324786324784,
+        "lo": 0.1987179487179487,
+        "hi": 0.29700854700854695,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 43,
+      "joint_count": 9,
+      "detection": {
+        "mean": 0.09188034188034187,
+        "lo": 0.0641025641025641,
+        "hi": 0.12184829059829079,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.019230769230769232,
+        "lo": 0.00641025641025641,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 51,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.10897435897435898,
+        "lo": 0.08119658119658119,
+        "hi": 0.14102564102564102,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.012820512820512818,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched",
+      "n": 468,
+      "detected": 197,
+      "joint_count": 55,
+      "detection": {
+        "mean": 0.42094017094017094,
+        "lo": 0.3739316239316239,
+        "hi": 0.47008547008546997,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.11752136752136749,
+        "lo": 0.08547008547008546,
+        "hi": 0.1517094017094017,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen",
+      "n": 468,
+      "detected": 234,
+      "joint_count": 66,
+      "detection": {
+        "mean": 0.5,
+        "lo": 0.4508547008547009,
+        "hi": 0.5470085470085471,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.18162393162393162,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 262,
+      "joint_count": 82,
+      "detection": {
+        "mean": 0.5598290598290598,
+        "lo": 0.5106303418803418,
+        "hi": 0.6089743589743589,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17521367521367517,
+        "lo": 0.1346153846153846,
+        "hi": 0.21794871794871795,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 291,
+      "joint_count": 89,
+      "detection": {
+        "mean": 0.6217948717948718,
+        "lo": 0.5769230769230769,
+        "hi": 0.6688034188034188,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.19017094017094016,
+        "lo": 0.14957264957264957,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched",
+      "n": 468,
+      "detected": 288,
+      "joint_count": 89,
+      "detection": {
+        "mean": 0.6153846153846154,
+        "lo": 0.5641025641025641,
+        "hi": 0.6624465811965815,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.19017094017094016,
+        "lo": 0.14738247863247864,
+        "hi": 0.23717948717948717,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen",
+      "n": 468,
+      "detected": 288,
+      "joint_count": 89,
+      "detection": {
+        "mean": 0.6153846153846154,
+        "lo": 0.5641025641025641,
+        "hi": 0.6624465811965815,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.19017094017094016,
+        "lo": 0.14738247863247864,
+        "hi": 0.23717948717948717,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 257,
+      "joint_count": 81,
+      "detection": {
+        "mean": 0.5491452991452992,
+        "lo": 0.49786324786324787,
+        "hi": 0.5982905982905983,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17307692307692304,
+        "lo": 0.13247863247863245,
+        "hi": 0.2158119658119658,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 88,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5576923076923077,
+        "hi": 0.6517094017094016,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.18803418803418803,
+        "lo": 0.14743589743589744,
+        "hi": 0.22868589743589765,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched",
+      "n": 468,
+      "detected": 286,
+      "joint_count": 89,
+      "detection": {
+        "mean": 0.6111111111111112,
+        "lo": 0.5598290598290598,
+        "hi": 0.6602564102564102,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.19017094017094016,
+        "lo": 0.14738247863247864,
+        "hi": 0.23717948717948717,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "n": 468,
+      "detected": 286,
+      "joint_count": 89,
+      "detection": {
+        "mean": 0.6111111111111112,
+        "lo": 0.5598290598290598,
+        "hi": 0.6602564102564102,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.19017094017094016,
+        "lo": 0.14738247863247864,
+        "hi": 0.23717948717948717,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.044871794871794865,
+        "lo": 0.02564102564102564,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.012820512820512818,
+        "lo": 0.0021367521367521365,
+        "hi": 0.02564102564102564,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.025641025641025637,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0,
+        "hi": 0.019230769230769232,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029861111111111126,
+        "hi": 0.06837606837606837,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.03632478632478632,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen",
+      "n": 468,
+      "detected": 78,
+      "joint_count": 27,
+      "detection": {
+        "mean": 0.16666666666666666,
+        "lo": 0.13242521367521368,
+        "hi": 0.20299145299145296,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.05769230769230768,
+        "lo": 0.03632478632478632,
+        "hi": 0.07905982905982906,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 2,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029914529914529912,
+        "hi": 0.0641559829059831,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.047008547008547,
+        "lo": 0.029914529914529912,
+        "hi": 0.0641559829059831,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched",
+      "n": 468,
+      "detected": 22,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.04700854700854701,
+        "lo": 0.029914529914529912,
+        "hi": 0.06623931623931623,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.04273504273504273,
+        "lo": 0.02564102564102564,
+        "hi": 0.059829059829059825,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.04273504273504273,
+        "lo": 0.02564102564102564,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 24,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.05128205128205127,
+        "lo": 0.03205128205128205,
+        "hi": 0.07051282051282051,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched",
+      "n": 468,
+      "detected": 90,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.1923076923076923,
+        "lo": 0.15384615384615385,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05128205128205128,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen",
+      "n": 468,
+      "detected": 103,
+      "joint_count": 23,
+      "detection": {
+        "mean": 0.22008547008547005,
+        "lo": 0.1816239316239316,
+        "hi": 0.2585470085470085,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.049145299145299144,
+        "lo": 0.029914529914529912,
+        "hi": 0.07051282051282051,
+        "tasks": 156
+      },
+      "eligible": 381,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 55,
+      "joint_count": 9,
+      "detection": {
+        "mean": 0.11752136752136752,
+        "lo": 0.0876068376068376,
+        "hi": 0.1495726495726496,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01923076923076923,
+        "lo": 0.00849358974358976,
+        "hi": 0.034188034188034185,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 60,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.1282051282051282,
+        "lo": 0.09829059829059829,
+        "hi": 0.16025641025641027,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.02564102564102564,
+        "lo": 0.012820512820512818,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched",
+      "n": 468,
+      "detected": 164,
+      "joint_count": 48,
+      "detection": {
+        "mean": 0.3504273504273504,
+        "lo": 0.3098290598290598,
+        "hi": 0.39529914529914534,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.10256410256410255,
+        "lo": 0.07051282051282051,
+        "hi": 0.13888888888888887,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen",
+      "n": 468,
+      "detected": 243,
+      "joint_count": 71,
+      "detection": {
+        "mean": 0.5192307692307693,
+        "lo": 0.4700854700854701,
+        "hi": 0.5705128205128205,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1517094017094017,
+        "lo": 0.11324786324786323,
+        "hi": 0.19236111111111132,
+        "tasks": 156
+      },
+      "eligible": 320,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 271,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5790598290598291,
+        "lo": 0.5299145299145298,
+        "hi": 0.6260683760683761,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 326,
+      "joint_count": 99,
+      "detection": {
+        "mean": 0.6965811965811967,
+        "lo": 0.6517094017094017,
+        "hi": 0.7393162393162392,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.21153846153846154,
+        "lo": 0.16666666666666666,
+        "hi": 0.2585470085470085,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched",
+      "n": 468,
+      "detected": 285,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6089743589743589,
+        "lo": 0.5598290598290597,
+        "hi": 0.6581196581196581,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen",
+      "n": 468,
+      "detected": 285,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6089743589743589,
+        "lo": 0.5598290598290597,
+        "hi": 0.6581196581196581,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 289,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 269,
+      "joint_count": 83,
+      "detection": {
+        "mean": 0.5747863247863249,
+        "lo": 0.5256410256410257,
+        "hi": 0.6217948717948718,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.17735042735042733,
+        "lo": 0.13669871794871793,
+        "hi": 0.22222222222222215,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 319,
+      "joint_count": 98,
+      "detection": {
+        "mean": 0.6816239316239316,
+        "lo": 0.6367521367521368,
+        "hi": 0.7264957264957265,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.20940170940170938,
+        "lo": 0.16452991452991453,
+        "hi": 0.2564102564102564,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5555555555555555,
+        "hi": 0.6538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "deepseek",
+      "mode": "official",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "n": 468,
+      "detected": 283,
+      "joint_count": 87,
+      "detection": {
+        "mean": 0.6047008547008548,
+        "lo": 0.5555555555555555,
+        "hi": 0.6538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.1858974358974359,
+        "lo": 0.14102564102564102,
+        "hi": 0.23290598290598288,
+        "tasks": 156
+      },
+      "eligible": 287,
+      "correct": 136
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched",
+      "n": 468,
+      "detected": 8,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.017094017094017092,
+        "lo": 0.00641025641025641,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen",
+      "n": 468,
+      "detected": 31,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.06623931623931623,
+        "lo": 0.04487179487179487,
+        "hi": 0.08974358974358973,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched",
+      "n": 468,
+      "detected": 11,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.023504273504273504,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen",
+      "n": 468,
+      "detected": 41,
+      "joint_count": 11,
+      "detection": {
+        "mean": 0.08760683760683759,
+        "lo": 0.06196581196581196,
+        "hi": 0.11324786324786323,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.023504273504273504,
+        "lo": 0.010683760683760682,
+        "hi": 0.04059829059829059,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.025641025641025637,
+        "lo": 0.01282051282051282,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.025641025641025637,
+        "lo": 0.01282051282051282,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched",
+      "n": 468,
+      "detected": 13,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.014957264957264956,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.025641025641025637,
+        "lo": 0.01282051282051282,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 62,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13247863247863245,
+        "lo": 0.09829059829059829,
+        "hi": 0.16666666666666666,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 83,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.17735042735042733,
+        "lo": 0.14316239316239315,
+        "hi": 0.21367521367521364,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched",
+      "n": 468,
+      "detected": 95,
+      "joint_count": 19,
+      "detection": {
+        "mean": 0.20299145299145296,
+        "lo": 0.16025641025641027,
+        "hi": 0.2457264957264957,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0405982905982906,
+        "lo": 0.021367521367521364,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen",
+      "n": 468,
+      "detected": 97,
+      "joint_count": 19,
+      "detection": {
+        "mean": 0.20726495726495722,
+        "lo": 0.16452991452991453,
+        "hi": 0.25,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0405982905982906,
+        "lo": 0.021367521367521364,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 13,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.010683760683760682,
+        "hi": 0.047008547008547015,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 14,
+      "joint_count": 4,
+      "detection": {
+        "mean": 0.029914529914529912,
+        "lo": 0.01282051282051282,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.008547008547008546,
+        "lo": 0.0021367521367521365,
+        "hi": 0.017094017094017092,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched",
+      "n": 468,
+      "detected": 42,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.08974358974358974,
+        "lo": 0.06196581196581196,
+        "hi": 0.11965811965811965,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.03632478632478632,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen",
+      "n": 468,
+      "detected": 57,
+      "joint_count": 15,
+      "detection": {
+        "mean": 0.12179487179487179,
+        "lo": 0.08974358974358974,
+        "hi": 0.15384615384615385,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03205128205128205,
+        "lo": 0.014957264957264956,
+        "hi": 0.05128205128205127,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 61,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.13034188034188032,
+        "lo": 0.09615384615384616,
+        "hi": 0.16452991452991453,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.03632478632478632,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 108,
+      "joint_count": 14,
+      "detection": {
+        "mean": 0.23076923076923078,
+        "lo": 0.19017094017094016,
+        "hi": 0.2692307692307692,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.029914529914529912,
+        "lo": 0.014957264957264956,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 59,
+      "joint_count": 10,
+      "detection": {
+        "mean": 0.12606837606837606,
+        "lo": 0.09188034188034187,
+        "hi": 0.16025641025641024,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.021367521367521364,
+        "lo": 0.008547008547008546,
+        "hi": 0.03632478632478632,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 91,
+      "joint_count": 14,
+      "detection": {
+        "mean": 0.19444444444444442,
+        "lo": 0.15384615384615385,
+        "hi": 0.23504273504273498,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.029914529914529912,
+        "lo": 0.014957264957264956,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "no_global",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 3,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "matched",
+      "n": 468,
+      "detected": 20,
+      "joint_count": 2,
+      "detection": {
+        "mean": 0.042735042735042736,
+        "lo": 0.025641025641025637,
+        "hi": 0.06196581196581196,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "dead_return",
+      "method": "frozen",
+      "n": 468,
+      "detected": 62,
+      "joint_count": 6,
+      "detection": {
+        "mean": 0.13247863247863245,
+        "lo": 0.10042735042735042,
+        "hi": 0.16452991452991453,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.01282051282051282,
+        "lo": 0.004273504273504273,
+        "hi": 0.023504273504273504,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 1,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "matched",
+      "n": 468,
+      "detected": 18,
+      "joint_count": 5,
+      "detection": {
+        "mean": 0.038461538461538464,
+        "lo": 0.021367521367521368,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.010683760683760682,
+        "lo": 0.0021367521367521365,
+        "hi": 0.021367521367521364,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "formatter",
+      "method": "frozen",
+      "n": 468,
+      "detected": 42,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.08974358974358973,
+        "lo": 0.0641025641025641,
+        "hi": 0.11538461538461539,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.02564102564102564,
+        "lo": 0.01282051282051282,
+        "hi": 0.0405982905982906,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "original",
+      "method": "matched",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "original",
+      "method": "frozen",
+      "n": 468,
+      "detected": 16,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 0,
+      "joint_count": 0,
+      "detection": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "matched",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.02564102564102564,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "negative",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "n": 468,
+      "detected": 12,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.02564102564102564,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "official",
+      "n": 468,
+      "detected": 13,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.027777777777777776,
+        "lo": 0.014957264957264956,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "legacy",
+      "n": 468,
+      "detected": 99,
+      "joint_count": 1,
+      "detection": {
+        "mean": 0.21153846153846148,
+        "lo": 0.18376068376068375,
+        "hi": 0.23717948717948714,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.0021367521367521365,
+        "lo": 0.0,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "matched",
+      "n": 468,
+      "detected": 30,
+      "joint_count": 3,
+      "detection": {
+        "mean": 0.0641025641025641,
+        "lo": 0.04273504273504273,
+        "hi": 0.08760683760683759,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.00641025641025641,
+        "lo": 0.0,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "dead_return",
+      "method": "frozen",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10470085470085469,
+        "hi": 0.1752136752136752,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.027777777777777776,
+        "tasks": 156
+      },
+      "eligible": 127,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "official",
+      "n": 468,
+      "detected": 21,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.04487179487179487,
+        "lo": 0.027777777777777776,
+        "hi": 0.0641025641025641,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "legacy",
+      "n": 468,
+      "detected": 23,
+      "joint_count": 7,
+      "detection": {
+        "mean": 0.049145299145299144,
+        "lo": 0.029914529914529912,
+        "hi": 0.07051282051282051,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.014957264957264956,
+        "lo": 0.004273504273504273,
+        "hi": 0.029914529914529912,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "matched",
+      "n": 468,
+      "detected": 54,
+      "joint_count": 15,
+      "detection": {
+        "mean": 0.11538461538461539,
+        "lo": 0.08333333333333333,
+        "hi": 0.14957264957264954,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03205128205128205,
+        "lo": 0.017094017094017092,
+        "hi": 0.049145299145299144,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "formatter",
+      "method": "frozen",
+      "n": 468,
+      "detected": 61,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.13034188034188032,
+        "lo": 0.09829059829059829,
+        "hi": 0.16452991452991453,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017096,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "original",
+      "method": "official",
+      "n": 468,
+      "detected": 66,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.14102564102564102,
+        "lo": 0.10470085470085469,
+        "hi": 0.17735042735042733,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "original",
+      "method": "legacy",
+      "n": 468,
+      "detected": 126,
+      "joint_count": 17,
+      "detection": {
+        "mean": 0.2692307692307692,
+        "lo": 0.2243589743589743,
+        "hi": 0.3162393162393162,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.03632478632478632,
+        "lo": 0.019230769230769232,
+        "hi": 0.05555555555555555,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "original",
+      "method": "matched",
+      "n": 468,
+      "detected": 70,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14957264957264957,
+        "lo": 0.11324786324786323,
+        "hi": 0.1858974358974359,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "original",
+      "method": "frozen",
+      "n": 468,
+      "detected": 70,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14957264957264957,
+        "lo": 0.11324786324786323,
+        "hi": 0.1858974358974359,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 70,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "official",
+      "n": 468,
+      "detected": 65,
+      "joint_count": 12,
+      "detection": {
+        "mean": 0.13888888888888887,
+        "lo": 0.10256410256410256,
+        "hi": 0.17313034188034207,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.025641025641025637,
+        "lo": 0.010683760683760682,
+        "hi": 0.04273504273504273,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "legacy",
+      "n": 468,
+      "detected": 96,
+      "joint_count": 16,
+      "detection": {
+        "mean": 0.20512820512820512,
+        "lo": 0.16239316239316237,
+        "hi": 0.2457264957264957,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "matched",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    },
+    {
+      "model": "starcoder2",
+      "mode": "official",
+      "group": "positive",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "n": 468,
+      "detected": 69,
+      "joint_count": 13,
+      "detection": {
+        "mean": 0.14743589743589744,
+        "lo": 0.1111111111111111,
+        "hi": 0.18376068376068375,
+        "tasks": 156
+      },
+      "joint": {
+        "mean": 0.027777777777777776,
+        "lo": 0.012820512820512818,
+        "hi": 0.047008547008547,
+        "tasks": 156
+      },
+      "eligible": 69,
+      "correct": 21
+    }
+  ],
+  "contrasts": [
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "official",
+      "delta_joint": {
+        "mean": 0.1688034188034188,
+        "lo": 0.13034188034188032,
+        "hi": 0.21153846153846148,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "matched",
+      "delta_joint": {
+        "mean": 0.20726495726495722,
+        "lo": 0.1623931623931624,
+        "hi": 0.25213675213675213,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "dead_return",
+      "method": "frozen",
+      "delta_joint": {
+        "mean": 0.1987179487179487,
+        "lo": 0.15598290598290596,
+        "hi": 0.24145299145299148,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "official",
+      "delta_joint": {
+        "mean": -7.11681426041767e-19,
+        "lo": -0.014957264957264956,
+        "hi": 0.014957264957264956,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "matched",
+      "delta_joint": {
+        "mean": 0.014957264957264956,
+        "lo": -0.017094017094017092,
+        "hi": 0.042735042735042736,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "formatter",
+      "method": "frozen",
+      "delta_joint": {
+        "mean": -0.010683760683760684,
+        "lo": -0.03632478632478632,
+        "hi": 0.01282051282051282,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "official",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.01282051282051282,
+        "hi": 0.008547008547008546,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "matched",
+      "delta_joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "original",
+      "method": "frozen",
+      "delta_joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "official",
+      "delta_joint": {
+        "mean": -0.004273504273504273,
+        "lo": -0.014957264957264958,
+        "hi": 0.00641025641025641,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "matched",
+      "delta_joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "deepseek",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "delta_joint": {
+        "mean": 0.004273504273504273,
+        "lo": 0.0,
+        "hi": 0.010683760683760682,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "official",
+      "delta_joint": {
+        "mean": 0.023504273504273504,
+        "lo": 0.010683760683760682,
+        "hi": 0.038461538461538464,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "matched",
+      "delta_joint": {
+        "mean": 0.034188034188034185,
+        "lo": 0.017094017094017092,
+        "hi": 0.05341880341880341,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "dead_return",
+      "method": "frozen",
+      "delta_joint": {
+        "mean": 0.02564102564102564,
+        "lo": 0.008547008547008546,
+        "hi": 0.044871794871794865,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "official",
+      "delta_joint": {
+        "mean": -0.00641025641025641,
+        "lo": -0.017094017094017092,
+        "hi": 0.0021367521367521365,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "matched",
+      "delta_joint": {
+        "mean": -0.010683760683760682,
+        "lo": -0.021367521367521364,
+        "hi": -0.0021367521367521365,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "formatter",
+      "method": "frozen",
+      "delta_joint": {
+        "mean": -0.0021367521367521365,
+        "lo": -0.008547008547008548,
+        "hi": 0.004273504273504273,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "official",
+      "delta_joint": {
+        "mean": -0.004273504273504273,
+        "lo": -0.010683760683760682,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "matched",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "original",
+      "method": "frozen",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "official",
+      "delta_joint": {
+        "mean": -0.004273504273504273,
+        "lo": -0.010683760683760682,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "matched",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    },
+    {
+      "model": "starcoder2",
+      "edit": "strip_comments",
+      "method": "frozen",
+      "delta_joint": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "tasks": 156
+      }
+    }
+  ]
+}

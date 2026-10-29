@@ -1,0 +1,107 @@
+Maintenance recovery upgrade: bounded first iteration
+Frozen before repository sampling or new detector outcomes, 2026-10-28.
+
+Objective
+Improve the existing manuscript by (1) measuring real maintenance exposure and
+recoverability, (2) extending the detector only where those observations justify
+it, (3) checking a precise statistical claim and closest literature, (4) running
+appropriate independent controls, and (5) incorporating supported improvements
+into a separate manuscript revision and comparing target-journal precedents.
+Each stage must leave an evidence report. Better evidence and sharper scope are
+legitimate improvements; an unobserved performance gain must not be invented.
+
+Snapshot
+publication_revision_2026-10-28 is read-only historical input. Record hashes of
+its final PDFs, source dependency files, results summaries and delivery ZIP.
+All new work belongs here and in the matching inner directory.
+
+Repository cohort (convenience sample, not all GitHub software)
+Language   Development            Calibration           Held-out test
+Python     mahmoud/boltons          pallets/itsdangerous  pallets/click
+Java       google/gson              jhy/jsoup             junit-team/junit4
+C++        fmtlib/fmt               gabime/spdlog         nlohmann/json
+These projects are selected for public source, established test suites, distinct
+projects and three language ecosystems, before measuring watermark outcomes.
+Check and retain each pinned license. A license/access failure is recorded as
+unavailable; do not silently substitute a more favorable repository.
+
+Acquisition and sample
+Clone the default branch at depth 400. Resolve and pin the most recent commit
+with commit time <= 2026-10-27 23:59:59 UTC. Examine at most 250 non-merge
+single-parent commits reachable from that pin, in reverse chronological order.
+Use changed existing production source files: .py, .java, .cpp/.cc/.cxx/.h/.hpp.
+Exclude path components test/tests/testing, benchmark/benchmarks, example/examples,
+doc/docs, vendor/third_party/third-party, generated, build, single_include and
+singleinclude; Python tests named test_*.py or *_test.py are excluded too.
+Record all candidate file transitions and deterministic exclusion reasons.
+Keep UTF-8 textual before/after files, <= 80,000 bytes each, different contents.
+Preserve additions/deletions/renames in the census but use ordinary M transitions
+for paired whole-file analysis. Sample at most 80 eligible transitions/project
+by SHA256('maintenance-upgrade-v1|' + repo + '|' + sha + '|' + path).
+One commit may change multiple files: cluster by commit within project and never
+call those file transitions independent developer actions. Repeated before/after
+snapshots are not independent negative calibration sources.
+
+Stage 1
+On inner, extract raw and official SEW contexts, parser status, evidence counts,
+and counts changed/unchanged for every sampled pair. Retain abstentions/errors.
+Report each repository and language, with the explicit sampled denominator.
+This supplies descriptive exposure within this cohort, not field-wide prevalence.
+Development positive replay pilot: at most 12 changed-context and 12 unchanged-
+context transitions per development project, selected by the same hash ordering;
+three fixed original keys. Report these strata separately from the census.
+Embed the parent with pinned official SEW, replay the actual developer patch by
+three-way merge, and retain all failures/conflicts. Do not re-embed the child.
+Use original-context oracle only as a diagnostic, never as deployment input.
+Record negative/positive before/after, old-context coverage, retained grade heads,
+vote changes, official/syntax/oracle scores, and method cost.
+Large carriers with >256 grades may be excluded from expensive multi-context
+pilot scoring but stay in exposure and availability denominators with the reason.
+This is a declared resource boundary, not a claim of detector incapability.
+Source/embedding/merged program validity must be separated from detection.
+Whole-project executable checks must use pinned versions and a network-isolated
+test process. Untested replay is not labeled functionally correct.
+
+Stage 2
+Use development projects only to choose a candidate extension. First inspect
+whether an oracle leaves any material recovery headroom. Compare existing syntax,
+ordinary enumeration, a development-learned signed edit dictionary, and a strong
+combination-of-dictionary control before claiming an advantage for syntax.
+Candidate construction cannot inspect the actual original code, actual edit,
+watermark scores or key. Freeze a method amendment before held-out scoring.
+If natural changes need mixed signs/deletion, do not pretend positive subtree
+subtraction covers them. Any such model must state its information limitations.
+
+Stage 3
+Read actual closest papers, including SEW, SynMark, CREST, Tr-GoF and Signature
+Filtering; separate their achieved results from conjectured extensions. Search
+for structural alignment, composite hypotheses, search multiplicity and edited
+negative calibration before labeling the method novel. No generic statistical
+tool is a contribution by name. State any guarantee and assumptions precisely.
+
+Stage 4
+No test-project outcome-driven tuning. All methods use identical code/key inputs
+and separately fitted thresholds using only the calibration projects' negatives.
+Use unique source/commit units, never key replications, for sample size claims.
+Calibration and cross-project distribution transfer are distinct questions; the
+former does not certify the latter. Report actual negative alarms and intervals.
+At 1%,5%,10% targets allow infinite thresholds when sample size is insufficient.
+Report both detected-only and executable-correct-and-detected when tests exist.
+New experiments on the existing CodeContests test set are exploratory, because
+the previous paper already inspected it. Do not rename them fresh confirmation.
+
+Stage 5
+Preserve original manuscript. New text emphasizes supported value and findings;
+concentrate limitations without hiding adverse data. Compare actual related
+published articles in candidate SCI/ESI journals and reconfirm no-mandatory-fee
+publication routes. Obtain an independent DeepSeek review with complete bounded
+attachments, without supplying a preferred score or desired verdict.
+Deliver synchronized source/PDF/evidence with an honest completion/status report.
+
+Execution
+All scoring, parsing studies and project tests run on inner. Local tasks are
+public-source acquisition, script development, document building and small checks.
+Use inner-tunnel; batch SSH commands; preserve other sessions and environments.
+No VM/VPN/proxy/network-route changes are part of this work. New jobs use nice +10
+and initially at most two CPU workers with internal numerical threads fixed to 1.
+Check disk and active load before enlarging a batch. No private data or paid API.

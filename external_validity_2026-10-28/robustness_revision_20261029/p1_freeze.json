@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-29T02:53:30.480962+00:00",
+  "label": "post-outcome locally frozen finite-pool subset sensitivity",
+  "seed": 2026102901,
+  "draws": 5000,
+  "budgets": [
+    20,
+    40,
+    80,
+    "full"
+  ],
+  "alpha": 0.05,
+  "methods": [
+    "official",
+    "syntax",
+    "structured64",
+    "nearest64",
+    "dictionary64",
+    "dictionary_pairs64"
+  ],
+  "keys": [
+    15485863,
+    32452843,
+    49979687
+  ],
+  "script_sha256": "8afae77d4f4af465daab53c402d3b98f2b274cc139529387b381ba418f56de37",
+  "input_sha256": "316e9de2c2f7e37f532e7e6aa7140d786101887375236f40ef22f55bd17ea2a6",
+  "sampling": "independent subsets per project and budget; within subset no replacement; same IDs for all keys/methods",
+  "inference": "descriptive selection sensitivity conditional on this earlier pool and fixed later evaluation, not a future CI"
+}

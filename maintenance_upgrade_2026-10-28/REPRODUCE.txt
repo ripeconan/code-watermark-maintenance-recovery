@@ -1,0 +1,93 @@
+Reproduction of the maintenance upgrade
+
+1. Verify ARTIFACT_MANIFEST.json using scripts/verify_delivery.py. Extract the
+   baseline ZIP separately, preserving the older experiment and its own paths.
+   Its core_evidence.tar.xz contains the controlled programs and raw results.
+   Do not overwrite baseline results with new maintenance results.
+
+2. Recompute tables from the supplied scores, without running repository code:
+     python scripts/analyze_upgrade.py
+     python scripts/analyze_project_local.py
+     python scripts/analyze_functional.py
+     python scripts/review_diagnostics.py
+     python scripts/calibration_source_control.py
+     python scripts/build_upgrade_tables.py
+     python scripts/build_manuscripts.py
+   Analysis needs Python3.11, numpy and matplotlib; LaTeX needs pdflatex/bibtex.
+   analyze_upgrade/project_local independently overlay the replicated null audit
+   on copies of failed records. Raw scores and failed positives are unchanged.
+   Generated paper tables use these summaries, not hand-entered rounded values.
+
+3. Fresh scoring requires the unchanged SEW upstream checkout:
+     https://github.com/suhanmen/SEW
+     commit3c873186a56033e73347391b7aedebce1f7f71d0
+   Preserve its license. Use a private Python3.11 environment with
+     tree-sitter==0.25.2; tree-sitter-python==0.23.6;
+     tree-sitter-java==0.23.5; tree-sitter-cpp==0.23.4; black==25.1.0;
+     numpy, scipy, mpmath and the upstream declared requirements.
+   records/tool_paths.json records the executed environment; for relocation set
+   vendor, baseline_scripts, runtime_python, parser_packages, jdk/java, clang and
+   jar to the corresponding local installations. Baseline scripts are required
+   for recovery_probe, structural_recovery and the controlled-data tools.
+   Set PYTHONPATH to parser_packages and baseline_scripts, and set
+   OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1. New scripts locate their own root.
+   The fixed original-grade p value is checked against sew.detect at the observed
+   context. Native failures remain possible; process isolation is not a repair.
+
+4. The selected source pairs, complete frames, hashes and licenses are supplied.
+   To reconstruct project snapshots, fetch the recorded public repository and
+   exact parent/child commits, then use Linux git with core.autocrlf=false and
+   core.eol=lf to create git archive tar.gz files. Expected paths are
+     data/project_snapshots_lf/{owner}__{repo}__{commit}.tar.gz
+   Do NOT rerun a moving-head acquisition and assume it reproduces a pinned
+   historical sample. records/acquire_*.json and new_project_*.json record pins;
+   pairs and new_functional_*.json record exact source/commit selections.
+   scripts/acquire_repositories.py and acquire_project_calibration.py document
+   the original full sampling rules. They are not substitutes for the pins.
+
+5. Run experiments only on Linux with the documented network-isolated bwrap
+   harness, appropriate compilers and bounded process limits. The executed tools
+   include JDK17.0.21+9, Maven3.9.11, google-java-format1.17.0, clang-format20.1.8.
+   Python project tests used Python3.11.15 and the pinned private packages listed
+   in records/test_package_versions.txt. On another machine, relocate PYBASE in
+   scripts/test_project_local.py to the equivalent Python environment. The
+   recipe asserts that the project imports from /work, not an installed copy.
+   Install private test packages in tools/test_packages; Maven in
+   tools/apache-maven-3.9.11; dependencies in tools/m2. Resolve declared Maven
+   dependencies and Surefire providers3.5.3/3.5.6/3.6.0 before offline execution.
+   scripts/run_java_environment_fix.sh records the provider acquisition commands.
+   Compilation/dependency preparation uses unmodified original snapshots.
+   Actual tests run offline with unshare-all. Do not add helper files to project
+   source trees (Apache RAT scans them). Commons Lang explicitly uses /tmp as
+   Java user.home; all selected original and marked jobs share that setting.
+
+6. Full experimental entry points, in specification order:
+     measure_exposure.py -> replay_pilot.py -> refine_replay_pilot.py
+     evaluate_upgrade.py -> analyze_upgrade.py
+     evaluate_project_local.py -> analyze_project_local.py
+     run_project_tests.py (development; use LF snapshots)
+     test_project_local.py --language python --run-id sympydeps
+       (recorded sympydeps run was restricted to sympy/sympy;
+        run the initial complete Python cohort first on a fresh reproduction)
+     run_java_batches.py -> analyze_functional.py
+     time_project_methods.py
+   Existing result files are resumable caches. A genuine replication must use a
+   separate workspace/output destination; rerunning a completed cache is not a
+   new experiment. Keep original setup failures and amendments. Do not replace
+   genuine failed tests with successful retries. The null audit separately
+   completes scores discarded by whole-job crashes; it does not retry positives.
+
+7. Supplementary review_diagnostics.py, calibration_source_control.py and
+   revisit_candidate_boundary.py use the frozen algorithms/data after outcomes
+   were known. Their outputs are diagnostic, not new primary confirmations.
+   The boundary script reads the baseline raw evidence after extraction.
+
+8. Build both PDFs; render every page with pdftoppm, then run review_pdf.py for
+   contact sheets and text-bound checks. Visual inspection is additional to
+   compilation. scripts/build_package.py creates the portable archive and hash
+   manifest. Full git histories, snapshot archives, Maven/JDK binaries, model
+   weights, and third-party literature PDFs are excluded from that package.
+
+The executed server root is on /home. Work logs remain at /home2/icdm/work_log.
+Use the established inner-tunnel alias for SSH. No VM, VPN, route, or proxy is
+required or configured by this artifact.
